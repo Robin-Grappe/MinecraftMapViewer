@@ -1,0 +1,73 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #d3bc94;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    image-rendering: pixelated;
+}
+
+.mouseposition {
+    background-color: white;
+    padding: 3px;
+    text-align: right;
+}
+
+.mousepositioncoord {
+    min-width: 40px;
+    display: inline-block;
+}
+
+div.ol-mouse-position {
+    background-color: white;
+    padding: 6px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+/************************************
+            MY CSS
+************************************/
+
+#toolbar {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    border-bottom: black 1px solid;
+}
+
+#logo_alpha {
+    position: absolute;
+    left: 0%;
+    top: -10px;
+    width: 75px;
+    height: 75px;
+}
+
+#search {
+    width: 500px;
+    height: 25px;
+}
+
+#search-btn {
+    height: 30px;
+}
+
+#search-btn:hover {
+    cursor: pointer;
+}
+
+.ol-zoom button {
+    height: 50px;
+    width: 50px;
+}
+
+.ol-zoom button:hover {
+    cursor: pointer;
+}

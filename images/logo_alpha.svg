@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+	<g id="Background">
+		<rect style="fill:none;" width="250" height="200"/>
+	</g>
+	<g id="Objects">
+		<g>
+			<g>
+				<path style="fill:none;" d="M142.963,105.081c-0.006,0.01-0.012,0.02-0.019,0.03 C142.951,105.101,142.957,105.091,142.963,105.081C142.963,105.081,142.963,105.081,142.963,105.081z"/>
+				<linearGradient id="bottom_right" gradientUnits="userSpaceOnUse" x1="106.4831" y1="31.9505" x2="176.747" y2="129.2758">
+					<stop  offset="0.9" style="stop-color:#fc54b5"/>
+					<stop  offset="1" style="stop-color:#dc2cf5"/>
+				</linearGradient>
+				<path style="fill:url(#bottom_right);" stroke="black" stroke-linecap="round" stroke-width="0.5" d="M190.228,121.692c-2.287,2.174-7.915,2.92-12.136,1.188 c-4.373-1.672-8.623-5.856-11.948-11.141c-0.168-0.262-0.326-0.541-0.49-0.809c-2.277,4.578-5.626,10.159-10.331,15.629 c6.706,8.201,17.971,16.761,29.109,13.263c3.925-1.233,7.426-4.201,8.878-8.103C194.548,128.384,193.202,123.716,190.228,121.692 z"/>
+				<path style="fill:none;" d="M74.08,132.13c4.319,4.487,9.818,7.807,16.002,9.497c-3.843-1.424-7.548-3.284-11.02-5.623 C77.317,134.82,75.659,133.52,74.08,132.13z"/>
+				<g>
+					<linearGradient id="top_center" gradientUnits="userSpaceOnUse" x1="74.8042" y1="54.8209" x2="145.0681" y2="152.146">
+						<stop  offset="0" style="stop-color:#fff200"/>
+						<stop  offset="0.3" style="stop-color:#ff7f27"/>
+						<stop  offset="0.5" style="stop-color:#ed1c24"/>
+					</linearGradient>
+					<path style="fill:url(#top_center);" stroke="black" stroke-linecap="round" stroke-width="0.5" d="M142.64,71.541 c-5.512-6.222-12.355-11.717-20.477-15.41c-8.127-3.583-17.547-5.145-26.663-3.563c-9.008,1.567-17.489,5.719-24.13,12.171 c-6.709,6.48-11.071,14.982-12.768,23.922c-1.635,8.137-0.781,16.98,2.284,24.775c-0.266-1.837-0.451-3.701-0.451-5.612 c0-21.484,17.417-38.901,38.901-38.901c11.729,0,22.221,5.215,29.353,13.425c0.287,0.308,0.579,0.609,0.86,0.926 c4.327,4.773,7.825,10.3,10.831,16.386c0.128,0.258,0.255,0.534,0.383,0.804c3.949-7.423,6.745-17.872,7.645-21.554 C146.637,76.358,144.746,73.872,142.64,71.541z"/>
+				</g>
+				<linearGradient id="bottom_center" gradientUnits="userSpaceOnUse" x1="145.6161" y1="49.0309" x2="92.3268" y2="139.391">
+					<stop  offset="0" style="stop-color:#110ce4"/>
+					<stop  offset="0.7" style="stop-color:#27f9fe"/>
+					<stop  offset="1" style="stop-color:#04fa2f"/>
+				</linearGradient>
+				<path style="fill:url(#bottom_center);" stroke="black" stroke-linecap="round" stroke-width="0.5" d="M153.29,51.946 c1.64,5.741,0.68,20.22-1.393,29.151c-0.927,5.1-3.311,14.86-8.953,24.013c-0.509,0.824-1.036,1.645-1.599,2.455 c-1.03,1.505-2.147,2.933-3.319,4.305c-1.496,1.752-3.096,3.395-4.803,4.891c-3.193,2.798-6.731,5.117-10.551,6.805 c-5.429,2.458-11.308,3.356-17.132,2.962c-5.849-0.477-11.709-2.33-16.448-5.48c-4.751-3.166-8.712-7.709-11.061-12.822 c-2.329-5.116-3.02-10.676-1.952-16.25c1.027-5.534,3.727-10.744,7.642-14.519c0.79-0.779,1.651-1.494,2.547-2.17 c-12.895,5.186-22.009,17.786-22.009,32.536c0,9.445,3.751,18.001,9.822,24.307c1.579,1.389,3.237,2.69,4.982,3.875 c3.473,2.338,7.177,4.198,11.02,5.623c4.48,1.661,9.151,2.722,13.902,3.143c2.396,0.194,4.811,0.216,7.22,0.095 c6.492-0.326,12.933-1.781,18.797-4.383c7.137-3.048,13.445-7.469,18.827-12.759c12.218-12.134,19.815-29.012,22.664-45.864 c0.153-0.902,0.291-1.807,0.416-2.713c0.914-6.643,0.563-13.109-3.359-18.773C165.087,55.372,159.47,51.908,153.29,51.946z"/>
+			</g>
+			<!-- <g>
+				<g>
+					
+						<text transform="matrix(1 0 0 1 50 190)" style="fill:#000; font-family:'Jumble'; font-size:35px;">Alphadia</text>
+				</g>
+				<text transform="matrix(1 0 0 1 80.2434 198.871)"><tspan x="0" y="0" style="fill:#3CBBF2; font-family:'Montserrat-SemiBold'; font-size:12.2324px;">SLOGAN</tspan><tspan x="53.834" y="0" style="fill:#3CBBF2; font-family:'Montserrat-SemiBold'; font-size:12.2324px; letter-spacing:-1;"> </tspan><tspan x="55.987" y="0" style="fill:#3CBBF2; font-family:'Montserrat-SemiBold'; font-size:12.2324px;">HERE</tspan></text>
+			</g> -->
+		</g>
+	</g>
+</svg>
