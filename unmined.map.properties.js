@@ -8,7 +8,7 @@ var UnminedMapProperties = {
     minRegionZ: -4,
     maxRegionX: 4,
     maxRegionZ: 5,
-    worldName: "§lALPHADIA [ver. 2.6.0]",
+    worldName: "Minecraft",
     background: "",
     markers: new Array()
 }
