@@ -1,10 +1,14 @@
+:root {
+    --toolbar-color: lightgray;
+}
+
 html,
 body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #d3bc94;
+    background-color: #467fcc;
 }
 
 #map {
@@ -38,7 +42,7 @@ div.ol-mouse-position {
 #toolbar {
     text-align: center;
     padding: 10px;
-    background-color: lightgray;
+    background-color: var(--toolbar-color);
     border-bottom: black 1px solid;
 }
 
@@ -70,4 +74,24 @@ div.ol-mouse-position {
 
 .ol-zoom button:hover {
     cursor: pointer;
+}
+
+#results {
+    background-color: var(--toolbar-color);
+}
+
+ul#results-list {
+    text-align: center;
+    list-style-type: none;
+}
+
+#results-list li {
+    padding: 5px;
+    background-color: darkgray;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    width: 50%;
 }
