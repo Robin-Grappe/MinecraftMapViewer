@@ -49,10 +49,14 @@
     <div id="map"></div>
 
     <script type="text/javascript">
-        var searchBar = document.getElementById('search');
+        var search_bar = document.getElementById('search');
+        var search_form = document.getElementById('search-form');
+        var list = document.getElementById('results-list');
+        var results_div = document.getElementById('results');
+        var result_item = document.querySelectorAll('.result-item')
         var urlParams = new URLSearchParams(window.location.search);
         var queryString = urlParams.get('search');
-        searchBar.value = (queryString ?? '');
+        search_bar.value = (queryString ?? '');
 
         if (UnminedCustomMarkers && UnminedCustomMarkers.isEnabled && UnminedCustomMarkers.markers) {
             UnminedMapProperties.markers = UnminedMapProperties.markers.concat(UnminedCustomMarkers.markers);
@@ -75,16 +79,15 @@
         // Listeners
 
         document.addEventListener("DOMContentLoaded", () => {
-            searchBar.addEventListener("keyup", (e) => {
-                var list = document.getElementById('results-list');
-                var items = "";
-                var results = filterMarkers(UnminedPlayers, searchBar.value);
-                if (searchBar.value != "") {
-                    results.forEach(player => {
-                        items += "<li>" + player.name + "</li>";
-                    });
+            search_bar.addEventListener("keyup", (e) => {
+                autocomplete();
+            });
+
+            list.addEventListener('click', (e) => {
+                if (e.target.classList.contains('result-item')) {
+                    search_bar.value = e.target.textContent;
+                    search_form.submit();
                 }
-                list.innerHTML = items;
             });
         });
 
@@ -99,6 +102,30 @@
                 }
             });
             return output;
+        }
+        
+        function autocomplete() {
+            results_div.style.display = "block";
+            var items = "";
+            var results = filterMarkers(UnminedPlayers, search_bar.value);
+            var i = 0;
+            const LIMIT = 5;
+
+            if (search_bar.value != "") {
+                results.forEach(player => {
+                    if (i == LIMIT) {
+                        var reste = results.length - LIMIT;
+                        items += "<li>+ " + (reste) + " résultat" + (reste > 1 ? 's' : '') + ' ...</li>';
+                    }
+                    if (i < LIMIT) {
+                        items += '<li class="result-item">' + player.name + '</li>';
+                    }
+                    i++;
+                });
+            } else {
+                results_div.style.display = "none";
+            }
+            list.innerHTML = items;
         }
     </script>
 </body>

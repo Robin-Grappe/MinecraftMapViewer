@@ -39,5 +39,10 @@ var UnminedPlayers = [
         x: -346,
         z: 387,
         name: 'tutututu'
+    },
+    {
+        x: 406,
+        z: 658,
+        name: 'tttttttt'
     }
 ]

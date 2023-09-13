@@ -49,9 +49,9 @@ div.ol-mouse-position {
 #logo_alpha {
     position: absolute;
     left: 0%;
-    top: -10px;
+    top: -5px;
     width: 75px;
-    height: 75px;
+    margin: 0px;
 }
 
 #search {
@@ -78,20 +78,40 @@ div.ol-mouse-position {
 
 #results {
     background-color: var(--toolbar-color);
+    padding: 10px;
+    display: none;
+    border-bottom: black 1px solid;
 }
 
 ul#results-list {
     text-align: center;
     list-style-type: none;
+    margin: 0px;
 }
 
 #results-list li {
-    padding: 5px;
-    background-color: darkgray;
-    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 25px;
-    width: 50%;
+    font-size: 15px;
+    width: fit-content;
+    margin-top: 5px;
+}
+
+li.result-item {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: darkgray;
+    border-radius: 15px;
+    border: black 1px solid;
+}
+
+li.result-item:hover {
+    background-color: dimgray;
+    cursor: pointer;
+    transition-property: padding-right, padding-left, color, border-radius;
+    transition-duration: 0.5s;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 0px;
 }
