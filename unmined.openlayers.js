@@ -1,6 +1,5 @@
 class Unmined {
-
-    map(mapId, options, regions) {
+    map(mapId, options, regions, center) {
 
         const dpiScale = window.devicePixelRatio ?? 1.0;
 
@@ -148,7 +147,7 @@ class Unmined {
 
             ],
             view: new ol.View({
-                center: [0, 0],
+                center: center,
                 extent: mapExtent,
                 projection: viewProjection,
                 resolutions: tileGrid.getResolutions(),

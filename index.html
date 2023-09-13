@@ -61,20 +61,21 @@
         if (UnminedCustomMarkers && UnminedCustomMarkers.isEnabled && UnminedCustomMarkers.markers) {
             UnminedMapProperties.markers = UnminedMapProperties.markers.concat(UnminedCustomMarkers.markers);
         }
+
+        var UnminedPlayersFiltered = [];
+        var center = [0, 0];
+        if (UnminedPlayers && queryString) {
+            UnminedPlayersFiltered = filterMarkers(UnminedPlayers, queryString);
+            center = [UnminedPlayersFiltered[0].x, -UnminedPlayersFiltered[0].z];
+        }
         
         let unmined = new Unmined();
 
-        if (UnminedPlayers) {
-            UnminedPlayersFiltered = filterMarkers(UnminedPlayers, queryString);
-            if (!queryString) {
-                UnminedPlayersFiltered = [];
-            }
-            if (UnminedPlayersFiltered.length > 0) {
-                UnminedMapProperties.markers = UnminedMapProperties.markers.concat(unmined.createPlayerMarkers(UnminedPlayersFiltered));
-            }
+        if (UnminedPlayersFiltered.length > 0) {
+            UnminedMapProperties.markers = UnminedMapProperties.markers.concat(unmined.createPlayerMarkers(UnminedPlayersFiltered));
         }
-
-        unmined.map('map', UnminedMapProperties, UnminedRegions);
+        
+        unmined.map('map', UnminedMapProperties, UnminedRegions, center);
         
         // Listeners
 
