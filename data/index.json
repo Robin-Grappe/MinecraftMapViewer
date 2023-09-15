@@ -1,0 +1,1420 @@
+
+{
+    "UnminedPlayers" : [
+        {
+            "name": "Accrobranche",
+            "x": 1584,
+            "z": -829
+        },
+        {
+            "name": "Admin Tower",
+            "x": 246,
+            "z": -58
+        },
+        {
+            "name": "Aérodrome",
+            "x": -1096,
+            "z": -963
+        },
+        {
+            "name": "Aéroport International",
+            "x": 777,
+            "z": -71
+        },
+        {
+            "name": "Arène de SpruceCliff",
+            "x": -1329,
+            "z": -924
+        },
+        {
+            "name": "Auto École Freedom-City",
+            "x": 286,
+            "z": -710
+        },
+        {
+            "name": "Auto École South-City",
+            "x": -1125,
+            "z": 1189
+        },
+        {
+            "name": "Banque Centrale",
+            "x": 118,
+            "z": 139
+        },
+        {
+            "name": "Banque Old-Gulch",
+            "x": 993,
+            "z": 834
+        },
+        {
+            "name": "Barrage de Brokenly-Woods",
+            "x": 1480,
+            "z": -1245
+        },
+        {
+            "name": "Barrage de Oasiris",
+            "x": 1574,
+            "z": 906
+        },
+        {
+            "name": "Base Militaire OMEGA Sud",
+            "x": -294,
+            "z": 1005
+        },
+        {
+            "name": "Base Militaire OMEGA Ouest",
+            "x": -1427,
+            "z": -770
+        },
+        {
+            "name": "Belvédère du Grand Fachit",
+            "x": 856,
+            "z": -1307
+        },
+        {
+            "name": "Belvédère du Pic de la Liberté",
+            "x": -519,
+            "z": 1160
+        },
+        {
+            "name": "Black-Waterside",
+            "x": 363,
+            "z": -335
+        },
+        {
+            "name": "Block-Willer",
+            "x": 189,
+            "z": 518
+        },
+        {
+            "name": "Brokenly-Woods",
+            "x": 1433,
+            "z": -1124
+        },
+        {
+            "name": "Capitole / Tour OMEGA",
+            "x": 342,
+            "z": 70
+        },
+        {
+            "name": "Carrière",
+            "x": 1668,
+            "z": -700
+        },
+        {
+            "name": "Caserne pompiers Freedom-City",
+            "x": 153,
+            "z": 379
+        },
+        {
+            "name": "Caserne pompiers Modern-City",
+            "x": 1911,
+            "z": 19
+        },
+        {
+            "name": "Caserne pompiers Oasiris",
+            "x": 1525,
+            "z": 1388
+        },
+        {
+            "name": "Caserne pompiers South-City",
+            "x": -1136,
+            "z": 1509
+        },
+        {
+            "name": "Caserne pompiers Snow-Hills",
+            "x": -469,
+            "z": -1695
+        },
+        {
+            "name": "Casino",
+            "x": 380,
+            "z": 295
+        },
+        {
+            "name": "Central Business District Freedom-City (CBD)",
+            "x": 347,
+            "z": 183
+        },
+        {
+            "name": "Central Business District South-City (CBD)",
+            "x": -1057,
+            "z": 1355
+        },
+        {
+            "name": "Centrale électrique Freedom-City Ouest",
+            "x": -616,
+            "z": -338
+        },
+        {
+            "name": "Centrale électrique Freedom-City Nord-Est",
+            "x": 598,
+            "z": -469
+        },
+        {
+            "name": "Centrale électrique Freedom-City Sud",
+            "x": 130,
+            "z": 685
+        },
+        {
+            "name": "Centrale électrique Mycélia Ouest",
+            "x": 718,
+            "z": 2390
+        },
+        {
+            "name": "Centre commercial",
+            "x": 271,
+            "z": 261
+        },
+        {
+            "name": "Centre pétrolier Maxi-Car",
+            "x": 1507,
+            "z": 707
+        },
+        {
+            "name": "Champi-Ville",
+            "x": 1283,
+            "z": 2053
+        },
+        {
+            "name": "Château d'eau",
+            "x": 844,
+            "z": -438
+        },
+        {
+            "name": "Château de Fallen-Kingdom",
+            "x": -867,
+            "z": -1087
+        },
+        {
+            "name": "Cimetière de Freedom-City",
+            "x": -184,
+            "z": 359
+        },
+        {
+            "name": "Cimetière de Port-Cubic",
+            "x": -1551,
+            "z": -1149
+        },
+        {
+            "name": "Clairière aux geysers",
+            "x": -1121,
+            "z": 595
+        },
+        {
+            "name": "Collège Jean-Pierre Kikoo LOL",
+            "x": -293,
+            "z": 139
+        },
+        {
+            "name": "Colisée",
+            "x": 1558,
+            "z": 1497
+        },
+        {
+            "name": "Colortown",
+            "x": -73,
+            "z": 236
+        },
+        {
+            "name": "Commissariat de police Freedom-City",
+            "x": -181,
+            "z": -7
+        },
+        {
+            "name": "Commissariat de police Modern-City",
+            "x": 1429,
+            "z": -125
+        },
+        {
+            "name": "Commissariat de police Oasiris",
+            "x": 1525,
+            "z": 1418
+        },
+        {
+            "name": "Commissariat de police South-City",
+            "x": -1136,
+            "z": 1589
+        },
+        {
+            "name": "Commissariat de police Snow-Hills",
+            "x": -421,
+            "z": -1695
+        },
+        {
+            "name": "Commissariat de police SpruceCliff",
+            "x": -1235,
+            "z": -1045
+        },
+        {
+            "name": "Concessionnaire Maxi-Car Freedom-City",
+            "x": 265,
+            "z": -564
+        },
+        {
+            "name": "Concessionnaire Maxi-Car Oasiris",
+            "x": 1364,
+            "z": 1188
+        },
+        {
+            "name": "Concessionnaire Maxi-Car South-City / Tour Maxi-Car",
+            "x": -1096,
+            "z": 1414
+        },
+        {
+            "name": "Concessionnaire Maxi-Car Snow-Hills",
+            "x": -291,
+            "z": -1489
+        },
+        {
+            "name": "Cristler Building",
+            "x": 561,
+            "z": 305
+        },
+        {
+            "name": "Déchetterie / Casse",
+            "x": 242,
+            "z": -371
+        },
+        {
+            "name": "Petit désert Theta",
+            "x": 1104,
+            "z": 1468
+        },
+        {
+            "name": "Déversoir",
+            "x": -1133,
+            "z": -474
+        },
+        {
+            "name": "Douane Megad Solis",
+            "x": 2232,
+            "z": 1368
+        },
+        {
+            "name": "Douane Megad Forestia",
+            "x": 2232,
+            "z": 70
+        },
+        {
+            "name": "Douane Megad Stonia",
+            "x": 937,
+            "z": -1795
+        },
+        {
+            "name": "Douane Megad Snowy",
+            "x": 189,
+            "z": -1795
+        },
+        {
+            "name": "Douane Megad Fantasia",
+            "x": -1880,
+            "z": -1795
+        },
+        {
+            "name": "Dream Lake",
+            "x": 1613,
+            "z": 192
+        },
+        {
+            "name": "Dream Tunnel",
+            "x": 1717,
+            "z": 70
+        },
+        {
+            "name": "École primaire",
+            "x": 1826,
+            "z": 17
+        },
+        {
+            "name": "Église de Modern-City",
+            "x": 1440,
+            "z": 175
+        },
+        {
+            "name": "Église de Old-Gulch",
+            "x": 991,
+            "z": 773
+        },
+        {
+            "name": "Église de Port-Cubic",
+            "x": -1514,
+            "z": -1009
+        },
+        {
+            "name": "Église de Snow-Hills",
+            "x": -544,
+            "z": -1695
+        },
+        {
+            "name": "Ellesdet",
+            "x": 1179,
+            "z": 2951
+        },
+        {
+            "name": "Éoliennes Pendore",
+            "x": 300,
+            "z": 1095
+        },
+        {
+            "name": "Éoliennes Champion-City",
+            "x": 1835,
+            "z": 2335
+        },
+        {
+            "name": "Empire State Building",
+            "x": 380,
+            "z": 295
+        },
+        {
+            "name": "Festival Avenue",
+            "x": 65,
+            "z": -652
+        },
+        {
+            "name": "Flatiron Building",
+            "x": 446,
+            "z": 316
+        },
+        {
+            "name": "Flowerift",
+            "x": -580,
+            "z": -1621
+        },
+        {
+            "name": "Freedom-City",
+            "x": 54,
+            "z": 70
+        },
+        {
+            "name": "Freedom Museum / Musée",
+            "x": 100,
+            "z": 261
+        },
+        {
+            "name": "Freedom Stadium / Stade",
+            "x": 65,
+            "z": -394
+        },
+        {
+            "name": "Freedom Trophy / Circuit F1",
+            "x": 607,
+            "z": -668
+        },
+        {
+            "name": "Free-Grass / Baulieux",
+            "x": -288,
+            "z": -484
+        },
+        {
+            "name": "Gare Centrale",
+            "x": 568,
+            "z": 176
+        },
+        {
+            "name": "Gare de Brokenly-Woods",
+            "x": 1022,
+            "z": -1013
+        },
+        {
+            "name": "Gare de Champi-Ville",
+            "x": 1305,
+            "z": 2259
+        },
+        {
+            "name": "Gare de Flowerift",
+            "x": 580,
+            "z": -1681
+        },
+        {
+            "name": "Gare de Modern-City",
+            "x": 1391,
+            "z": -167
+        },
+        {
+            "name": "Gare de Oasiris",
+            "x": 1283,
+            "z": 1452
+        },
+        {
+            "name": "Gare de Old-Gulch",
+            "x": 1028,
+            "z": 802
+        },
+        {
+            "name": "Gare de péage de Block-Willer",
+            "x": 189,
+            "z": 715
+        },
+        {
+            "name": "Gare de péage de Champion-City",
+            "x": 1999,
+            "z": 2206
+        },
+        {
+            "name": "Gare de péage de Fallen-Kingdom",
+            "x": -634,
+            "z": -1323
+        },
+        {
+            "name": "Gare de péage de Flowerift",
+            "x": 580,
+            "z": -1503
+        },
+        {
+            "name": "Gare de péage de Golden Sands",
+            "x": 1630,
+            "z": 1089
+        },
+        {
+            "name": "Gare de péage de Modern-City",
+            "x": 1209,
+            "z": 70
+        },
+        {
+            "name": "Gare de péage de New-Freedom",
+            "x": 189,
+            "z": -1056
+        },
+        {
+            "name": "Gare de péage de Oasiris",
+            "x": 1465,
+            "z": 1145
+        },
+        {
+            "name": "Gare de péage de Rivertown",
+            "x": -801,
+            "z": 63
+        },
+        {
+            "name": "Gare de péage de Snow-Hills",
+            "x": -71,
+            "z": -1639
+        },
+        {
+            "name": "Gare de péage de South-City Est",
+            "x": -422,
+            "z": 1327
+        },
+        {
+            "name": "Gare de péage des Baleines",
+            "x": -1347,
+            "z": 1020
+        },
+        {
+            "name": "Gare de péage des Plaines",
+            "x": 275,
+            "z": 1026
+        },
+        {
+            "name": "Gare de Pendore",
+            "x": 135,
+            "z": 1424
+        },
+        {
+            "name": "Gare de Polaris",
+            "x": -1812,
+            "z": -1765
+        },
+        {
+            "name": "Gare de Shintao",
+            "x": -1170,
+            "z": -1560
+        },
+        {
+            "name": "Gare de Snow-Hills",
+            "x": -197,
+            "z": -1501
+        },
+        {
+            "name": "Gare du Nord",
+            "x": -271,
+            "z": -602
+        },
+        {
+            "name": "Gare du Sud",
+            "x": -1264,
+            "z": 1237
+        },
+        {
+            "name": "Gîte de la Maxi-Bonne-Franquette",
+            "x": -791,
+            "z": -1748
+        },
+        {
+            "name": "Glacier du Mont-Bloc",
+            "x": -882,
+            "z": -1528
+        },
+        {
+            "name": "Golden Bridge",
+            "x": 189,
+            "z": -163
+        },
+        {
+            "name": "Golden Village",
+            "x": -1056,
+            "z": 1017
+        },
+        {
+            "name": "Golf",
+            "x": -969,
+            "z": 845
+        },
+        {
+            "name": "Golfe Amont-Gousse",
+            "x": 875,
+            "z": 2304
+        },
+        {
+            "name": "Grilling Island",
+            "x": -1665,
+            "z": 1920
+        },
+        {
+            "name": "Gymnase Jean-Pierre Kikoo LOL",
+            "x": -295,
+            "z": 235
+        },
+        {
+            "name": "Hales Farm",
+            "x": 744,
+            "z": 747
+        },
+        {
+            "name": "Harbor Bridge",
+            "x": 484,
+            "z": -158
+        },
+        {
+            "name": "Hôpital Freedom-City",
+            "x": 93,
+            "z": -265
+        },
+        {
+            "name": "Hub Centory",
+            "x": 280,
+            "z": 1609
+        },
+        {
+            "name": "Hub Fantasia",
+            "x": -1290,
+            "z": -1026
+        },
+        {
+            "name": "Hub Forestia",
+            "x": 1590,
+            "z": 70
+        },
+        {
+            "name": "Hub Freedomia",
+            "x": 0,
+            "z": 0
+        },
+        {
+            "name": "Hub Incraftia",
+            "x": -1561,
+            "z": 475
+        },
+        {
+            "name": "Hub Snowy",
+            "x": -510,
+            "z": -1608
+        },
+        {
+            "name": "Hub Solis",
+            "x": 1415,
+            "z": 1491
+        },
+        {
+            "name": "Hub Stonia",
+            "x": 1433,
+            "z": -1042
+        },
+        {
+            "name": "Hub Sunia",
+            "x": -952,
+            "z": 1671
+        },
+        {
+            "name": "Junction Tunnel",
+            "x": 1999,
+            "z": 606
+        },
+        {
+            "name": "La Contrée des Kikoos",
+            "x": -928,
+            "z": -877
+        },
+        {
+            "name": "La Motte",
+            "x": 669,
+            "z": 2545
+        },
+        {
+            "name": "Lagon tropical",
+            "x": -1245,
+            "z": 675
+        },
+        {
+            "name": "Lambda Park",
+            "x": -952,
+            "z": 1778
+        },
+        {
+            "name": "Lavandia",
+            "x": 1052,
+            "z": -1109
+        },
+        {
+            "name": "Library 301001",
+            "x": 1940,
+            "z": 210
+        },
+        {
+            "name": "Luminopolis",
+            "x": -912,
+            "z": 1102
+        },
+        {
+            "name": "L'Alpadia",
+            "x": -262,
+            "z": -1561
+        },
+        {
+            "name": "Mairie de Brokenly-Woods",
+            "x": 1433,
+            "z": -1124
+        },
+        {
+            "name": "Mairie de Champi-Ville / Château rétro",
+            "x": 1220,
+            "z": 2168
+        },
+        {
+            "name": "Mairie de Freedom-City",
+            "x": -31,
+            "z": -77
+        },
+        {
+            "name": "Mairie de Modern-City / Mairie de Néo Modern",
+            "x": 1625,
+            "z": 70
+        },
+        {
+            "name": "Mairie de Old-Gulch",
+            "x": 1009,
+            "z": 873
+        },
+        {
+            "name": "Mairie de Pendore",
+            "x": 231,
+            "z": 1485
+        },
+        {
+            "name": "Mairie de Polaris",
+            "x": -1900,
+            "z": -1747
+        },
+        {
+            "name": "Mairie de Shintao",
+            "x": -1170,
+            "z": -1560
+        },
+        {
+            "name": "Mairie de Snow-Hills",
+            "x": -585,
+            "z": -1608
+        },
+        {
+            "name": "Mairie de South-City",
+            "x": -1024,
+            "z": 1548
+        },
+        {
+            "name": "Mairie de SpruceCliff",
+            "x": -1290,
+            "z": -1063
+        },
+        {
+            "name": "Mairie de Strange Land",
+            "x": -1178,
+            "z": -165
+        },
+        {
+            "name": "Mairie de Treerama",
+            "x": -1607,
+            "z": 613
+        },
+        {
+            "name": "Manoir 301001",
+            "x": 1449,
+            "z": -459
+        },
+        {
+            "name": "Mc Donald's Freedom-City",
+            "x": -387,
+            "z": 248
+        },
+        {
+            "name": "Mc Donald's South-City",
+            "x": -850,
+            "z": 1119
+        },
+        {
+            "name": "Mini-York",
+            "x": 466,
+            "z": 340
+        },
+        {
+            "name": "Modern-City",
+            "x": 1476,
+            "z": 70
+        },
+        {
+            "name": "Modern Parking",
+            "x": 1843,
+            "z": 118
+        },
+        {
+            "name": "Mont Bloc",
+            "x": -780,
+            "z": -1544
+        },
+        {
+            "name": "Mont du Grand Fachit",
+            "x": 803,
+            "z": -1359
+        },
+        {
+            "name": "Mont du Petit Fachit",
+            "x": 503,
+            "z": -1135
+        },
+        {
+            "name": "Nécropolis",
+            "x": 1999,
+            "z": 971
+        },
+        {
+            "name": "Néo-Modern",
+            "x": 1786,
+            "z": 70
+        },
+        {
+            "name": "New-Freedom",
+            "x": 440,
+            "z": -600
+        },
+        {
+            "name": "Notre Dame de Freedom-City",
+            "x": -88,
+            "z": 359
+        },
+        {
+            "name": "Notre Dame de SpruceCliff",
+            "x": -1385,
+            "z": -967
+        },
+        {
+            "name": "Oasiris",
+            "x": 1415,
+            "z": 1314
+        },
+        {
+            "name": "Observatoire ASA",
+            "x": -557,
+            "z": -484
+        },
+        {
+            "name": "Old-Gulch",
+            "x": 1009,
+            "z": 824
+        },
+        {
+            "name": "OMEGA Industry",
+            "x": 1052,
+            "z": -839
+        },
+        {
+            "name": "Obélisque",
+            "x": -131,
+            "z": -451
+        },
+        {
+            "name": "Opéra",
+            "x": -209,
+            "z": -373
+        },
+        {
+            "name": "Palais Royal",
+            "x": 1415,
+            "z": 1535
+        },
+        {
+            "name": "Parc asiatique",
+            "x": 119,
+            "z": -86
+        },
+        {
+            "name": "Parc Central",
+            "x": 119,
+            "z": 0
+        },
+        {
+            "name": "Parthénon",
+            "x": 145,
+            "z": 1495
+        },
+        {
+            "name": "Patinoire",
+            "x": -409,
+            "z": -1608
+        },
+        {
+            "name": "Pendore",
+            "x": 280,
+            "z": 1441
+        },
+        {
+            "name": "Phare champignon",
+            "x": 1736,
+            "z": 2745
+        },
+        {
+            "name": "Phare de Oasiris",
+            "x": 1615,
+            "z": 1645
+        },
+        {
+            "name": "Phare de Pendore",
+            "x": 446,
+            "z": 1567
+        },
+        {
+            "name": "Phare de Port-Cubic",
+            "x": -1611,
+            "z": -1007
+        },
+        {
+            "name": "Phare de Saint Sordache",
+            "x": 500,
+            "z": 2554
+        },
+        {
+            "name": "Phare de South-City",
+            "x": -1187,
+            "z": 1710
+        },
+        {
+            "name": "Phare des Baleines",
+            "x": -1400,
+            "z": 719
+        },
+        {
+            "name": "Pic de la liberté",
+            "x": -519,
+            "z": 1160
+        },
+        {
+            "name": "Piscine Rivertown",
+            "x": -386,
+            "z": 143
+        },
+        {
+            "name": "Pistes de ski",
+            "x": -581,
+            "z": -1536
+        },
+        {
+            "name": "Place d'Alphadia",
+            "x": -176,
+            "z": -262
+        },
+        {
+            "name": "Place de Colortown",
+            "x": -79,
+            "z": 282
+        },
+        {
+            "name": "Plage d'or",
+            "x": -1466,
+            "z": -190
+        },
+        {
+            "name": "Plage d'argent",
+            "x": 789,
+            "z": 2146
+        },
+        {
+            "name": "Plateforme pétrolière Gamma",
+            "x": -1964,
+            "z": -1459
+        },
+        {
+            "name": "Polaris",
+            "x": -1875,
+            "z": -1747
+        },
+        {
+            "name": "Pont Al-Otbouh",
+            "x": 1283,
+            "z": 1762
+        },
+        {
+            "name": "Pont de Block-Rivertown",
+            "x": -447,
+            "z": -165
+        },
+        {
+            "name": "Pont du Golfe Amont-Gousse",
+            "x": 940,
+            "z": 2304
+        },
+        {
+            "name": "Pont du Hub",
+            "x": 0,
+            "z": -163
+        },
+        {
+            "name": "Pont fortifié",
+            "x": -1462,
+            "z": -1229
+        },
+        {
+            "name": "Pont HLMique",
+            "x": 343,
+            "z": 437
+        },
+        {
+            "name": "Pont Jacques Carré",
+            "x": 940,
+            "z": 1743
+        },
+        {
+            "name": "Pont Jean-Jaurès",
+            "x": -116,
+            "z": -163
+        },
+        {
+            "name": "Pont M",
+            "x": -624,
+            "z": 62
+        },
+        {
+            "name": "Pont traversier",
+            "x": 1999,
+            "z": 1737
+        },
+        {
+            "name": "Pont de Fallen-Kingdom Ouest",
+            "x": -1078,
+            "z": -1015
+        },
+        {
+            "name": "Pont de Fallen-Kingdom Nord",
+            "x": -958,
+            "z": -1230
+        },
+        {
+            "name": "Port-Cubic",
+            "x": -1549,
+            "z": -1080
+        },
+        {
+            "name": "Port de plaisance de Oasiris",
+            "x": 1563,
+            "z": 1266
+        },
+        {
+            "name": "Port de plaisance de Pendore",
+            "x": 188,
+            "z": 1586
+        },
+        {
+            "name": "Port de plaisance de South-City",
+            "x": -1210,
+            "z": -1598
+        },
+        {
+            "name": "Port Glaçon / Station Gamma",
+            "x": -1647,
+            "z": -1522
+        },
+        {
+            "name": "Port de commerce de South-City / Docks",
+            "x": -1435,
+            "z": 1340
+        },
+        {
+            "name": "Port fluvial de Freedom-City",
+            "x": 316,
+            "z": -242
+        },
+        {
+            "name": "Poste de police Old-Gulch",
+            "x": 1025,
+            "z": 772
+        },
+        {
+            "name": "Prison désafectée",
+            "x": 2180,
+            "z": 453
+        },
+        {
+            "name": "Pyramide Est",
+            "x": 1162,
+            "z": 1499
+        },
+        {
+            "name": "Pyramide Nord",
+            "x": 1044,
+            "z": 1433
+        },
+        {
+            "name": "Résidence de Baulieux",
+            "x": -342,
+            "z": -263
+        },
+        {
+            "name": "Rivertown",
+            "x": -349,
+            "z": 70
+        },
+        {
+            "name": "Rocket Bridge",
+            "x": 565,
+            "z": 2766
+        },
+        {
+            "name": "Roi Champignon",
+            "x": 1099,
+            "z": 2267
+        },
+        {
+            "name": "Saint Sordache",
+            "x": 562,
+            "z": 2554
+        },
+        {
+            "name": "Saloon",
+            "x": 1028,
+            "z": 831
+        },
+        {
+            "name": "Sand Bridge",
+            "x": -682,
+            "z": 1327
+        },
+        {
+            "name": "Shintao",
+            "x": -1157,
+            "z": -1610
+        },
+        {
+            "name": "Skull Tunnel",
+            "x": -1462,
+            "z": -1127
+        },
+        {
+            "name": "Snow-Hills",
+            "x": -343,
+            "z": -1543
+        },
+        {
+            "name": "South Arena",
+            "x": -1306,
+            "z": 1407
+        },
+        {
+            "name": "South-City",
+            "x": -952,
+            "z": 1355
+        },
+        {
+            "name": "South Country Club",
+            "x": -1009,
+            "z": 971
+        },
+        {
+            "name": "South Palace",
+            "x": -859,
+            "z": 1544
+        },
+        {
+            "name": "South Park",
+            "x": -898,
+            "z": 1426
+        },
+        {
+            "name": "Souk de Oasiris",
+            "x": 1480,
+            "z": 1031
+        },
+        {
+            "name": "Sphynx",
+            "x": 1042,
+            "z": 1533
+        },
+        {
+            "name": "SpruceCliff",
+            "x": -1290,
+            "z": -968
+        },
+        {
+            "name": "Star village",
+            "x": -241,
+            "z": 511
+        },
+        {
+            "name": "Station d'épuration",
+            "x": -523,
+            "z": 569
+        },
+        {
+            "name": "Station service MEGAS N7",
+            "x": 1120,
+            "z": 1331
+        },
+        {
+            "name": "Station service MEGAS N7 BIS",
+            "x": 960,
+            "z": 2205
+        },
+        {
+            "name": "Stonehenge",
+            "x": -1440,
+            "z": -563
+        },
+        {
+            "name": "Strange Land",
+            "x": -1210,
+            "z": -132
+        },
+        {
+            "name": "Suburbs",
+            "x": 436,
+            "z": -710
+        },
+        {
+            "name": "SuperMart Modern-City",
+            "x": 1478,
+            "z": -163
+        },
+        {
+            "name": "Temple Incraft Est",
+            "x": -1040,
+            "z": 370
+        },
+        {
+            "name": "Temple Incraft Nord",
+            "x": -1117,
+            "z": 260
+        },
+        {
+            "name": "Temple Incraft Ouest",
+            "x": -1188,
+            "z": 354
+        },
+        {
+            "name": "Tour Alpha-Red",
+            "x": 243,
+            "z": 9
+        },
+        {
+            "name": "Tour AT1",
+            "x": 314,
+            "z": -67
+        },
+        {
+            "name": "Tour de Glace",
+            "x": -1540,
+            "z": -1373
+        },
+        {
+            "name": "Tour de la Mort",
+            "x": 161,
+            "z": -77
+        },
+        {
+            "name": "Tour Fisc",
+            "x": -997,
+            "z": 1319
+        },
+        {
+            "name": "Tour météo",
+            "x": 271,
+            "z": 261
+        },
+        {
+            "name": "Treerama",
+            "x": -1470,
+            "z": 475
+        },
+        {
+            "name": "Tunnel champignon",
+            "x": 1737,
+            "z": 2687
+        },
+        {
+            "name": "Tunnel de Brokenly-Woods",
+            "x": 1482,
+            "z": -1028
+        },
+        {
+            "name": "Tunnel de Fallen-Kingdom",
+            "x": -958,
+            "z": -1364
+        },
+        {
+            "name": "Tunnel de l'aéroport",
+            "x": 870,
+            "z": 70
+        },
+        {
+            "name": "Tunnel de la Motte",
+            "x": 841,
+            "z": 2687
+        },
+        {
+            "name": "Tunnel de Snow-Hills",
+            "x": -286,
+            "z": -1645
+        },
+        {
+            "name": "Tunnel de SpruceCliff",
+            "x": -1393,
+            "z": -436
+        },
+        {
+            "name": "Tunnel de Treerama",
+            "x": -1337,
+            "z": 485
+        },
+        {
+            "name": "Tunnel des Baleines",
+            "x": -1347,
+            "z": 800
+        },
+        {
+            "name": "Tunnel des Pistes",
+            "x": 1053,
+            "z": 70
+        },
+        {
+            "name": "Tunnel du Far-Est",
+            "x": 1327,
+            "z": 575
+        },
+        {
+            "name": "Tunnel du Grand Fachit",
+            "x": 856,
+            "z": -1364
+        },
+        {
+            "name": "Tunnel du Littoral",
+            "x": 1850,
+            "z": 1342
+        },
+        {
+            "name": "Tunnel Glaçon",
+            "x": -1647,
+            "z": -1394
+        },
+        {
+            "name": "Tunnel Marin",
+            "x": -1050,
+            "z": 1327
+        },
+        {
+            "name": "Tunnel Militaire",
+            "x": -70,
+            "z": 1327
+        },
+        {
+            "name": "Tunnel Paravalanchique",
+            "x": 1772,
+            "z": -120
+        },
+        {
+            "name": "Tunnel Rouge",
+            "x": 1327,
+            "z": 851
+        },
+        {
+            "name": "Twinner Towers",
+            "x": 437,
+            "z": -24
+        },
+        {
+            "name": "Université d'Alphadia (Freedom-City)",
+            "x": -74,
+            "z": -268
+        },
+        {
+            "name": "Université d'Alphadia (South-City)",
+            "x": -810,
+            "z": 1397
+        },
+        {
+            "name": "Usine BCA / Fabrique de billets",
+            "x": 2069,
+            "z": -210
+        },
+        {
+            "name": "Usine TONIC",
+            "x": 1139,
+            "z": 2590
+        },
+        {
+            "name": "Viaduc de Brokenly-Woods",
+            "x": 1329,
+            "z": -1229
+        },
+        {
+            "name": "Viaduc de Fallen-Kingdom",
+            "x": -1278,
+            "z": -1205
+        },
+        {
+            "name": "Viaduc de Snow-Hills",
+            "x": 189,
+            "z": -1364
+        },
+        {
+            "name": "Viaduc des Trois Gorges",
+            "x": 940,
+            "z": -1364
+        },
+        {
+            "name": "Viaduc du Littoral",
+            "x": 1850,
+            "z": 1407
+        },
+        {
+            "name": "Volcan / Montagne Sacrée",
+            "x": -946,
+            "z": 627
+        },
+        {
+            "name": "York Square",
+            "x": 414,
+            "z": 373
+        },
+        {
+            "name": "Youtube Building",
+            "x": 309,
+            "z": 376
+        },
+        {
+            "name": "Zone Commerciale (Freedom-City)",
+            "x": -349,
+            "z": 301
+        },
+        {
+            "name": "Zone Commerciale (South-City)",
+            "x": -952,
+            "z": 1150
+        }
+    ]
+}
