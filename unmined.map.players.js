@@ -13,7 +13,7 @@ var UnminedPlayers = [
     {
         "name": "Aérodrome",
         "x": -1096,
-        "z": -963
+        "z": -693
     },
     {
         "name": "Aéroport International",

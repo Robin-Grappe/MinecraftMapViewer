@@ -1,6 +1,6 @@
 Accrobranche : 1584, -829
 Admin Tower : 246, -58
-Aérodrome : -1096, -963
+Aérodrome : -1096, -693
 Aéroport International : 777, -71
 Arène de SpruceCliff : -1329, -924
 Auto École Freedom-City : 286, -710
