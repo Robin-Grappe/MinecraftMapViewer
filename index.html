@@ -66,7 +66,9 @@
         var center = [0, 0];
         if (UnminedPlayers && queryString) {
             UnminedPlayersFiltered = filterMarkers(UnminedPlayers, queryString);
-            center = [UnminedPlayersFiltered[0].x, -UnminedPlayersFiltered[0].z];
+            if (UnminedPlayersFiltered.length > 0) {
+                center = [UnminedPlayersFiltered[0].x, -UnminedPlayersFiltered[0].z];
+            }
         }
         
         let unmined = new Unmined();
