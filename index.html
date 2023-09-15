@@ -110,13 +110,13 @@
             var items = "";
             var results = filterMarkers(UnminedPlayers, search_bar.value);
             var i = 0;
-            const LIMIT = 5;
+            const LIMIT = 20;
 
             if (search_bar.value != "") {
                 results.forEach(player => {
                     if (i == LIMIT) {
                         var reste = results.length - LIMIT;
-                        items += "<li>+ " + (reste) + " résultat" + (reste > 1 ? 's' : '') + ' ...</li>';
+                        items += '<li class="other-results">+ ' + (reste) + ' résultat' + (reste > 1 ? 's' : '') + ' ...</li>';
                     }
                     if (i < LIMIT) {
                         items += '<li class="result-item">' + player.name + '</li>';

@@ -55,7 +55,7 @@ div.ol-mouse-position {
 }
 
 #search {
-    width: 500px;
+    width: 30%;
     height: 25px;
 }
 
@@ -92,7 +92,6 @@ ul#results-list {
 #results-list li {
     padding-top: 5px;
     padding-bottom: 5px;
-    margin: auto;
     font-size: 15px;
     width: fit-content;
     margin-top: 5px;
@@ -104,6 +103,9 @@ li.result-item {
     background-color: darkgray;
     border-radius: 15px;
     border: black 1px solid;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 li.result-item:hover {
@@ -111,7 +113,11 @@ li.result-item:hover {
     cursor: pointer;
     transition-property: padding-right, padding-left, color, border-radius;
     transition-duration: 0.5s;
-    padding-right: 100px;
-    padding-left: 100px;
+    /* padding-right: 100px;
+    padding-left: 100px; */
     border-radius: 0px;
+}
+
+li.other-results {
+    margin: auto;
 }

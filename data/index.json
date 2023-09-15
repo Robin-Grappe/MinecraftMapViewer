@@ -74,7 +74,7 @@
         {
             "name": "Belvédère du Pic de la Liberté",
             "x": -519,
-            "z": 1160
+            "z": -1160
         },
         {
             "name": "Black-Waterside",
@@ -378,7 +378,7 @@
         },
         {
             "name": "Flowerift",
-            "x": -580,
+            "x": 580,
             "z": -1621
         },
         {
@@ -914,7 +914,7 @@
         {
             "name": "Pic de la liberté",
             "x": -519,
-            "z": 1160
+            "z": -1160
         },
         {
             "name": "Piscine Rivertown",

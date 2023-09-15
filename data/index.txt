@@ -12,7 +12,7 @@ Barrage de Oasiris : 1574, 906
 Base Militaire OMEGA Sud : -294, 1005
 Base Militaire OMEGA Ouest : -1427, -770
 Belvédère du Grand Fachit : 856, -1307
-Belvédère du Pic de la Liberté : -519, 1160
+Belvédère du Pic de la Liberté : -519, -1160
 Black-Waterside : 363, -335
 Block-Willer : 189, 518
 Brokenly-Woods : 1433, -1124
@@ -73,7 +73,7 @@ Ellesdet : 1179, 2951
 Empire State Building : 380, 295
 Festival Avenue : 65, -652
 Flatiron Building : 446, 316
-Flowerift : -580, -1621
+Flowerift : 580, -1621
 Freedom-City : 54, 70
 Freedom Museum / Musée : 100, 261
 Freedom Stadium / Stade : 65, -394
@@ -180,7 +180,7 @@ Phare de Port-Cubic : -1611, -1007
 Phare de Saint Sordache : 500, 2554
 Phare de South-City : -1187, 1710
 Phare des Baleines : -1400, 719
-Pic de la liberté : -519, 1160
+Pic de la liberté : -519, -1160
 Piscine Rivertown : -386, 143
 Pistes de ski : -581, -1536
 Place d'Alphadia : -176, -262

@@ -73,7 +73,7 @@ var UnminedPlayers = [
     {
         "name": "Belvédère du Pic de la Liberté",
         "x": -519,
-        "z": 1160
+        "z": -1160
     },
     {
         "name": "Black-Waterside",
@@ -377,7 +377,7 @@ var UnminedPlayers = [
     },
     {
         "name": "Flowerift",
-        "x": -580,
+        "x": 580,
         "z": -1621
     },
     {
@@ -913,7 +913,7 @@ var UnminedPlayers = [
     {
         "name": "Pic de la liberté",
         "x": -519,
-        "z": 1160
+        "z": -1160
     },
     {
         "name": "Piscine Rivertown",
