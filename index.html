@@ -40,10 +40,15 @@
     <div id="toolbar">
         <form action="" method="get" id="search-form">
             <input type="text" name="search" id="search" placeholder="Rechercher un lieu">
-            <input type="submit" id="search-btn" value="Rechercher &#128270;" title="Rechercher">
+            <input type="submit" id="search-btn" value="Rechercher &#128270;" title="Rechercher" class="btn">
+            <button type="button" id="settings_btn" title="Paramètres et filtres avancés" class="btn">&#128204; Avancé</button>
+            <div class="block" id="settings">
+                <label for="all">Afficher tous les lieux par défaut</label>
+                <input type="checkbox" name="all">
+            </div>
         </form>
     </div>
-    <div id="results">
+    <div class="block" id="results">
         <ul id="results-list">
 
         </ul>

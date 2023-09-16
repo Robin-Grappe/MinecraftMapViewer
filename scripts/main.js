@@ -9,7 +9,9 @@ var search_bar = document.getElementById('search');
 var search_form = document.getElementById('search-form');
 var list = document.getElementById('results-list');
 var results_div = document.getElementById('results');
-var result_item = document.querySelectorAll('.result-item')
+var settings = document.getElementById('settings');
+var settings_btn = document.getElementById('settings_btn');
+var settings_open = false;
 var urlParams = new URLSearchParams(window.location.search);
 var queryString = decodeURI(urlParams.get('search'));
 
@@ -25,7 +27,8 @@ fetch('./data/index.json')
 
 // Listeners
 document.addEventListener("DOMContentLoaded", () => {
-    search_bar.addEventListener("keyup", (e) => {
+    // Autocomplete search when typing keyboard
+    search_bar.addEventListener("keyup", () => {
         fetch('./data/index.json')
             .then((response) => response.json())
             .then((json) => {
@@ -33,12 +36,26 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    // Click on a autocomplete card
     list.addEventListener('click', (e) => {
         if (e.target.classList.contains('result-item')) {
             search_bar.value = e.target.textContent;
             search_form.submit();
         }
     });
+
+    settings_btn.addEventListener('click', () => {
+        if (settings_open) {
+            settings.style.display = "none";
+            settings_btn.textContent = "\uD83D\uDCCC Avancé";
+        } else {
+            settings.style.display = "block";
+            settings_btn.textContent = "\u274C Fermer";
+        }
+        settings_open = !settings_open;
+    });
+
+    // Click on 
 });
 
 /****************************

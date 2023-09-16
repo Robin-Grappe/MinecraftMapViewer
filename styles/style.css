@@ -48,7 +48,7 @@ div.ol-mouse-position {
 
 #logo_alpha {
     position: absolute;
-    left: 0%;
+    left: -10px;
     top: -5px;
     width: 75px;
     margin: 0px;
@@ -59,11 +59,11 @@ div.ol-mouse-position {
     height: 25px;
 }
 
-#search-btn {
+.btn {
     height: 30px;
 }
 
-#search-btn:hover {
+.btn:hover {
     cursor: pointer;
 }
 
@@ -76,9 +76,12 @@ div.ol-mouse-position {
     cursor: pointer;
 }
 
-#results {
+.block {
     background-color: var(--toolbar-color);
     padding: 10px;
+}
+
+#results {
     display: none;
     border-bottom: black 1px solid;
 }
@@ -120,4 +123,10 @@ li.result-item:hover {
 
 li.other-results {
     margin: auto;
+}
+
+#settings {
+    display: none;
+    border-top: black 1px solid;
+    margin-top: 10px;
 }
