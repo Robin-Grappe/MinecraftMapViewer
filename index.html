@@ -55,7 +55,7 @@
         var results_div = document.getElementById('results');
         var result_item = document.querySelectorAll('.result-item')
         var urlParams = new URLSearchParams(window.location.search);
-        var queryString = urlParams.get('search');
+        var queryString = decodeURI(urlParams.get('search'));
         search_bar.value = (queryString ?? '');
 
         if (UnminedCustomMarkers && UnminedCustomMarkers.isEnabled && UnminedCustomMarkers.markers) {
@@ -98,13 +98,18 @@
 
         function filterMarkers(unminedPlayers, str) {
             var output = [];
-            var keywords = str;
+            var keywords = toSimpleString(str);
             unminedPlayers.forEach(player => {
-                if (player.name.match(keywords)) {
+                var name = toSimpleString(player.name);
+                if (name.match(keywords)) {
                     output.push(player);
                 }
             });
             return output;
+        }
+
+        function toSimpleString(str) {
+            return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace('-', ' ').trim();
         }
         
         function autocomplete() {
