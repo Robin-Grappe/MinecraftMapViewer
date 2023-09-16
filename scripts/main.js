@@ -12,11 +12,14 @@ var results_div = document.getElementById('results');
 var settings = document.getElementById('settings');
 var settings_btn = document.getElementById('settings_btn');
 var settings_open = false;
+var all = document.getElementById('all');
 var urlParams = new URLSearchParams(window.location.search);
-var queryString = decodeURI(urlParams.get('search'));
+var search_get = decodeURI(urlParams.get('search'));
+var all_get = decodeURI(urlParams.get('all'));
 
-search_bar.value = (queryString != "null" ? queryString : '');
-document.title = (queryString != "null" && queryString != '' ? '"' + queryString + '"' : 'Alphadia') + ' - ' + document.title;
+search_bar.value = (search_get != "null" ? search_get : '');
+document.title = (search_get != "null" && search_get != '' ? '"' + search_get + '"' : 'Alphadia') + ' - ' + document.title;
+all.checked = (all_get == "on" ? true : false);
 
 // Init the map from the json file
 fetch('./data/index.json')
@@ -72,8 +75,8 @@ function initMap(json) {
         UnminedMapProperties.markers = UnminedMapProperties.markers.concat(UnminedCustomMarkers.markers);
     }
 
-    if (UnminedPlayers && queryString) {
-        UnminedPlayersFiltered = filterMarkers(UnminedPlayers, queryString);
+    if (UnminedPlayers) {
+        UnminedPlayersFiltered = filterMarkers(UnminedPlayers, search_get);
         if (UnminedPlayersFiltered.length > 0) {
             center = [UnminedPlayersFiltered[0].x, -UnminedPlayersFiltered[0].z];
         }
@@ -92,12 +95,13 @@ function initMap(json) {
 function filterMarkers(unminedPlayers, str) {
     var output = [];
     var keywords = toSimpleString(str);
-        unminedPlayers.forEach(player => {
-            var name = toSimpleString(player.name);
-            if (name.match(escapeRegExp(keywords))) {
-                output.push(player);
-            }
-        });
+    console.log(all_get == 'on' && str == "");
+    unminedPlayers.forEach(player => {
+        var name = toSimpleString(player.name);
+        if ((all_get == 'on' && str == '') || (name.match(escapeRegExp(keywords)) && str != '')) {
+            output.push(player);
+        }
+    });
     return output;
 }
 
