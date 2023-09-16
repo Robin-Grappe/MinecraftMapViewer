@@ -42,9 +42,7 @@ def build_item(name, x, z) :
         item += ','
     return item
 
-output = '''
-{
-    "UnminedPlayers" : ['''
+output = '''['''
 
 i = 1
 for line in f_input.readlines() :
@@ -52,9 +50,7 @@ for line in f_input.readlines() :
     output += build_item(name, x, z)
     i += 1
 
-output += '''
-    ]
-}'''
+output += ''']'''
 
 f_output = open("index.json", "w")
 f_output.write(output)

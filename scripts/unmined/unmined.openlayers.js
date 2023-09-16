@@ -231,7 +231,7 @@ export class Unmined {
     }
     
     defaultPlayerMarkerStyle = {
-            image: "custom.pin.png",
+            image: "./images/custom.pin.png",
             imageAnchor: [0.5, 0.5],
             imageScale: 0.25,
 

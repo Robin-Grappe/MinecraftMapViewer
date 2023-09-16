@@ -46,7 +46,7 @@ export var UnminedCustomMarkers = {
         {
             x: -200,
             z: -200,
-            image: "custom.pin.png",
+            image: "./images/custom.pin.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.5,
         },
@@ -55,7 +55,7 @@ export var UnminedCustomMarkers = {
         {
             x: 0,
             z: 0,
-            image: "custom.pin.png",
+            image: "./images/custom.pin.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.5,
             text: "Marker with text",

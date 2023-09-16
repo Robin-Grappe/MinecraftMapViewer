@@ -1,6 +1,4 @@
-
-{
-    "UnminedPlayers" : [
+[
         {
             "name": "Accrobranche",
             "x": 1584,
@@ -1655,6 +1653,4 @@
             "name": "Zone Commerciale (South-City)",
             "x": -952,
             "z": 1150
-        }
-    ]
-}
+        }]
