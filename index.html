@@ -43,8 +43,21 @@
             <input type="submit" id="search-btn" value="Rechercher &#128270;" title="Rechercher" class="btn">
             <button type="button" id="settings_btn" title="Paramètres et filtres avancés" class="btn">&#128204; Avancé</button>
             <div class="block" id="settings">
-                <label for="all">Afficher tous les lieux par défaut</label>
-                <input type="checkbox" id="all" name="all">
+                <span class="setting_item">
+                    <label for="all">&#128205; Afficher tous les lieux par défaut</label>
+                    <input type="checkbox" id="all" name="all">
+                </span>
+                <span class="setting_item">
+                    <label for="city_level">&#127970; Niveau d'affichage des villes</label>
+                    <select name="city_level" autocomplete="off">
+                        <option value="1">Capitale</option>
+                        <option value="2">Villes vertes</option>
+                        <option value="3">Préfectures</option>
+                        <option value="4" selected>Standard</option>
+                        <option value="5">Lieux-dits</option>
+                        <option value="0">Aucun</option>
+                    </select>
+                </span>
             </div>
         </form>
     </div>
