@@ -130,3 +130,9 @@ li.other-results {
     border-top: black 1px solid;
     margin-top: 10px;
 }
+
+.setting_item {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+}
