@@ -33,11 +33,11 @@ def verif_int(n) :
 # Build an item of the json output
 def build_item(name, x, z) :
     item = '''
-        {
-            "name": "%s",
-            "x": %s,
-            "z": %s
-        }''' % (name, x, z)
+    {
+        "name": "%s",
+        "x": %s,
+        "z": %s
+    }''' % (name, x, z)
     if (i < lines_length) :
         item += ','
     return item
@@ -50,7 +50,8 @@ for line in f_input.readlines() :
     output += build_item(name, x, z)
     i += 1
 
-output += ''']'''
+output += '''
+]'''
 
 f_output = open("index.json", "w")
 f_output.write(output)
