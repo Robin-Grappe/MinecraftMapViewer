@@ -238,7 +238,7 @@ export class Unmined {
             textColor: "white",
             offsetX: 0,
             offsetY: 20,
-            font: "14px Arial",
+            font: "14px Verdana",
             //textStrokeColor: "black",
             //textStrokeWidth: 2,
             textBackgroundColor: "#00000088",

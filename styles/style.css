@@ -2,6 +2,11 @@
     --toolbar-color: lightgray;
 }
 
+@font-face {
+    font-family: "future-earth";
+    src: url("../fonts/future-earth.ttf");
+}
+
 html,
 body {
     width: 100%;
@@ -9,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #467fcc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #map {
