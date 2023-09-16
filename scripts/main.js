@@ -9,12 +9,14 @@ var search_bar = document.getElementById('search');
 var search_form = document.getElementById('search-form');
 var list = document.getElementById('results-list');
 var results_div = document.getElementById('results');
-var result_item = document.querySelectorAll('.result-item')
+var result_item = document.querySelectorAll('.result-item');
+var strict = document.getElementById('strict');
 var urlParams = new URLSearchParams(window.location.search);
-var queryString = decodeURI(urlParams.get('search'));
+var search_get = decodeURI(urlParams.get('search'));
+var strict_get = decodeURI(urlParams.get('strict'));
 
-search_bar.value = (queryString != "null" ? queryString : '');
-document.title = (queryString != "null" && queryString != '' ? '"' + queryString + '"' : 'Alphadia') + ' - ' + document.title;
+search_bar.value = (search_get != "null" ? search_get : '');
+document.title = (search_get != "null" && search_get != '' ? '"' + search_get + '"' : 'Alphadia') + ' - ' + document.title;
 
 // Init the map from the json file
 fetch('./data/index.json')
@@ -36,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     list.addEventListener('click', (e) => {
         if (e.target.classList.contains('result-item')) {
             search_bar.value = e.target.textContent;
+            strict.value = 1;
             search_form.submit();
         }
     });
@@ -55,8 +58,8 @@ function initMap(json) {
         UnminedMapProperties.markers = UnminedMapProperties.markers.concat(UnminedCustomMarkers.markers);
     }
 
-    if (UnminedPlayers && queryString) {
-        UnminedPlayersFiltered = filterMarkers(UnminedPlayers, queryString);
+    if (UnminedPlayers && search_get) {
+        UnminedPlayersFiltered = filterMarkers(UnminedPlayers, search_get, true);
         if (UnminedPlayersFiltered.length > 0) {
             center = [UnminedPlayersFiltered[0].x, -UnminedPlayersFiltered[0].z];
         }
@@ -72,12 +75,15 @@ function initMap(json) {
 }
 
 // Filter the json places file
-function filterMarkers(unminedPlayers, str) {
+function filterMarkers(unminedPlayers, str, flags = false) {
     var output = [];
     var keywords = toSimpleString(str);
         unminedPlayers.forEach(player => {
             var name = toSimpleString(player.name);
-            if (name.match(escapeRegExp(keywords))) {
+            if ((strict_get == 0 || ! flags) && name.match(escapeRegExp(keywords))) {
+                output.push(player);
+            }
+            if (strict_get == 1 && name == keywords) {
                 output.push(player);
             }
         });
