@@ -182,7 +182,7 @@ Mc Donald's South-City : -850, 1119
 Mini-York : 466, 340
 Modern-City : 1476, 70
 Modern Parking : 1843, 118
-Mont Bloc : -780, -1544
+Mont-Bloc : -780, -1544
 Mont du Grand Fachit : 803, -1359
 Mont du Petit Fachit : 503, -1135
 Nécropolis : 1999, 971
