@@ -21,9 +21,19 @@ var UnminedPlayers = [
         "z": -71
     },
     {
+        "name": "Aéroport Militaire",
+        "x": -107,
+        "z": 902
+    },
+    {
         "name": "Arène de SpruceCliff",
         "x": -1329,
         "z": -924
+    },
+    {
+        "name": "Arc de Triomphe",
+        "x": 189,
+        "z": 70
     },
     {
         "name": "Auto École Freedom-City",
@@ -39,6 +49,21 @@ var UnminedPlayers = [
         "name": "Banque Centrale",
         "x": 118,
         "z": 139
+    },
+    {
+        "name": "Banque Crédit Minecraftien Freedom-City",
+        "x": -186,
+        "z": -83
+    },
+    {
+        "name": "Banque Crédit Minecraftien Néo-Modern",
+        "x": 1814,
+        "z": 174
+    },
+    {
+        "name": "Banque Crédit Minecraftien South-City / Tour Fisc",
+        "x": -997,
+        "z": 1319
     },
     {
         "name": "Banque Old-Gulch",
@@ -86,14 +111,84 @@ var UnminedPlayers = [
         "z": 518
     },
     {
+        "name": "Boulanger Freedom-City",
+        "x": -279,
+        "z": 371
+    },
+    {
+        "name": "Boutique Orange South-City",
+        "x": -1083,
+        "z": 1192
+    },
+    {
+        "name": "Brico Dépot South-City",
+        "x": -822,
+        "z": 1284
+    },
+    {
         "name": "Brokenly-Woods",
         "x": 1433,
         "z": -1124
     },
     {
+        "name": "Builders Tower",
+        "x": 252,
+        "z": 151
+    },
+    {
+        "name": "Bureau de poste de Freedom-City",
+        "x": -271,
+        "z": -83
+    },
+    {
+        "name": "Bureau de poste de Modern-City",
+        "x": 1391,
+        "z": -182
+    },
+    {
+        "name": "Bureau de poste de Snow-Hills",
+        "x": -400,
+        "z": -1488
+    },
+    {
+        "name": "Bureau de poste de South-City",
+        "x": -985,
+        "z": 1199
+    },
+    {
+        "name": "BUT South-City",
+        "x": -889,
+        "z": 1280
+    },
+    {
+        "name": "Cafés Marlonnais",
+        "x": -482,
+        "z": -81
+    },
+    {
+        "name": "Camp Indien",
+        "x": 1185,
+        "z": 683
+    },
+    {
+        "name": "Camping les Gitans",
+        "x": 1661,
+        "z": -1123
+    },
+    {
         "name": "Capitole / Tour OMEGA",
         "x": 342,
         "z": 70
+    },
+    {
+        "name": "Carrefour Freedom-City",
+        "x": -387,
+        "z": 346
+    },
+    {
+        "name": "Carrefour Montagne Snow-Hills",
+        "x": -445,
+        "z": -1488
     },
     {
         "name": "Carrière",
@@ -141,6 +236,11 @@ var UnminedPlayers = [
         "z": 1355
     },
     {
+        "name": "Centrale électrique Barrage de Brokenly-Woods",
+        "x": 1438,
+        "z": -1282
+    },
+    {
         "name": "Centrale électrique Freedom-City Ouest",
         "x": -616,
         "z": -338
@@ -159,6 +259,11 @@ var UnminedPlayers = [
         "name": "Centrale électrique Mycélia Ouest",
         "x": 718,
         "z": 2390
+    },
+    {
+        "name": "Centrale électrique Oasiris Est",
+        "x": 1644,
+        "z": 936
     },
     {
         "name": "Centre commercial",
@@ -256,7 +361,7 @@ var UnminedPlayers = [
         "z": 1188
     },
     {
-        "name": "Concessionnaire Maxi-Car South-City / Tour Maxi-Car",
+        "name": "Concessionnaire Maxi-Car South-City",
         "x": -1096,
         "z": 1414
     },
@@ -264,6 +369,11 @@ var UnminedPlayers = [
         "name": "Concessionnaire Maxi-Car Snow-Hills",
         "x": -291,
         "z": -1489
+    },
+    {
+        "name": "Craftorama Freedom-City",
+        "x": -279,
+        "z": 312
     },
     {
         "name": "Cristler Building",
@@ -279,6 +389,11 @@ var UnminedPlayers = [
         "name": "Petit désert Theta",
         "x": 1104,
         "z": 1468
+    },
+    {
+        "name": "Darty South-City",
+        "x": -898,
+        "z": 1204
     },
     {
         "name": "Déversoir",
@@ -319,6 +434,11 @@ var UnminedPlayers = [
         "name": "Dream Tunnel",
         "x": 1717,
         "z": 70
+    },
+    {
+        "name": "École de Ski Alphadienne (ESA)",
+        "x": -515,
+        "z": -1500
     },
     {
         "name": "École primaire",
@@ -364,6 +484,11 @@ var UnminedPlayers = [
         "name": "Empire State Building",
         "x": 380,
         "z": 295
+    },
+    {
+        "name": "E. Leclerc South-City",
+        "x": -828,
+        "z": 1204
     },
     {
         "name": "Festival Avenue",
@@ -636,6 +761,11 @@ var UnminedPlayers = [
         "z": 1671
     },
     {
+        "name": "Ikecraft Freedom-City",
+        "x": -538,
+        "z": 125
+    },
+    {
         "name": "Junction Tunnel",
         "x": 1999,
         "z": 606
@@ -751,6 +881,11 @@ var UnminedPlayers = [
         "z": -459
     },
     {
+        "name": "Marché couvert de Freedom-City",
+        "x": -85,
+        "z": 0
+    },
+    {
         "name": "Mc Donald's Freedom-City",
         "x": -387,
         "z": 248
@@ -846,6 +981,36 @@ var UnminedPlayers = [
         "z": -373
     },
     {
+        "name": "Orpi Freedom-City",
+        "x": -383,
+        "z": -83
+    },
+    {
+        "name": "Orpi Modern-City",
+        "x": 1391,
+        "z": -152
+    },
+    {
+        "name": "Orpi Néo-Modern",
+        "x": 1868,
+        "z": 74
+    },
+    {
+        "name": "Orpi Snow-Hills",
+        "x": -364,
+        "z": -1488
+    },
+    {
+        "name": "Orpi South-City",
+        "x": -1011,
+        "z": 1199
+    },
+    {
+        "name": "Orpi Treerama",
+        "x": -1497,
+        "z": 429
+    },
+    {
         "name": "Palais Royal",
         "x": 1415,
         "z": 1535
@@ -911,9 +1076,14 @@ var UnminedPlayers = [
         "z": 719
     },
     {
+        "name": "Pharmacie Colortown",
+        "x": 14,
+        "z": 312
+    },
+    {
         "name": "Pic de la liberté",
-        "x": -519,
-        "z": -1160
+        "x": -608,
+        "z": -1164
     },
     {
         "name": "Piscine Rivertown",
@@ -954,6 +1124,26 @@ var UnminedPlayers = [
         "name": "Polaris",
         "x": -1875,
         "z": -1747
+    },
+    {
+        "name": "Pôle Emploi Freedom-City",
+        "x": -327,
+        "z": -83
+    },
+    {
+        "name": "Pôle Emploi Néo-Modern",
+        "x": 1867,
+        "z": 248
+    },
+    {
+        "name": "Pôle Emploi Snow-Hills",
+        "x": -382,
+        "z": -1488
+    },
+    {
+        "name": "Pôle Emploi South-City",
+        "x": -1047,
+        "z": 1199
     },
     {
         "name": "Pont Al-Otbouh",
@@ -1056,6 +1246,11 @@ var UnminedPlayers = [
         "z": 772
     },
     {
+        "name": "Poste de police de Brokenly-Woods",
+        "x": 1378,
+        "z": -1130
+    },
+    {
         "name": "Prison désafectée",
         "x": 2180,
         "z": 453
@@ -1074,6 +1269,11 @@ var UnminedPlayers = [
         "name": "Résidence de Baulieux",
         "x": -342,
         "z": -263
+    },
+    {
+        "name": "Restaurant Japonais",
+        "x": -146,
+        "z": 121
     },
     {
         "name": "Rivertown",
@@ -1171,6 +1371,11 @@ var UnminedPlayers = [
         "z": 569
     },
     {
+        "name": "Station service Maxi-Car New-Freedom",
+        "x": 265,
+        "z": -615
+    },
+    {
         "name": "Station service MEGAS N7",
         "x": 1120,
         "z": 1331
@@ -1179,6 +1384,11 @@ var UnminedPlayers = [
         "name": "Station service MEGAS N7 BIS",
         "x": 960,
         "z": 2205
+    },
+    {
+        "name": "Station service Shell Colortown",
+        "x": -220,
+        "z": 159
     },
     {
         "name": "Stonehenge",
@@ -1199,6 +1409,21 @@ var UnminedPlayers = [
         "name": "SuperMart Modern-City",
         "x": 1478,
         "z": -163
+    },
+    {
+        "name": "Téléphérique du Mont-Bloc",
+        "x": -505,
+        "z": -1569
+    },
+    {
+        "name": "Télésiège Alpadia Express",
+        "x": -513,
+        "z": -1475
+    },
+    {
+        "name": "Télésiège Mini Climb",
+        "x": -640,
+        "z": -1726
     },
     {
         "name": "Temple Incraft Est",
@@ -1236,14 +1461,24 @@ var UnminedPlayers = [
         "z": -77
     },
     {
-        "name": "Tour Fisc",
-        "x": -997,
-        "z": 1319
+        "name": "Tour Maxi-Car (siège social)",
+        "x": -1096,
+        "z": 1414
     },
     {
         "name": "Tour météo",
         "x": 271,
         "z": 261
+    },
+    {
+        "name": "Tour Orpi (siège social)",
+        "x": 1868,
+        "z": 74
+    },
+    {
+        "name": "Tour Pôle Emploi (siège social)",
+        "x": 1867,
+        "z": 248
     },
     {
         "name": "Treerama",
@@ -1359,6 +1594,11 @@ var UnminedPlayers = [
         "name": "Usine BCA / Fabrique de billets",
         "x": 2069,
         "z": -210
+    },
+    {
+        "name": "Usine de jouets",
+        "x": -522,
+        "z": -1647
     },
     {
         "name": "Usine TONIC",

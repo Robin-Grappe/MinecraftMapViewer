@@ -2,10 +2,15 @@ Accrobranche : 1584, -829
 Admin Tower : 246, -58
 Aérodrome : -1096, -693
 Aéroport International : 777, -71
+Aéroport Militaire : -107, 902
 Arène de SpruceCliff : -1329, -924
+Arc de Triomphe : 189, 70
 Auto École Freedom-City : 286, -710
 Auto École South-City : -1125, 1189
 Banque Centrale : 118, 139
+Banque Crédit Minecraftien Freedom-City : -186, -83
+Banque Crédit Minecraftien Néo-Modern : 1814, 174
+Banque Crédit Minecraftien South-City / Tour Fisc : -997, 1319
 Banque Old-Gulch : 993, 834
 Barrage de Brokenly-Woods : 1480, -1245
 Barrage de Oasiris : 1574, 906
@@ -15,8 +20,22 @@ Belvédère du Grand Fachit : 856, -1307
 Belvédère du Pic de la Liberté : -519, -1160
 Black-Waterside : 363, -335
 Block-Willer : 189, 518
+Boulanger Freedom-City : -279, 371
+Boutique Orange South-City : -1083, 1192
+Brico Dépot South-City : -822, 1284
 Brokenly-Woods : 1433, -1124
+Builders Tower : 252, 151
+Bureau de poste de Freedom-City : -271, -83
+Bureau de poste de Modern-City : 1391, -182
+Bureau de poste de Snow-Hills : -400, -1488
+Bureau de poste de South-City : -985, 1199
+BUT South-City : -889, 1280
+Cafés Marlonnais : -482, -81
+Camp Indien : 1185, 683
+Camping les Gitans : 1661, -1123
 Capitole / Tour OMEGA : 342, 70
+Carrefour Freedom-City : -387, 346
+Carrefour Montagne Snow-Hills : -445, -1488
 Carrière : 1668, -700
 Caserne pompiers Freedom-City : 153, 379
 Caserne pompiers Modern-City : 1911, 19
@@ -26,10 +45,12 @@ Caserne pompiers Snow-Hills : -469, -1695
 Casino : 380, 295
 Central Business District Freedom-City (CBD) : 347, 183
 Central Business District South-City (CBD) : -1057, 1355
+Centrale électrique Barrage de Brokenly-Woods : 1438, -1282
 Centrale électrique Freedom-City Ouest : -616, -338
 Centrale électrique Freedom-City Nord-Est : 598, -469
 Centrale électrique Freedom-City Sud : 130, 685
 Centrale électrique Mycélia Ouest : 718, 2390
+Centrale électrique Oasiris Est : 1644, 936
 Centre commercial : 271, 261
 Centre pétrolier Maxi-Car : 1507, 707
 Champi-Ville : 1283, 2053
@@ -49,11 +70,13 @@ Commissariat de police Snow-Hills : -421, -1695
 Commissariat de police SpruceCliff : -1235, -1045
 Concessionnaire Maxi-Car Freedom-City : 265, -564
 Concessionnaire Maxi-Car Oasiris : 1364, 1188
-Concessionnaire Maxi-Car South-City / Tour Maxi-Car : -1096, 1414
+Concessionnaire Maxi-Car South-City : -1096, 1414
 Concessionnaire Maxi-Car Snow-Hills : -291, -1489
+Craftorama Freedom-City : -279, 312
 Cristler Building : 561, 305
 Déchetterie / Casse : 242, -371
 Petit désert Theta : 1104, 1468
+Darty South-City : -898, 1204
 Déversoir : -1133, -474
 Douane Megad Solis : 2232, 1368
 Douane Megad Forestia : 2232, 70
@@ -62,6 +85,7 @@ Douane Megad Snowy : 189, -1795
 Douane Megad Fantasia : -1880, -1795
 Dream Lake : 1613, 192
 Dream Tunnel : 1717, 70
+École de Ski Alphadienne (ESA) : -515, -1500
 École primaire : 1826, 17
 Église de Modern-City : 1440, 175
 Église de Old-Gulch : 991, 773
@@ -71,6 +95,7 @@ Ellesdet : 1179, 2951
 Éoliennes Pendore : 300, 1095
 Éoliennes Champion-City : 1835, 2335
 Empire State Building : 380, 295
+E. Leclerc South-City : -828, 1204
 Festival Avenue : 65, -652
 Flatiron Building : 446, 316
 Flowerift : 580, -1621
@@ -125,6 +150,7 @@ Hub Snowy : -510, -1608
 Hub Solis : 1415, 1491
 Hub Stonia : 1433, -1042
 Hub Sunia : -952, 1671
+Ikecraft Freedom-City : -538, 125
 Junction Tunnel : 1999, 606
 La Contrée des Kikoos : -928, -877
 La Motte : 669, 2545
@@ -148,6 +174,7 @@ Mairie de SpruceCliff : -1290, -1063
 Mairie de Strange Land : -1178, -165
 Mairie de Treerama : -1607, 613
 Manoir 301001 : 1449, -459
+Marché couvert de Freedom-City : -85, 0
 Mc Donald's Freedom-City : -387, 248
 Mc Donald's South-City : -850, 1119
 Mini-York : 466, 340
@@ -167,6 +194,12 @@ Old-Gulch : 1009, 824
 OMEGA Industry : 1052, -839
 Obélisque : -131, -451
 Opéra : -209, -373
+Orpi Freedom-City : -383, -83
+Orpi Modern-City : 1391, -152
+Orpi Néo-Modern : 1868, 74 
+Orpi Snow-Hills : -364, -1488
+Orpi South-City : -1011, 1199
+Orpi Treerama : -1497, 429
 Palais Royal : 1415, 1535
 Parc asiatique : 119, -86
 Parc Central : 119, 0
@@ -180,7 +213,8 @@ Phare de Port-Cubic : -1611, -1007
 Phare de Saint Sordache : 500, 2554
 Phare de South-City : -1187, 1710
 Phare des Baleines : -1400, 719
-Pic de la liberté : -519, -1160
+Pharmacie Colortown : 14, 312
+Pic de la liberté : -608, -1164
 Piscine Rivertown : -386, 143
 Pistes de ski : -581, -1536
 Place d'Alphadia : -176, -262
@@ -189,6 +223,10 @@ Plage d'or : -1466, -190
 Plage d'argent : 789, 2146
 Plateforme pétrolière Gamma : -1964, -1459
 Polaris : -1875, -1747
+Pôle Emploi Freedom-City : -327, -83
+Pôle Emploi Néo-Modern : 1867, 248
+Pôle Emploi Snow-Hills : -382, -1488
+Pôle Emploi South-City : -1047, 1199
 Pont Al-Otbouh : 1283, 1762
 Pont de Block-Rivertown : -447, -165
 Pont du Golfe Amont-Gousse : 940, 2304
@@ -209,10 +247,12 @@ Port Glaçon / Station Gamma : -1647, -1522
 Port de commerce de South-City / Docks : -1435, 1340
 Port fluvial de Freedom-City : 316, -242
 Poste de police Old-Gulch : 1025, 772
+Poste de police de Brokenly-Woods : 1378, -1130
 Prison désafectée : 2180, 453
 Pyramide Est : 1162, 1499
 Pyramide Nord : 1044, 1433
 Résidence de Baulieux : -342, -263
+Restaurant Japonais : -146, 121
 Rivertown : -349, 70
 Rocket Bridge : 565, 2766
 Roi Champignon : 1099, 2267
@@ -232,12 +272,17 @@ Sphynx : 1042, 1533
 SpruceCliff : -1290, -968
 Star village : -241, 511
 Station d'épuration : -523, 569
+Station service Maxi-Car New-Freedom : 265, -615
 Station service MEGAS N7 : 1120, 1331
 Station service MEGAS N7 BIS : 960, 2205
+Station service Shell Colortown : -220, 159
 Stonehenge : -1440, -563
 Strange Land : -1210, -132
 Suburbs : 436, -710
 SuperMart Modern-City : 1478, -163
+Téléphérique du Mont-Bloc : -505, -1569
+Télésiège Alpadia Express : -513, -1475
+Télésiège Mini Climb : -640, -1726
 Temple Incraft Est : -1040, 370
 Temple Incraft Nord : -1117, 260
 Temple Incraft Ouest : -1188, 354
@@ -245,8 +290,10 @@ Tour Alpha-Red : 243, 9
 Tour AT1 : 314, -67
 Tour de Glace : -1540, -1373
 Tour de la Mort : 161, -77
-Tour Fisc : -997, 1319
+Tour Maxi-Car (siège social) : -1096, 1414
 Tour météo : 271, 261
+Tour Orpi (siège social) : 1868, 74 
+Tour Pôle Emploi (siège social) : 1867, 248
 Treerama : -1470, 475
 Tunnel champignon : 1737, 2687
 Tunnel de Brokenly-Woods : 1482, -1028
@@ -270,6 +317,7 @@ Twinner Towers : 437, -24
 Université d'Alphadia (Freedom-City) : -74, -268
 Université d'Alphadia (South-City) : -810, 1397
 Usine BCA / Fabrique de billets : 2069, -210
+Usine de jouets : -522, -1647
 Usine TONIC : 1139, 2590
 Viaduc de Brokenly-Woods : 1329, -1229
 Viaduc de Fallen-Kingdom : -1278, -1205
