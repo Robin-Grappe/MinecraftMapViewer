@@ -35,9 +35,19 @@
         "z": 70
     },
     {
+        "name": "Aucactus Oasiris",
+        "x": 1361,
+        "z": 1260
+    },
+    {
         "name": "Auto École Freedom-City",
         "x": 286,
         "z": -710
+    },
+    {
+        "name": "Auto École Oasiris",
+        "x": 1333,
+        "z": 1205
     },
     {
         "name": "Auto École South-City",
@@ -1023,6 +1033,26 @@
         "name": "Parc Central",
         "x": 119,
         "z": 0
+    },
+    {
+        "name": "Parking du Freedom Stadium",
+        "x": -87,
+        "z": -377
+    },
+    {
+        "name": "Parking Jean Jaurès",
+        "x": 54,
+        "z": -97
+    },
+    {
+        "name": "Parking Jean Mahmoud",
+        "x": 1510,
+        "z": 1258
+    },
+    {
+        "name": "Parking Jean Mohammed",
+        "x": 1456,
+        "z": 1230
     },
     {
         "name": "Parthénon",

@@ -5,7 +5,9 @@ Aéroport International : 777, -71
 Aéroport Militaire : -107, 902
 Arène de SpruceCliff : -1329, -924
 Arc de Triomphe : 189, 70
+Aucactus Oasiris : 1361, 1260
 Auto École Freedom-City : 286, -710
+Auto École Oasiris : 1333, 1205
 Auto École South-City : -1125, 1189
 Banque Centrale : 118, 139
 Banque Crédit Minecraftien Freedom-City : -186, -83
@@ -203,6 +205,10 @@ Orpi Treerama : -1497, 429
 Palais Royal : 1415, 1535
 Parc asiatique : 119, -86
 Parc Central : 119, 0
+Parking du Freedom Stadium : -87, -377
+Parking Jean Jaurès : 54, -97
+Parking Jean Mahmoud : 1510, 1258
+Parking Jean Mohammed : 1456, 1230
 Parthénon : 145, 1495
 Patinoire : -409, -1608
 Pendore : 280, 1441
