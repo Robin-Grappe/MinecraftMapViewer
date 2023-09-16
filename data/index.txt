@@ -165,7 +165,7 @@ L'Alpadia : -262, -1561
 Mairie de Brokenly-Woods : 1433, -1124
 Mairie de Champi-Ville / Château rétro : 1220, 2168
 Mairie de Freedom-City : -31, -77
-Mairie de Modern-City / Mairie de Néo Modern : 1625, 70
+Mairie de Modern-City / Mairie de Néo-Modern : 1625, 70
 Mairie de Old-Gulch : 1009, 873
 Mairie de Pendore : 231, 1485
 Mairie de Polaris : -1900, -1747
@@ -249,7 +249,7 @@ Port-Cubic : -1549, -1080
 Port de plaisance de Oasiris : 1563, 1266
 Port de plaisance de Pendore : 188, 1586
 Port de plaisance de South-City : -1210, -1598
-Port Glaçon / Station Gamma : -1647, -1522
+Port-Glaçon : -1647, -1522
 Port de commerce de South-City / Docks : -1435, 1340
 Port fluvial de Freedom-City : 316, -242
 Poste de police Old-Gulch : 1025, 772

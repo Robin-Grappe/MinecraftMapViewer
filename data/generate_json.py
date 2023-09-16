@@ -26,19 +26,19 @@ cities = {
     "Lavandia": 5,
     "Modern-City": 3,
     "Nécropolis": 5,
-    "Néo Modern": 4,
+    "Néo-Modern": 4,
     "Oasiris": 2,
     "Old-Gulch": 4,
     "Pendore": 3,
     "Polaris": 4,
     "Port-Cubic": 4,
-    "Port-Glaçon / Station Gamma": 5,
+    "Port-Glaçon": 5,
     # "Rocket Island": 4,
     "Saint Sordache": 5,
     "Shintao": 4,
     "Snow-Hills": 2,
     "South-City": 2,
-    "Sprucecliff": 3,
+    "SpruceCliff": 3,
     "Strange Land": 4,
     "Treerama": 3
 }
@@ -65,7 +65,7 @@ def verif_int(n) :
     return True
 
 # Build an item of the index json output
-def build_index_item(name, x, z) :
+def build_item(name, x, z) :
     item = ''
     if (i > 1) :
         item += ','
@@ -73,53 +73,32 @@ def build_index_item(name, x, z) :
     {
         "name": "%s",
         "x": %s,
-        "z": %s
-    }''' % (name, x, z)
+        "z": %s''' % (name, x, z)
+    if (name in cities) :
+        item += ''',
+        "city": %s''' % (cities[name])
+    item += '''
+    }'''
     return item
 
-# Build an item of the city json output
-def build_city_item(name, x, z) :
-    if (name in cities) :
-        item = ''
-        if output_cities != '[' :
-            item += ''','''
-        item += '''
-    {
-        "name": "%s",
-        "x": %s,
-        "z": %s,
-        "city_level": %s
-    }''' % (name, x, z, cities[name])
-    else :
-        item = ''
-    return item
+
 
 #################################
 # MAIN
 #################################
 
-output_index = '''['''
-output_cities = '''['''
+output = '''['''
 
 i = 1
 for line in f_input.readlines() :
     name, x, z = parse(line)
-    output_index += build_index_item(name, x, z)
-    output_cities += build_city_item(name, x, z)
+    output += build_item(name, x, z)
     i += 1
 
-output_index += '''
+output += '''
 ]'''
 
 f_output = open("index.json", "w")
-f_output.write(output_index)
+f_output.write(output)
 
 print("\nIndex créé avec succès !")
-
-output_cities += '''
-]'''
-
-f_output = open("cities.json", "w")
-f_output.write(output_cities)
-
-print("\nVilles créé avec succès !")

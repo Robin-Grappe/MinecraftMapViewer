@@ -55,10 +55,14 @@ function initMap(json) {
         UnminedMapProperties.markers = UnminedMapProperties.markers.concat(UnminedCustomMarkers.markers);
     }
 
-    if (UnminedPlayers && queryString) {
-        UnminedPlayersFiltered = filterMarkers(UnminedPlayers, queryString);
+    if (UnminedPlayers) {
+        UnminedPlayersFiltered = filterMarkers(UnminedPlayers, queryString, true);
         if (UnminedPlayersFiltered.length > 0) {
-            center = [UnminedPlayersFiltered[0].x, -UnminedPlayersFiltered[0].z];
+            UnminedPlayersFiltered.forEach(place => {
+                if (! place.city) {
+                    center = [place.x, -place.z];
+                }
+            });
         }
     }
 
@@ -72,13 +76,13 @@ function initMap(json) {
 }
 
 // Filter the json places file
-function filterMarkers(unminedPlayers, str) {
+function filterMarkers(places, str, flags = false) {
     var output = [];
     var keywords = toSimpleString(str);
-        unminedPlayers.forEach(player => {
-            var name = toSimpleString(player.name);
-            if (name.match(escapeRegExp(keywords))) {
-                output.push(player);
+        places.forEach(place => {
+            var name = toSimpleString(place.name);
+            if ((name.match(escapeRegExp(keywords)) && str != '') || (place.city && flags)) {
+                output.push(place);
             }
         });
     return output;

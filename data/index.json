@@ -137,7 +137,8 @@
     {
         "name": "Brokenly-Woods",
         "x": 1433,
-        "z": -1124
+        "z": -1124,
+        "city": 3
     },
     {
         "name": "Builders Tower",
@@ -287,7 +288,8 @@
     {
         "name": "Champi-Ville",
         "x": 1283,
-        "z": 2053
+        "z": 2053,
+        "city": 4
     },
     {
         "name": "Château d'eau",
@@ -477,7 +479,8 @@
     {
         "name": "Ellesdet",
         "x": 1179,
-        "z": 2951
+        "z": 2951,
+        "city": 5
     },
     {
         "name": "Éoliennes Pendore",
@@ -512,12 +515,14 @@
     {
         "name": "Flowerift",
         "x": 580,
-        "z": -1621
+        "z": -1621,
+        "city": 4
     },
     {
         "name": "Freedom-City",
         "x": 54,
-        "z": 70
+        "z": 70,
+        "city": 1
     },
     {
         "name": "Freedom Museum / Musée",
@@ -702,7 +707,8 @@
     {
         "name": "Grilling Island",
         "x": -1665,
-        "z": 1920
+        "z": 1920,
+        "city": 4
     },
     {
         "name": "Gymnase Jean-Pierre Kikoo LOL",
@@ -782,7 +788,8 @@
     {
         "name": "La Contrée des Kikoos",
         "x": -928,
-        "z": -877
+        "z": -877,
+        "city": 5
     },
     {
         "name": "La Motte",
@@ -802,7 +809,8 @@
     {
         "name": "Lavandia",
         "x": 1052,
-        "z": -1109
+        "z": -1109,
+        "city": 5
     },
     {
         "name": "Library 301001",
@@ -835,7 +843,7 @@
         "z": -77
     },
     {
-        "name": "Mairie de Modern-City / Mairie de Néo Modern",
+        "name": "Mairie de Modern-City / Mairie de Néo-Modern",
         "x": 1625,
         "z": 70
     },
@@ -912,7 +920,8 @@
     {
         "name": "Modern-City",
         "x": 1476,
-        "z": 70
+        "z": 70,
+        "city": 3
     },
     {
         "name": "Modern Parking",
@@ -937,12 +946,14 @@
     {
         "name": "Nécropolis",
         "x": 1999,
-        "z": 971
+        "z": 971,
+        "city": 5
     },
     {
         "name": "Néo-Modern",
         "x": 1786,
-        "z": 70
+        "z": 70,
+        "city": 4
     },
     {
         "name": "New-Freedom",
@@ -962,7 +973,8 @@
     {
         "name": "Oasiris",
         "x": 1415,
-        "z": 1314
+        "z": 1314,
+        "city": 2
     },
     {
         "name": "Observatoire ASA",
@@ -972,7 +984,8 @@
     {
         "name": "Old-Gulch",
         "x": 1009,
-        "z": 824
+        "z": 824,
+        "city": 4
     },
     {
         "name": "OMEGA Industry",
@@ -1067,7 +1080,8 @@
     {
         "name": "Pendore",
         "x": 280,
-        "z": 1441
+        "z": 1441,
+        "city": 3
     },
     {
         "name": "Phare champignon",
@@ -1152,7 +1166,8 @@
     {
         "name": "Polaris",
         "x": -1875,
-        "z": -1747
+        "z": -1747,
+        "city": 4
     },
     {
         "name": "Pôle Emploi Freedom-City",
@@ -1237,7 +1252,8 @@
     {
         "name": "Port-Cubic",
         "x": -1549,
-        "z": -1080
+        "z": -1080,
+        "city": 4
     },
     {
         "name": "Port de plaisance de Oasiris",
@@ -1255,9 +1271,10 @@
         "z": -1598
     },
     {
-        "name": "Port Glaçon / Station Gamma",
+        "name": "Port-Glaçon",
         "x": -1647,
-        "z": -1522
+        "z": -1522,
+        "city": 5
     },
     {
         "name": "Port de commerce de South-City / Docks",
@@ -1322,7 +1339,8 @@
     {
         "name": "Saint Sordache",
         "x": 562,
-        "z": 2554
+        "z": 2554,
+        "city": 5
     },
     {
         "name": "Saloon",
@@ -1337,7 +1355,8 @@
     {
         "name": "Shintao",
         "x": -1157,
-        "z": -1610
+        "z": -1610,
+        "city": 4
     },
     {
         "name": "Skull Tunnel",
@@ -1347,7 +1366,8 @@
     {
         "name": "Snow-Hills",
         "x": -343,
-        "z": -1543
+        "z": -1543,
+        "city": 2
     },
     {
         "name": "South Arena",
@@ -1357,7 +1377,8 @@
     {
         "name": "South-City",
         "x": -952,
-        "z": 1355
+        "z": 1355,
+        "city": 2
     },
     {
         "name": "South Country Club",
@@ -1387,7 +1408,8 @@
     {
         "name": "SpruceCliff",
         "x": -1290,
-        "z": -968
+        "z": -968,
+        "city": 3
     },
     {
         "name": "Star village",
@@ -1427,7 +1449,8 @@
     {
         "name": "Strange Land",
         "x": -1210,
-        "z": -132
+        "z": -132,
+        "city": 4
     },
     {
         "name": "Suburbs",
@@ -1512,7 +1535,8 @@
     {
         "name": "Treerama",
         "x": -1470,
-        "z": 475
+        "z": 475,
+        "city": 3
     },
     {
         "name": "Tunnel champignon",
