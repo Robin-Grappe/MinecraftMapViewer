@@ -36,7 +36,7 @@ Use the imageScale property if the pin image is too large.
 
 */
 
-UnminedCustomMarkers = {
+export var UnminedCustomMarkers = {
 
     isEnabled: false,
 

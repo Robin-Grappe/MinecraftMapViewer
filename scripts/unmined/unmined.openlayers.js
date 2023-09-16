@@ -1,4 +1,4 @@
-class Unmined {
+export class Unmined {
     map(mapId, options, regions, center) {
 
         const dpiScale = window.devicePixelRatio ?? 1.0;
