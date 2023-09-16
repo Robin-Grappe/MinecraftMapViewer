@@ -48,14 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     settings_btn.addEventListener('click', () => {
-        if (settings_open) {
-            settings.style.display = "none";
-            settings_btn.textContent = "\uD83D\uDCCC Avancé";
-        } else {
-            settings.style.display = "block";
-            settings_btn.textContent = "\u274C Fermer";
-        }
-        settings_open = !settings_open;
+        toogleSettingsMenu();
     });
 
     // Click on 
@@ -95,7 +88,6 @@ function initMap(json) {
 function filterMarkers(unminedPlayers, str) {
     var output = [];
     var keywords = toSimpleString(str);
-    console.log(all_get == 'on' && str == "");
     unminedPlayers.forEach(player => {
         var name = toSimpleString(player.name);
         if ((all_get == 'on' && str == '') || (name.match(escapeRegExp(keywords)) && str != '')) {
@@ -118,6 +110,8 @@ function escapeRegExp(string) {
 // Autocomplete searching feature
 function autocomplete(places) {
     results_div.style.display = "block";
+    toogleSettingsMenu(false);
+
     var items = "";
     var results = filterMarkers(places, search_bar.value);
     var i = 0;
@@ -138,4 +132,28 @@ function autocomplete(places) {
         results_div.style.display = "none";
     }
     list.innerHTML = items;
+}
+
+function toogleSettingsMenu(force = "none") {
+    if (force == "none") {
+        if (settings_open) {
+            settings.style.display = "none";
+            settings_btn.textContent = "\uD83D\uDCCC Avancé";
+        } else {
+            results_div.style.display = "none";
+            settings.style.display = "block";
+            settings_btn.textContent = "\u274C Fermer";
+        }
+        settings_open = !settings_open;
+    } else {
+        if (force) {
+            results_div.style.display = "none";
+            settings.style.display = "block";
+            settings_btn.textContent = "\u274C Fermer";
+        } else {
+            settings.style.display = "none";
+            settings_btn.textContent = "\uD83D\uDCCC Avancé";
+        }
+        settings_open = force;
+    }
 }
