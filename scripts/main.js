@@ -14,7 +14,7 @@ var urlParams = new URLSearchParams(window.location.search);
 var queryString = decodeURI(urlParams.get('search'));
 
 search_bar.value = (queryString != "null" ? queryString : '');
-document.title = '"' + queryString + '" - ' + document.title;
+document.title = (queryString != "null" && queryString != '' ? '"' + queryString + '"' : 'Alphadia') + ' - ' + document.title;
 
 // Init the map from the json file
 fetch('./data/index.json')
