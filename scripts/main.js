@@ -14,6 +14,7 @@ var urlParams = new URLSearchParams(window.location.search);
 var queryString = decodeURI(urlParams.get('search'));
 
 search_bar.value = (queryString != "null" ? queryString : '');
+document.title = '"' + queryString + '" - ' + document.title;
 
 // Init the map from the json file
 fetch('./data/index.json')
@@ -40,7 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-// Functions
+/****************************
+*        FUNCTIONS
+****************************/
 
 // Init the map from the json file
 function initMap(json) {
@@ -74,7 +77,7 @@ function filterMarkers(unminedPlayers, str) {
     var keywords = toSimpleString(str);
         unminedPlayers.forEach(player => {
             var name = toSimpleString(player.name);
-            if (name.match(keywords)) {
+            if (name.match(escapeRegExp(keywords))) {
                 output.push(player);
             }
         });
@@ -86,6 +89,11 @@ function toSimpleString(str) {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace('-', ' ').trim();
 }
 
+// Convert a string suitable with regex syntax
+function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+  
 // Autocomplete searching feature
 function autocomplete(places) {
     results_div.style.display = "block";
