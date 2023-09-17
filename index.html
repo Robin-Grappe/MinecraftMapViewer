@@ -44,18 +44,41 @@
             <button type="button" id="settings_btn" title="Paramètres et filtres avancés" class="btn">&#128204; Avancé</button>
             <div class="block" id="settings">
                 <span class="setting_item">
-                    <label for="all">&#128205; Afficher tous les lieux par défaut</label>
+                    <label for="all">&#128681; Afficher tous les lieux par défaut</label>
                     <input type="checkbox" id="all" name="all">
                 </span>
                 <span class="setting_item">
-                    <label for="city_level">&#127970; Niveau d'affichage des villes</label>
+                    <label for="city_level">&#127970; Précision d'affichage des villes</label>
                     <select name="city_level" autocomplete="off">
                         <option value="1">Capitale</option>
                         <option value="2">Villes vertes</option>
                         <option value="3">Préfectures</option>
                         <option value="4" selected>Standard</option>
                         <option value="5">Lieux-dits</option>
+                        <option value="6">Quartiers</option>
                         <option value="0">Aucun</option>
+                    </select>
+                </span>
+                <span class="setting_item">
+                    <label for="regions">&#127757; Afficher par régions</label>
+                    <select name="regions" autocomplete="off">
+                        <option value="0" selected>&#127760; Tout</option>
+                        <option value="10">&#127963;&#65039; Centory</option>
+                        <option value="9">&#127984; Fantasia</option>
+                        <option value="8">&#9970; Forestia</option>
+                        <option value="7">&#127970; Freedomia</option>
+                        <option value="6">&#127755; Incraftia</option>
+                        <option value="5">&#127812; Mycélia</option>
+                        <option value="4">&#127956;&#65039; Snowy</option>
+                        <option value="3">&#128332; Solis</option>
+                        <option value="2">&#127794; Stonia</option>
+                        <option value="1">&#127958;&#65039; Sunnia</option>
+                    </select>
+                </span>
+                <span class="setting_item">
+                    <label for="regions">&#128203; Afficher par catégories</label>
+                    <select name="regions" autocomplete="off">
+                        <option value="0" selected>Tout</option>
                     </select>
                 </span>
             </div>
