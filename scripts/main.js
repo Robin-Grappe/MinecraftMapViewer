@@ -135,25 +135,17 @@ function autocomplete(places) {
 }
 
 function toogleSettingsMenu(force = "none") {
-    if (force == "none") {
-        if (settings_open) {
-            settings.style.display = "none";
-            settings_btn.textContent = "\uD83D\uDCCC Avancé";
-        } else {
-            results_div.style.display = "none";
-            settings.style.display = "block";
-            settings_btn.textContent = "\u274C Fermer";
-        }
+    if ((force == "none" && ! settings_open) || (force != "none" && force)) {
+        results_div.style.display = "none";
+        settings.style.display = "block";
+        settings_btn.textContent = "\u274C Fermer";
+    } else { // if ((force == "none" && settings_open) || (force != "none" && ! force)) {
+        settings.style.display = "none";
+        settings_btn.textContent = "\uD83D\uDCCC Avancé";
+    }
+    if (force == 'none') {
         settings_open = !settings_open;
     } else {
-        if (force) {
-            results_div.style.display = "none";
-            settings.style.display = "block";
-            settings_btn.textContent = "\u274C Fermer";
-        } else {
-            settings.style.display = "none";
-            settings_btn.textContent = "\uD83D\uDCCC Avancé";
-        }
         settings_open = force;
     }
 }
