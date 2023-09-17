@@ -1,3 +1,5 @@
+import * as CitiesMarkers from "./cities.markers.js";
+
 export class Unmined {
     map(mapId, options, regions, center) {
 
@@ -229,26 +231,32 @@ export class Unmined {
         });
         return vectorLayer;
     }
-    
-    defaultPlayerMarkerStyle = {
-            image: "./images/custom.pin.png",
-            imageAnchor: [0.5, 0.5],
-            imageScale: 0.25,
-
-            textColor: "white",
-            offsetX: 0,
-            offsetY: 20,
-            font: "14px Verdana",
-            //textStrokeColor: "black",
-            //textStrokeWidth: 2,
-            textBackgroundColor: "#00000088",
-            //textBackgroundStrokeColor: "black",
-            //textBackgroundStrokeWidth: 1,
-            textPadding: [2, 4, 2, 4],
-    }
 
     playerToMarker(player) {
-        var marker = Object.assign({}, this.defaultPlayerMarkerStyle);
+        var markerStyle;
+        switch (player.city) {
+            case 1 :
+                markerStyle = CitiesMarkers.capitalCityMarkerStyle;
+                break;
+            case 2 :
+                markerStyle = CitiesMarkers.greenCityMarkerStyle;
+                break;
+            case 3 :
+                markerStyle = CitiesMarkers.prefectureCityMarkerStyle;
+                break;
+            case 4 :
+                markerStyle = CitiesMarkers.cityMarkerStyle;
+                break;
+            case 5 :
+                markerStyle = CitiesMarkers.hamletMarkerStyle;
+                break;
+            case 6 :
+                markerStyle = CitiesMarkers.neighborhoodMarkerStyle;
+                break;
+            default:
+                markerStyle = CitiesMarkers.defaultPlaceMarkerStyle;
+        }
+        var marker = Object.assign({}, markerStyle);
         marker.x = player.x;
         marker.z = player.z;
         marker.text = player.name;

@@ -1,4 +1,5 @@
 import sys
+from cities import cities
 
 if (len(sys.argv) < 2 or sys.argv[1] == None) :
     exit("There is no file name.")
@@ -6,8 +7,6 @@ if (len(sys.argv) < 2 or sys.argv[1] == None) :
 filename = sys.argv[1]
 
 f_input = open(filename, "r")
-lines_length = len(f_input.readlines())
-f_input.seek(0)
 
 # Parse a line to get the name, x and z
 def parse(line) :
@@ -30,17 +29,28 @@ def verif_int(n) :
         print("Line " + i + " : \"" + n + "\" is not an integer.")
     return True
 
-# Build an item of the json output
+# Build an item of the index json output
 def build_item(name, x, z) :
-    item = '''
+    item = ''
+    if (i > 1) :
+        item += ','
+    item += '''
     {
         "name": "%s",
         "x": %s,
-        "z": %s
-    }''' % (name, x, z)
-    if (i < lines_length) :
-        item += ','
+        "z": %s''' % (name, x, z)
+    if (name in cities) :
+        item += ''',
+        "city": %s''' % (cities[name])
+    item += '''
+    }'''
     return item
+
+
+
+#################################
+# MAIN
+#################################
 
 output = '''['''
 
@@ -56,4 +66,4 @@ output += '''
 f_output = open("index.json", "w")
 f_output.write(output)
 
-print("\nFichier créé avec succès !")
+print("\nIndex créé avec succès !")

@@ -17,7 +17,8 @@
     {
         "name": "Aéroport International",
         "x": 777,
-        "z": -71
+        "z": -71,
+        "city": 6
     },
     {
         "name": "Aéroport Militaire",
@@ -112,12 +113,14 @@
     {
         "name": "Black-Waterside",
         "x": 363,
-        "z": -335
+        "z": -335,
+        "city": 6
     },
     {
         "name": "Block-Willer",
         "x": 189,
-        "z": 518
+        "z": 518,
+        "city": 6
     },
     {
         "name": "Boulanger Freedom-City",
@@ -137,7 +140,8 @@
     {
         "name": "Brokenly-Woods",
         "x": 1433,
-        "z": -1124
+        "z": -1124,
+        "city": 3
     },
     {
         "name": "Builders Tower",
@@ -235,14 +239,16 @@
         "z": 295
     },
     {
-        "name": "Central Business District Freedom-City (CBD)",
+        "name": "CBD Freedom-City",
         "x": 347,
-        "z": 183
+        "z": 183,
+        "city": 6
     },
     {
-        "name": "Central Business District South-City (CBD)",
+        "name": "CBD South-City",
         "x": -1057,
-        "z": 1355
+        "z": 1355,
+        "city": 6
     },
     {
         "name": "Centrale électrique Barrage de Brokenly-Woods",
@@ -285,9 +291,22 @@
         "z": 707
     },
     {
+        "name": "Centre-ville (Freedom-City)",
+        "x": 54,
+        "z": 0,
+        "city": 6
+    },
+    {
+        "name": "Centre-ville (Oasiris)",
+        "x": 1453,
+        "z": 1452,
+        "city": 6
+    },
+    {
         "name": "Champi-Ville",
         "x": 1283,
-        "z": 2053
+        "z": 2053,
+        "city": 4
     },
     {
         "name": "Château d'eau",
@@ -327,7 +346,8 @@
     {
         "name": "Colortown",
         "x": -73,
-        "z": 236
+        "z": 236,
+        "city": 6
     },
     {
         "name": "Commissariat de police Freedom-City",
@@ -410,6 +430,12 @@
         "z": -474
     },
     {
+        "name": "Docks de South-City",
+        "x": -1435,
+        "z": 1340,
+        "city": 6
+    },
+    {
         "name": "Douane Megad Solis",
         "x": 2232,
         "z": 1368
@@ -477,7 +503,8 @@
     {
         "name": "Ellesdet",
         "x": 1179,
-        "z": 2951
+        "z": 2951,
+        "city": 5
     },
     {
         "name": "Éoliennes Pendore",
@@ -502,7 +529,8 @@
     {
         "name": "Festival Avenue",
         "x": 65,
-        "z": -652
+        "z": -652,
+        "city": 6
     },
     {
         "name": "Flatiron Building",
@@ -512,12 +540,14 @@
     {
         "name": "Flowerift",
         "x": 580,
-        "z": -1621
+        "z": -1621,
+        "city": 4
     },
     {
         "name": "Freedom-City",
         "x": 54,
-        "z": 70
+        "z": 70,
+        "city": 1
     },
     {
         "name": "Freedom Museum / Musée",
@@ -537,7 +567,8 @@
     {
         "name": "Free-Grass / Baulieux",
         "x": -288,
-        "z": -484
+        "z": -484,
+        "city": 6
     },
     {
         "name": "Gare Centrale",
@@ -685,9 +716,16 @@
         "z": -163
     },
     {
+        "name": "Golden Sands",
+        "x": 1541,
+        "z": 980,
+        "city": 6
+    },
+    {
         "name": "Golden Village",
         "x": -1056,
-        "z": 1017
+        "z": 1017,
+        "city": 6
     },
     {
         "name": "Golf",
@@ -702,7 +740,8 @@
     {
         "name": "Grilling Island",
         "x": -1665,
-        "z": 1920
+        "z": 1920,
+        "city": 4
     },
     {
         "name": "Gymnase Jean-Pierre Kikoo LOL",
@@ -782,7 +821,8 @@
     {
         "name": "La Contrée des Kikoos",
         "x": -928,
-        "z": -877
+        "z": -877,
+        "city": 5
     },
     {
         "name": "La Motte",
@@ -802,7 +842,8 @@
     {
         "name": "Lavandia",
         "x": 1052,
-        "z": -1109
+        "z": -1109,
+        "city": 5
     },
     {
         "name": "Library 301001",
@@ -835,7 +876,7 @@
         "z": -77
     },
     {
-        "name": "Mairie de Modern-City / Mairie de Néo Modern",
+        "name": "Mairie de Modern-City / Mairie de Néo-Modern",
         "x": 1625,
         "z": 70
     },
@@ -907,12 +948,14 @@
     {
         "name": "Mini-York",
         "x": 466,
-        "z": 340
+        "z": 340,
+        "city": 6
     },
     {
         "name": "Modern-City",
         "x": 1476,
-        "z": 70
+        "z": 70,
+        "city": 3
     },
     {
         "name": "Modern Parking",
@@ -937,17 +980,20 @@
     {
         "name": "Nécropolis",
         "x": 1999,
-        "z": 971
+        "z": 971,
+        "city": 5
     },
     {
         "name": "Néo-Modern",
         "x": 1786,
-        "z": 70
+        "z": 70,
+        "city": 4
     },
     {
         "name": "New-Freedom",
         "x": 440,
-        "z": -600
+        "z": -600,
+        "city": 6
     },
     {
         "name": "Notre Dame de Freedom-City",
@@ -962,7 +1008,8 @@
     {
         "name": "Oasiris",
         "x": 1415,
-        "z": 1314
+        "z": 1314,
+        "city": 2
     },
     {
         "name": "Observatoire ASA",
@@ -972,7 +1019,8 @@
     {
         "name": "Old-Gulch",
         "x": 1009,
-        "z": 824
+        "z": 824,
+        "city": 4
     },
     {
         "name": "OMEGA Industry",
@@ -1067,7 +1115,8 @@
     {
         "name": "Pendore",
         "x": 280,
-        "z": 1441
+        "z": 1441,
+        "city": 3
     },
     {
         "name": "Phare champignon",
@@ -1152,7 +1201,8 @@
     {
         "name": "Polaris",
         "x": -1875,
-        "z": -1747
+        "z": -1747,
+        "city": 4
     },
     {
         "name": "Pôle Emploi Freedom-City",
@@ -1237,7 +1287,8 @@
     {
         "name": "Port-Cubic",
         "x": -1549,
-        "z": -1080
+        "z": -1080,
+        "city": 4
     },
     {
         "name": "Port de plaisance de Oasiris",
@@ -1255,12 +1306,13 @@
         "z": -1598
     },
     {
-        "name": "Port Glaçon / Station Gamma",
+        "name": "Port-Glaçon",
         "x": -1647,
-        "z": -1522
+        "z": -1522,
+        "city": 5
     },
     {
-        "name": "Port de commerce de South-City / Docks",
+        "name": "Port de commerce de South-City",
         "x": -1435,
         "z": 1340
     },
@@ -1307,7 +1359,8 @@
     {
         "name": "Rivertown",
         "x": -349,
-        "z": 70
+        "z": 70,
+        "city": 6
     },
     {
         "name": "Rocket Bridge",
@@ -1322,12 +1375,19 @@
     {
         "name": "Saint Sordache",
         "x": 562,
-        "z": 2554
+        "z": 2554,
+        "city": 5
     },
     {
         "name": "Saloon",
         "x": 1028,
         "z": 831
+    },
+    {
+        "name": "Sand Bay",
+        "x": -953,
+        "z": 1616,
+        "city": 6
     },
     {
         "name": "Sand Bridge",
@@ -1337,7 +1397,8 @@
     {
         "name": "Shintao",
         "x": -1157,
-        "z": -1610
+        "z": -1610,
+        "city": 4
     },
     {
         "name": "Skull Tunnel",
@@ -1347,7 +1408,8 @@
     {
         "name": "Snow-Hills",
         "x": -343,
-        "z": -1543
+        "z": -1543,
+        "city": 2
     },
     {
         "name": "South Arena",
@@ -1357,7 +1419,8 @@
     {
         "name": "South-City",
         "x": -952,
-        "z": 1355
+        "z": 1355,
+        "city": 2
     },
     {
         "name": "South Country Club",
@@ -1387,12 +1450,14 @@
     {
         "name": "SpruceCliff",
         "x": -1290,
-        "z": -968
+        "z": -968,
+        "city": 3
     },
     {
-        "name": "Star village",
+        "name": "Star Village",
         "x": -241,
-        "z": 511
+        "z": 511,
+        "city": 6
     },
     {
         "name": "Station d'épuration",
@@ -1427,7 +1492,8 @@
     {
         "name": "Strange Land",
         "x": -1210,
-        "z": -132
+        "z": -132,
+        "city": 4
     },
     {
         "name": "Suburbs",
@@ -1512,7 +1578,8 @@
     {
         "name": "Treerama",
         "x": -1470,
-        "z": 475
+        "z": 475,
+        "city": 3
     },
     {
         "name": "Tunnel champignon",
@@ -1677,11 +1744,13 @@
     {
         "name": "Zone Commerciale (Freedom-City)",
         "x": -349,
-        "z": 301
+        "z": 301,
+        "city": 6
     },
     {
         "name": "Zone Commerciale (South-City)",
         "x": -952,
-        "z": 1150
+        "z": 1150,
+        "city": 6
     }
 ]

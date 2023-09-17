@@ -74,7 +74,11 @@ function initMap(json) {
     if (UnminedPlayers) {
         UnminedPlayersFiltered = filterMarkers(UnminedPlayers, search_get, false);
         if (UnminedPlayersFiltered.length > 0) {
-            center = [UnminedPlayersFiltered[0].x, -UnminedPlayersFiltered[0].z];
+            UnminedPlayersFiltered.forEach(place => {
+                if (! place.city) {
+                    center = [place.x, -place.z];
+                }
+            });
         }
     }
 
@@ -88,18 +92,18 @@ function initMap(json) {
 }
 
 // Filter the json places file
-function filterMarkers(unminedPlayers, str, autocomplete = true) {
+function filterMarkers(places, str, autocomplete = true) {
     var output = [];
     var keywords = toSimpleString(str);
-        unminedPlayers.forEach(player => {
-            var name = toSimpleString(player.name);
-            if ((noStrictSearchOrAutocomplete(autocomplete) && matchNonVoidString(name, keywords)) || displayAllAndVoidString(keywords)) {
-                output.push(player);
-            }
-            if (strictSearch(strict_get, name, keywords)) {
-                output.push(player);
-            }
-        });
+    places.forEach(place => {
+        var name = toSimpleString(place.name);
+        if ((noStrictSearchOrAutocomplete(autocomplete) && matchNonVoidString(name, keywords)) || displayAllAndVoidString(keywords) || (place.city && !autocomplete)) {
+            output.push(place);
+        }
+        if (strictSearch(strict_get, name, keywords)) {
+            output.push(place);
+        }
+    });
     return output;
 }
 
