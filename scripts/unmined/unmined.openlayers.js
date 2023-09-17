@@ -1,3 +1,5 @@
+import * as CitiesMarkers from "./cities.markers.js";
+
 export class Unmined {
     map(mapId, options, regions, center) {
 
@@ -229,129 +231,27 @@ export class Unmined {
         });
         return vectorLayer;
     }
-    
-    defaultPlaceMarkerStyle = {
-        image: "./images/custom.pin.png",
-        imageAnchor: [0.5, 1],
-        imageScale: 0.25,
-
-        textColor: "white",
-        offsetX: 0,
-        offsetY: 20,
-        font: "14px Verdana",
-        //textStrokeColor: "black",
-        //textStrokeWidth: 2,
-        textBackgroundColor: "#00000088",
-        //textBackgroundStrokeColor: "black",
-        //textBackgroundStrokeWidth: 1,
-        textPadding: [2, 4, 2, 4],
-    }
-
-    capitalCityMarkerStyle = {
-        image: "./images/star.png",
-        imageAnchor: [0.5, 0.5],
-        imageScale: 0.125,
-
-        textColor: "#fecf0f",
-        offsetX: 0,
-        offsetY: 25,
-        font: "30px Verdana",
-        textStrokeColor: "black",
-        textStrokeWidth: 2,
-        //textBackgroundColor: "#00000088",
-        //textBackgroundStrokeColor: "black",
-        //textBackgroundStrokeWidth: 1,
-        textPadding: [2, 4, 2, 4],
-    }
-
-    greenCityMarkerStyle = {
-        image: "./images/green_city.png",
-        imageAnchor: [0.5, 0.5],
-        imageScale: 0.1,
-
-        textColor: "#08c608",
-        offsetX: 0,
-        offsetY: 20,
-        font: "20px Verdana",
-        textStrokeColor: "black",
-        textStrokeWidth: 2,
-        //textBackgroundColor: "#00000088",
-        //textBackgroundStrokeColor: "black",
-        //textBackgroundStrokeWidth: 1,
-        textPadding: [2, 4, 2, 4],
-    }
-
-    prefectureCityMarkerStyle = {
-        image: "./images/prefecture.png",
-        imageAnchor: [0.5, 0.5],
-        imageScale: 0.1,
-
-        textColor: "white",
-        offsetX: 0,
-        offsetY: 20,
-        font: "20px Verdana",
-        textStrokeColor: "black",
-        textStrokeWidth: 2,
-        //textBackgroundColor: "#00000088",
-        //textBackgroundStrokeColor: "black",
-        //textBackgroundStrokeWidth: 1,
-        textPadding: [2, 4, 2, 4],
-    }
-
-    cityMarkerStyle = {
-        image: "./images/city.webp",
-        imageAnchor: [0.5, 0.5],
-        imageScale: 0.03,
-
-        textColor: "white",
-        offsetX: 0,
-        offsetY: 10,
-        font: "15px Verdana",
-        textStrokeColor: "black",
-        textStrokeWidth: 2,
-        //textBackgroundColor: "#00000088",
-        //textBackgroundStrokeColor: "black",
-        //textBackgroundStrokeWidth: 1,
-        textPadding: [2, 4, 2, 4],
-    }
-
-    hamletMarkerStyle = {
-        image: "./images/hamlet.png",
-        imageAnchor: [0.5, 0.5],
-        imageScale: 0.01,
-
-        textColor: "black",
-        offsetX: 0,
-        offsetY: 10,
-        font: "12.5px Verdana",
-        textStrokeColor: "black",
-        textStrokeWidth: 1,
-        //textBackgroundColor: "#00000088",
-        //textBackgroundStrokeColor: "black",
-        //textBackgroundStrokeWidth: 1,
-        textPadding: [2, 4, 2, 4],
-    }
 
     playerToMarker(player) {
         var markerStyle;
         switch (player.city) {
             case 1 :
-                markerStyle = this.capitalCityMarkerStyle;
+                markerStyle = CitiesMarkers.capitalCityMarkerStyle;
                 break;
             case 2 :
-                markerStyle = this.greenCityMarkerStyle;
+                markerStyle = CitiesMarkers.greenCityMarkerStyle;
                 break;
             case 3 :
-                markerStyle = this.prefectureCityMarkerStyle;
+                markerStyle = CitiesMarkers.prefectureCityMarkerStyle;
                 break;
             case 4 :
-                markerStyle = this.cityMarkerStyle;
+                markerStyle = CitiesMarkers.cityMarkerStyle;
                 break;
             case 5 :
-                markerStyle = this.hamletMarkerStyle;
+                markerStyle = CitiesMarkers.hamletMarkerStyle;
                 break;
             default:
-                markerStyle = this.defaultPlaceMarkerStyle;
+                markerStyle = CitiesMarkers.defaultPlaceMarkerStyle;
         }
         var marker = Object.assign({}, markerStyle);
         marker.x = player.x;
