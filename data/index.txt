@@ -45,8 +45,8 @@ Caserne pompiers Oasiris : 1525, 1388
 Caserne pompiers South-City : -1136, 1509
 Caserne pompiers Snow-Hills : -469, -1695
 Casino : 380, 295
-Central Business District Freedom-City (CBD) : 347, 183
-Central Business District South-City (CBD) : -1057, 1355
+CBD Freedom-City : 347, 183
+CBD South-City : -1057, 1355
 Centrale électrique Barrage de Brokenly-Woods : 1438, -1282
 Centrale électrique Freedom-City Ouest : -616, -338
 Centrale électrique Freedom-City Nord-Est : 598, -469
@@ -55,6 +55,8 @@ Centrale électrique Mycélia Ouest : 718, 2390
 Centrale électrique Oasiris Est : 1644, 936
 Centre commercial : 271, 261
 Centre pétrolier Maxi-Car : 1507, 707
+Centre-ville (Freedom-City) : 54, 0
+Centre-ville (Oasiris) : 1453, 1452
 Champi-Ville : 1283, 2053
 Château d'eau : 844, -438
 Château de Fallen-Kingdom : -867, -1087
@@ -80,6 +82,7 @@ Déchetterie / Casse : 242, -371
 Petit désert Theta : 1104, 1468
 Darty South-City : -898, 1204
 Déversoir : -1133, -474
+Docks de South-City : -1435, 1340
 Douane Megad Solis : 2232, 1368
 Douane Megad Forestia : 2232, 70
 Douane Megad Stonia : 937, -1795
@@ -135,6 +138,7 @@ Gare du Sud : -1264, 1237
 Gîte de la Maxi-Bonne-Franquette : -791, -1748
 Glacier du Mont-Bloc : -882, -1528
 Golden Bridge : 189, -163
+Golden Sands : 1541, 980
 Golden Village : -1056, 1017
 Golf : -969, 845
 Golfe Amont-Gousse : 875, 2304
@@ -250,7 +254,7 @@ Port de plaisance de Oasiris : 1563, 1266
 Port de plaisance de Pendore : 188, 1586
 Port de plaisance de South-City : -1210, -1598
 Port-Glaçon : -1647, -1522
-Port de commerce de South-City / Docks : -1435, 1340
+Port de commerce de South-City : -1435, 1340
 Port fluvial de Freedom-City : 316, -242
 Poste de police Old-Gulch : 1025, 772
 Poste de police de Brokenly-Woods : 1378, -1130
@@ -264,6 +268,7 @@ Rocket Bridge : 565, 2766
 Roi Champignon : 1099, 2267
 Saint Sordache : 562, 2554
 Saloon : 1028, 831
+Sand Bay : -953, 1616
 Sand Bridge : -682, 1327
 Shintao : -1157, -1610
 Skull Tunnel : -1462, -1127
@@ -276,7 +281,7 @@ South Park : -898, 1426
 Souk de Oasiris : 1480, 1031
 Sphynx : 1042, 1533
 SpruceCliff : -1290, -968
-Star village : -241, 511
+Star Village : -241, 511
 Station d'épuration : -523, 569
 Station service Maxi-Car New-Freedom : 265, -615
 Station service MEGAS N7 : 1120, 1331

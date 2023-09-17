@@ -250,6 +250,9 @@ export class Unmined {
             case 5 :
                 markerStyle = CitiesMarkers.hamletMarkerStyle;
                 break;
+            case 6 :
+                markerStyle = CitiesMarkers.neighborhoodMarkerStyle;
+                break;
             default:
                 markerStyle = CitiesMarkers.defaultPlaceMarkerStyle;
         }

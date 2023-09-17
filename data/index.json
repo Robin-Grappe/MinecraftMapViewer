@@ -17,7 +17,8 @@
     {
         "name": "Aéroport International",
         "x": 777,
-        "z": -71
+        "z": -71,
+        "city": 6
     },
     {
         "name": "Aéroport Militaire",
@@ -112,12 +113,14 @@
     {
         "name": "Black-Waterside",
         "x": 363,
-        "z": -335
+        "z": -335,
+        "city": 6
     },
     {
         "name": "Block-Willer",
         "x": 189,
-        "z": 518
+        "z": 518,
+        "city": 6
     },
     {
         "name": "Boulanger Freedom-City",
@@ -236,14 +239,16 @@
         "z": 295
     },
     {
-        "name": "Central Business District Freedom-City (CBD)",
+        "name": "CBD Freedom-City",
         "x": 347,
-        "z": 183
+        "z": 183,
+        "city": 6
     },
     {
-        "name": "Central Business District South-City (CBD)",
+        "name": "CBD South-City",
         "x": -1057,
-        "z": 1355
+        "z": 1355,
+        "city": 6
     },
     {
         "name": "Centrale électrique Barrage de Brokenly-Woods",
@@ -284,6 +289,18 @@
         "name": "Centre pétrolier Maxi-Car",
         "x": 1507,
         "z": 707
+    },
+    {
+        "name": "Centre-ville (Freedom-City)",
+        "x": 54,
+        "z": 0,
+        "city": 6
+    },
+    {
+        "name": "Centre-ville (Oasiris)",
+        "x": 1453,
+        "z": 1452,
+        "city": 6
     },
     {
         "name": "Champi-Ville",
@@ -329,7 +346,8 @@
     {
         "name": "Colortown",
         "x": -73,
-        "z": 236
+        "z": 236,
+        "city": 6
     },
     {
         "name": "Commissariat de police Freedom-City",
@@ -410,6 +428,12 @@
         "name": "Déversoir",
         "x": -1133,
         "z": -474
+    },
+    {
+        "name": "Docks de South-City",
+        "x": -1435,
+        "z": 1340,
+        "city": 6
     },
     {
         "name": "Douane Megad Solis",
@@ -505,7 +529,8 @@
     {
         "name": "Festival Avenue",
         "x": 65,
-        "z": -652
+        "z": -652,
+        "city": 6
     },
     {
         "name": "Flatiron Building",
@@ -542,7 +567,8 @@
     {
         "name": "Free-Grass / Baulieux",
         "x": -288,
-        "z": -484
+        "z": -484,
+        "city": 6
     },
     {
         "name": "Gare Centrale",
@@ -690,9 +716,16 @@
         "z": -163
     },
     {
+        "name": "Golden Sands",
+        "x": 1541,
+        "z": 980,
+        "city": 6
+    },
+    {
         "name": "Golden Village",
         "x": -1056,
-        "z": 1017
+        "z": 1017,
+        "city": 6
     },
     {
         "name": "Golf",
@@ -915,7 +948,8 @@
     {
         "name": "Mini-York",
         "x": 466,
-        "z": 340
+        "z": 340,
+        "city": 6
     },
     {
         "name": "Modern-City",
@@ -958,7 +992,8 @@
     {
         "name": "New-Freedom",
         "x": 440,
-        "z": -600
+        "z": -600,
+        "city": 6
     },
     {
         "name": "Notre Dame de Freedom-City",
@@ -1277,7 +1312,7 @@
         "city": 5
     },
     {
-        "name": "Port de commerce de South-City / Docks",
+        "name": "Port de commerce de South-City",
         "x": -1435,
         "z": 1340
     },
@@ -1324,7 +1359,8 @@
     {
         "name": "Rivertown",
         "x": -349,
-        "z": 70
+        "z": 70,
+        "city": 6
     },
     {
         "name": "Rocket Bridge",
@@ -1346,6 +1382,12 @@
         "name": "Saloon",
         "x": 1028,
         "z": 831
+    },
+    {
+        "name": "Sand Bay",
+        "x": -953,
+        "z": 1616,
+        "city": 6
     },
     {
         "name": "Sand Bridge",
@@ -1412,9 +1454,10 @@
         "city": 3
     },
     {
-        "name": "Star village",
+        "name": "Star Village",
         "x": -241,
-        "z": 511
+        "z": 511,
+        "city": 6
     },
     {
         "name": "Station d'épuration",
@@ -1701,11 +1744,13 @@
     {
         "name": "Zone Commerciale (Freedom-City)",
         "x": -349,
-        "z": 301
+        "z": 301,
+        "city": 6
     },
     {
         "name": "Zone Commerciale (South-City)",
         "x": -952,
-        "z": 1150
+        "z": 1150,
+        "city": 6
     }
 ]

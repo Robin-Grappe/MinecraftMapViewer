@@ -1,4 +1,5 @@
 import sys
+from cities import cities
 
 if (len(sys.argv) < 2 or sys.argv[1] == None) :
     exit("There is no file name.")
@@ -6,42 +7,6 @@ if (len(sys.argv) < 2 or sys.argv[1] == None) :
 filename = sys.argv[1]
 
 f_input = open(filename, "r")
-
-# Cities dictionnary (City name : city level)
-# 1 : Capital
-# 2 : Green City
-# 3 : Prefecture
-# 4 : Standard city
-# 5 : Hamlet
-cities = {
-    # "Atlantis": 4
-    "Brokenly-Woods": 3,
-    "Champi-Ville": 4,
-    # "Champion-City": 2
-    "Ellesdet": 5,
-    "Flowerift": 4,
-    "Freedom-City": 1,
-    "Grilling Island": 4,
-    "La Contrée des Kikoos": 5,
-    "Lavandia": 5,
-    "Modern-City": 3,
-    "Nécropolis": 5,
-    "Néo-Modern": 4,
-    "Oasiris": 2,
-    "Old-Gulch": 4,
-    "Pendore": 3,
-    "Polaris": 4,
-    "Port-Cubic": 4,
-    "Port-Glaçon": 5,
-    # "Rocket Island": 4,
-    "Saint Sordache": 5,
-    "Shintao": 4,
-    "Snow-Hills": 2,
-    "South-City": 2,
-    "SpruceCliff": 3,
-    "Strange Land": 4,
-    "Treerama": 3
-}
 
 # Parse a line to get the name, x and z
 def parse(line) :

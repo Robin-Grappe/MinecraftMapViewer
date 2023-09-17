@@ -101,11 +101,11 @@ export var hamletMarkerStyle = {
 }
 
 export var neighborhoodMarkerStyle = {
-    image: "./images/hamlet.png",
+    image: "./images/neighborhood.png",
     imageAnchor: [0.5, 0.5],
-    imageScale: 0.01,
+    imageScale: 0.0025,
 
-    textColor: "maroon",
+    textColor: "red",
     offsetX: 0,
     offsetY: 10,
     font: "12.5px Verdana",
