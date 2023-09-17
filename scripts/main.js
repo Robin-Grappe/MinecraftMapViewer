@@ -14,14 +14,14 @@ var settings = document.getElementById('settings');
 var settings_btn = document.getElementById('settings_btn');
 var settings_open = false;
 var all = document.getElementById('all');
+var city = document.getElementById('city');
 var urlParams = new URLSearchParams(window.location.search);
 var search_get = decodeURI(urlParams.get('search'));
 var strict_get = decodeURI(urlParams.get('strict'));
+var city_get = decodeURI(urlParams.get('city'));
 var all_get = decodeURI(urlParams.get('all'));
 
-search_bar.value = (search_get != "null" ? search_get : '');
-document.title = (search_get != "null" && search_get != '' ? '"' + search_get + '"' : 'Alphadia') + ' - ' + document.title;
-all.checked = (all_get == "on" ? true : false);
+initGet();
 
 // Init the map from the json file
 fetch('./data/index.json')
@@ -50,16 +50,30 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    // Click on settings / filters menu
     settings_btn.addEventListener('click', () => {
         toogleSettingsMenu();
     });
-
-    // Click on 
 });
 
 /****************************
 *        FUNCTIONS
 ****************************/
+
+// Init the page from get parameters
+function initGet() {
+    search_bar.value = (search_get != "null" ? search_get : '');
+    document.title = (search_get != "null" && search_get != '' ? '"' + search_get + '"' : 'Alphadia') + ' - ' + document.title;
+    all.checked = (all_get == "on" ? true : false);
+
+    var selected_city = (city_get != "null" ? city_get : 4);
+    for (let option of city.children) {
+        if (option.value == selected_city) {
+            option.selected = true;
+            break;
+        }
+    }
+}
 
 // Init the map from the json file
 function initMap(json) {
@@ -75,8 +89,9 @@ function initMap(json) {
         UnminedPlayersFiltered = filterMarkers(UnminedPlayers, search_get, false);
         if (UnminedPlayersFiltered.length > 0) {
             UnminedPlayersFiltered.forEach(place => {
-                if (! place.city) {
-                    center = [place.x, -place.z];
+                var c = findPerfectCenter(place)
+                if (c != false) {
+                    center = c;
                 }
             });
         }
@@ -89,6 +104,19 @@ function initMap(json) {
     }
 
     unmined.map('map', UnminedMapProperties, UnminedRegions, center);
+}
+
+// Find the perfect place to center the map
+function findPerfectCenter(place) {
+    var name = toSimpleString(place.name);
+    var keywords = toSimpleString(search_get);
+    if (name == keywords) {
+        return [place.x, -place.z];
+    }
+    if (matchNonVoidString(name, keywords)) {
+        return [place.x, -place.z];
+    }
+    return false;
 }
 
 // Filter the json places file
