@@ -85,6 +85,7 @@ div.ol-mouse-position {
 .block {
     background-color: var(--toolbar-color);
     padding: 10px;
+    font-size: 15px;
 }
 
 #results {

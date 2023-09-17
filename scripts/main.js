@@ -71,8 +71,8 @@ function initMap(json) {
         UnminedMapProperties.markers = UnminedMapProperties.markers.concat(UnminedCustomMarkers.markers);
     }
 
-    if (UnminedPlayers && search_get) {
-        UnminedPlayersFiltered = filterMarkers(UnminedPlayers, search_get, true);
+    if (UnminedPlayers) {
+        UnminedPlayersFiltered = filterMarkers(UnminedPlayers, search_get, false);
         if (UnminedPlayersFiltered.length > 0) {
             center = [UnminedPlayersFiltered[0].x, -UnminedPlayersFiltered[0].z];
         }
@@ -88,19 +88,33 @@ function initMap(json) {
 }
 
 // Filter the json places file
-function filterMarkers(unminedPlayers, str, flags = false) {
+function filterMarkers(unminedPlayers, str, autocomplete = true) {
     var output = [];
     var keywords = toSimpleString(str);
         unminedPlayers.forEach(player => {
             var name = toSimpleString(player.name);
-            if ((all_get == 'on' && str == '') || ((strict_get == 0 || ! flags) && name.match(escapeRegExp(keywords)))) {
+            if ((noStrictSearchOrAutocomplete(autocomplete) && matchNonVoidString(name, keywords)) || displayAllAndVoidString(keywords)) {
                 output.push(player);
             }
-            if (strict_get == 1 && name == keywords) {
+            if (strictSearch(strict_get, name, keywords)) {
                 output.push(player);
             }
         });
     return output;
+}
+
+// Logical filtering functions
+function displayAllAndVoidString(str) {
+    return (all_get == 'on' && str == '');
+}
+function noStrictSearchOrAutocomplete(autocomplete) {
+    return (strict_get == 0 || autocomplete);
+}
+function matchNonVoidString(name, keywords) {
+    return (name.match(escapeRegExp(keywords)) && keywords != '');
+}
+function strictSearch(strict_get, name, keywords) {
+    return (strict_get == 1 && name == keywords);
 }
 
 // Convert a string into a more researchable string
