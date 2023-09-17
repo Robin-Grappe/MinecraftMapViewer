@@ -9,14 +9,19 @@ var search_bar = document.getElementById('search');
 var search_form = document.getElementById('search-form');
 var list = document.getElementById('results-list');
 var results_div = document.getElementById('results');
-var result_item = document.querySelectorAll('.result-item');
 var strict = document.getElementById('strict');
+var settings = document.getElementById('settings');
+var settings_btn = document.getElementById('settings_btn');
+var settings_open = false;
+var all = document.getElementById('all');
 var urlParams = new URLSearchParams(window.location.search);
 var search_get = decodeURI(urlParams.get('search'));
 var strict_get = decodeURI(urlParams.get('strict'));
+var all_get = decodeURI(urlParams.get('all'));
 
 search_bar.value = (search_get != "null" ? search_get : '');
 document.title = (search_get != "null" && search_get != '' ? '"' + search_get + '"' : 'Alphadia') + ' - ' + document.title;
+all.checked = (all_get == "on" ? true : false);
 
 // Init the map from the json file
 fetch('./data/index.json')
@@ -27,7 +32,8 @@ fetch('./data/index.json')
 
 // Listeners
 document.addEventListener("DOMContentLoaded", () => {
-    search_bar.addEventListener("keyup", (e) => {
+    // Autocomplete search when typing keyboard
+    search_bar.addEventListener("keyup", () => {
         fetch('./data/index.json')
             .then((response) => response.json())
             .then((json) => {
@@ -35,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    // Click on a autocomplete card
     list.addEventListener('click', (e) => {
         if (e.target.classList.contains('result-item')) {
             search_bar.value = e.target.textContent;
@@ -42,6 +49,12 @@ document.addEventListener("DOMContentLoaded", () => {
             search_form.submit();
         }
     });
+
+    settings_btn.addEventListener('click', () => {
+        toogleSettingsMenu();
+    });
+
+    // Click on 
 });
 
 /****************************
@@ -80,7 +93,7 @@ function filterMarkers(unminedPlayers, str, flags = false) {
     var keywords = toSimpleString(str);
         unminedPlayers.forEach(player => {
             var name = toSimpleString(player.name);
-            if ((strict_get == 0 || ! flags) && name.match(escapeRegExp(keywords))) {
+            if ((all_get == 'on' && str == '') || ((strict_get == 0 || ! flags) && name.match(escapeRegExp(keywords)))) {
                 output.push(player);
             }
             if (strict_get == 1 && name == keywords) {
@@ -103,6 +116,8 @@ function escapeRegExp(string) {
 // Autocomplete searching feature
 function autocomplete(places) {
     results_div.style.display = "block";
+    toogleSettingsMenu(false);
+
     var items = "";
     var results = filterMarkers(places, search_bar.value);
     var i = 0;
@@ -123,4 +138,20 @@ function autocomplete(places) {
         results_div.style.display = "none";
     }
     list.innerHTML = items;
+}
+
+function toogleSettingsMenu(force = "none") {
+    if ((force == "none" && ! settings_open) || (force != "none" && force)) {
+        results_div.style.display = "none";
+        settings.style.display = "block";
+        settings_btn.textContent = "\u274C Fermer";
+    } else { // if ((force == "none" && settings_open) || (force != "none" && ! force)) {
+        settings.style.display = "none";
+        settings_btn.textContent = "\uD83D\uDCCC Avancé";
+    }
+    if (force == 'none') {
+        settings_open = !settings_open;
+    } else {
+        settings_open = force;
+    }
 }
