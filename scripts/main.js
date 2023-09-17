@@ -20,6 +20,7 @@ var search_get = decodeURI(urlParams.get('search'));
 var strict_get = decodeURI(urlParams.get('strict'));
 var city_get = decodeURI(urlParams.get('city'));
 var all_get = decodeURI(urlParams.get('all'));
+var selected_city = (city_get != "null" ? city_get : 4);
 
 initGet();
 
@@ -66,7 +67,6 @@ function initGet() {
     document.title = (search_get != "null" && search_get != '' ? '"' + search_get + '"' : 'Alphadia') + ' - ' + document.title;
     all.checked = (all_get == "on" ? true : false);
 
-    var selected_city = (city_get != "null" ? city_get : 4);
     for (let option of city.children) {
         if (option.value == selected_city) {
             option.selected = true;
@@ -125,7 +125,7 @@ function filterMarkers(places, str, autocomplete = true) {
     var keywords = toSimpleString(str);
     places.forEach(place => {
         var name = toSimpleString(place.name);
-        if ((noStrictSearchOrAutocomplete(autocomplete) && matchNonVoidString(name, keywords)) || displayAllAndVoidString(keywords) || (place.city && !autocomplete)) {
+        if ((noStrictSearchOrAutocomplete(autocomplete) && matchNonVoidString(name, keywords)) || displayAllVoidStringAndNoCity(keywords, place.city) || cityFilterWithoutAutocomplete(place.city, autocomplete)) {
             output.push(place);
         }
         if (strictSearch(strict_get, name, keywords)) {
@@ -136,8 +136,8 @@ function filterMarkers(places, str, autocomplete = true) {
 }
 
 // Logical filtering functions
-function displayAllAndVoidString(str) {
-    return (all_get == 'on' && str == '');
+function displayAllVoidStringAndNoCity(str, city) {
+    return (all_get == 'on' && str == '' && !city);
 }
 function noStrictSearchOrAutocomplete(autocomplete) {
     return (strict_get == 0 || autocomplete);
@@ -147,6 +147,9 @@ function matchNonVoidString(name, keywords) {
 }
 function strictSearch(strict_get, name, keywords) {
     return (strict_get == 1 && name == keywords);
+}
+function cityFilterWithoutAutocomplete(city, autocomplete) {
+    return (city <= selected_city && !autocomplete);
 }
 
 // Convert a string into a more researchable string
