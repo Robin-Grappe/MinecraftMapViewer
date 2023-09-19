@@ -1,5 +1,6 @@
 :root {
     --toolbar-color: lightgray;
+    --dark-gray: dimgray;
 }
 
 @font-face {
@@ -48,29 +49,61 @@ div.ol-mouse-position {
 #toolbar {
     text-align: center;
     padding: 10px;
-    background-color: var(--toolbar-color);
+    padding-bottom: 15px;
+    background: linear-gradient(to bottom, var(--toolbar-color) 85%, var(--dark-gray));
     border-bottom: black 1px solid;
 }
 
-#logo_alpha {
+#logo-alpha {
     position: absolute;
     left: -10px;
     top: -5px;
-    width: 75px;
+    width: 85px;
     margin: 0px;
 }
 
 #search {
-    width: 30%;
-    height: 25px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: black 1.5px solid;
+}
+
+#search-btn {
+    border-color: #00a6ed;
+    color: #00a6ed;
+}
+
+#search-btn:hover {
+    border-color: white;
+    color: white;
+    background-color: #00a6ed;
+}
+
+#settings-btn {
+    border-color: #f8312f;
+    color: #f8312f;
+}
+
+#settings-btn:hover {
+    border-color: white;
+    color: white;
+    background-color: #f8312f;
 }
 
 .btn {
-    height: 30px;
+    height: 35px;
+    border-radius: 10px;
+    border: black 1.5px solid;
+    font-weight: bold;
+    background-color: white;
 }
 
 .btn:hover {
     cursor: pointer;
+    box-shadow: 5px 5px 5px var(--dark-gray);
+    transition: box-shadow, background-color, color;
+    transition-duration: 0.5s;
 }
 
 .ol-zoom button {
@@ -91,6 +124,7 @@ div.ol-mouse-position {
 #results {
     display: none;
     border-bottom: black 1px solid;
+    background: linear-gradient(to bottom, var(--toolbar-color) 95%, var(--dark-gray));
 }
 
 ul#results-list {
@@ -119,7 +153,7 @@ li.result-item {
 }
 
 li.result-item:hover {
-    background-color: dimgray;
+    background-color: var(--dark-gray);
     cursor: pointer;
     transition-property: padding-right, padding-left, color, border-radius;
     transition-duration: 0.5s;
@@ -136,6 +170,7 @@ li.other-results {
     display: none;
     border-top: black 1px solid;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .setting_item {
