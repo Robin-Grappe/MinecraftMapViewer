@@ -55,6 +55,10 @@ document.addEventListener("DOMContentLoaded", () => {
     settings_btn.addEventListener('click', () => {
         toogleSettingsMenu();
     });
+
+    city.addEventListener('change', () => {
+        search_form.submit();
+    });
 });
 
 /****************************
