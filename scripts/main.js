@@ -15,12 +15,19 @@ var settings_btn = document.getElementById('settings_btn');
 var settings_open = false;
 var all = document.getElementById('all');
 var city = document.getElementById('city');
+var region = document.getElementById('region');
+
+const DEFAULT_CITY = 4;
+const DEFAULT_REGION = 0;
+
 var urlParams = new URLSearchParams(window.location.search);
 var search_get = decodeURI(urlParams.get('search'));
 var strict_get = decodeURI(urlParams.get('strict'));
 var city_get = decodeURI(urlParams.get('city'));
 var all_get = decodeURI(urlParams.get('all'));
-var selected_city = (city_get != "null" ? city_get : 4);
+var region_get = decodeURI(urlParams.get('region'));
+var selected_city = (city_get != "null" ? city_get : DEFAULT_CITY);
+var selected_region = (region_get != "null" ? region_get : DEFAULT_REGION);
 
 initGet();
 
@@ -55,6 +62,11 @@ document.addEventListener("DOMContentLoaded", () => {
     settings_btn.addEventListener('click', () => {
         toogleSettingsMenu();
     });
+
+    // Update the form when the region select is changed
+    region.addEventListener('change', () => {
+        search_form.submit();
+    })
 });
 
 /****************************
@@ -66,10 +78,15 @@ function initGet() {
     search_bar.value = (search_get != "null" ? search_get : '');
     document.title = (search_get != "null" && search_get != '' ? '"' + search_get + '"' : 'Alphadia') + ' - ' + document.title;
     all.checked = (all_get == "on" ? true : false);
+    initSelect(city, selected_city);
+    initSelect(region, selected_region);
+}
 
-    for (let option of city.children) {
-        if (option.value == selected_city) {
+function initSelect(select, default_value) {
+    for (let option of select.children) {
+        if (option.value == default_value) {
             option.selected = true;
+            console.log(select);
             break;
         }
     }
