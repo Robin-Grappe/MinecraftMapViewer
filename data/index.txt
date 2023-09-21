@@ -12,7 +12,7 @@ Auto École South-City, Sunnia : -1125, 1189
 Banque Centrale, Freedomia : 118, 139
 Banque Crédit Minecraftien Freedom-City, Freedomia : -186, -83
 Banque Crédit Minecraftien Néo-Modern, Forestia : 1814, 174
-Banque Crédit Minecraftien South-City, Sunnia / Tour Fisc : -997, 1319
+Banque Crédit Minecraftien South-City / Tour Fisc, Sunnia : -997, 1319
 Banque Old-Gulch, Solis : 993, 834
 Barrage de Brokenly-Woods, Stonia : 1480, -1245
 Barrage de Oasiris, Solis : 1574, 906
@@ -56,7 +56,7 @@ Centrale électrique Oasiris Est, Solis : 1644, 936
 Centre commercial CBD, Freedomia : 271, 261
 Centre pétrolier Maxi-Car, Solis : 1507, 707
 Centre-ville (Freedom-City), Freedomia : 54, 0
-Centre-ville (Oasiris), Sunnia : 1453, 1452
+Centre-ville (Oasiris), Solis : 1453, 1452
 Champi-Ville, Mycélia : 1283, 2053
 Château d'eau, Freedomia : 844, -438
 Château de Fallen-Kingdom, Fantasia : -867, -1087
@@ -122,11 +122,11 @@ Gare de péage de Fallen-Kingdom, Fantasia : -634, -1323
 Gare de péage de Flowerift, Snowy : 580, -1503
 Gare de péage de Golden Sands, Solis : 1630, 1089
 Gare de péage de Modern-City, Forestia : 1209, 70
-Gare de péage de New-Freedom, Freedomia : 189, -1056
+Gare de péage de New-Freedom, Snowy : 189, -1056
 Gare de péage de Oasiris, Solis : 1465, 1145
-Gare de péage de Rivertown, Solis : -801, 63
+Gare de péage de Rivertown, Incraftia : -801, 63
 Gare de péage de Snow-Hills, Snowy : -71, -1639
-Gare de péage de South-City Est, Sunnia : -422, 1327
+Gare de péage de South-City Est, Centory : -422, 1327
 Gare de péage des Baleines, Sunnia : -1347, 1020
 Gare de péage des Plaines, Centory : 275, 1026
 Gare de Pendore, Centory : 135, 1424
@@ -239,13 +239,13 @@ Pôle Emploi Freedom-City, Freedomia : -327, -83
 Pôle Emploi Néo-Modern, Forestia : 1867, 248
 Pôle Emploi Snow-Hills, Snowy : -382, -1488
 Pôle Emploi South-City, Sunnia : -1047, 1199
-Pont Al-Otbouh, Sunnia / Mycélia : 1283, 1762
+Pont Al-Otbouh, Solis / Mycélia : 1283, 1762
 Pont de Block-Rivertown, Freedomia : -447, -165
 Pont du Golfe Amont-Gousse, Mycélia : 940, 2304
 Pont du Hub, Freedomia : 0, -163
 Pont fortifié, Fantasia : -1462, -1229
 Pont HLMique, Freedomia : 343, 437
-Pont Jacques Carré, Sunnia / Fantasia : 940, 1743
+Pont Jacques Carré, Solis / Mycélia : 940, 1743
 Pont Jean-Jaurès, Freedomia : -116, -163
 Pont M, Incraftia, Freedomia : -624, 62
 Pont Traversier, Mycélia / Solis : 1999, 1737
@@ -254,7 +254,7 @@ Pont de Fallen-Kingdom Nordn, Fantasia : -958, -1230
 Port-Cubic, Fantasia : -1549, -1080
 Port de plaisance de Oasiris, Solis : 1563, 1266
 Port de plaisance de Pendore, Centory : 188, 1586
-Port de plaisance de South-City, Sunnia : -1210, -1598
+Port de plaisance de South-City, Sunnia : -1210, 1598
 Port-Glaçon, Fantasia : -1647, -1522
 Port de commerce de South-City, Sunnia : -1435, 1340
 Port fluvial de Freedom-City, Freedomia : 316, -242
