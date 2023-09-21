@@ -63,7 +63,12 @@ document.addEventListener("DOMContentLoaded", () => {
         toogleSettingsMenu();
     });
 
-    // Update the form when the region select is changed
+    // Update the form when the city select has changed
+    city.addEventListener('change', () => {
+        search_form.submit();
+    });
+
+    // Update the form when the region select has changed
     region.addEventListener('change', () => {
         search_form.submit();
     })
