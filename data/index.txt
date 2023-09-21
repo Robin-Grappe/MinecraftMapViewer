@@ -1,342 +1,344 @@
-Accrobranche : 1584, -829
-Admin Tower : 246, -58
-Aérodrome : -1096, -693
-Aéroport International : 777, -71
-Aéroport Militaire : -107, 902
-Arène de SpruceCliff : -1329, -924
-Arc de Triomphe : 189, 70
-Aucactus Oasiris : 1361, 1260
-Auto École Freedom-City : 286, -710
-Auto École Oasiris : 1333, 1205
-Auto École South-City : -1125, 1189
-Banque Centrale : 118, 139
-Banque Crédit Minecraftien Freedom-City : -186, -83
-Banque Crédit Minecraftien Néo-Modern : 1814, 174
-Banque Crédit Minecraftien South-City / Tour Fisc : -997, 1319
-Banque Old-Gulch : 993, 834
-Barrage de Brokenly-Woods : 1480, -1245
-Barrage de Oasiris : 1574, 906
-Base Militaire OMEGA Sud : -294, 1005
-Base Militaire OMEGA Ouest : -1427, -770
-Belvédère du Grand Fachit : 856, -1307
-Belvédère du Pic de la Liberté : -519, -1160
-Black-Waterside : 363, -335
-Block-Willer : 189, 518
-Boulanger Freedom-City : -279, 371
-Boutique Orange South-City : -1083, 1192
-Brico Dépot South-City : -822, 1284
-Brokenly-Woods : 1433, -1124
-Builders Tower : 252, 151
-Bureau de poste de Freedom-City : -271, -83
-Bureau de poste de Modern-City : 1391, -182
-Bureau de poste de Snow-Hills : -400, -1488
-Bureau de poste de South-City : -985, 1199
-BUT South-City : -889, 1280
-Cafés Marlonnais : -482, -81
-Camp Indien : 1185, 683
-Camping les Gitans : 1661, -1123
-Capitole / Tour OMEGA : 342, 70
-Carrefour Freedom-City : -387, 346
-Carrefour Montagne Snow-Hills : -445, -1488
-Carrière : 1668, -700
-Caserne pompiers Freedom-City : 153, 379
-Caserne pompiers Modern-City : 1911, 19
-Caserne pompiers Oasiris : 1525, 1388
-Caserne pompiers South-City : -1136, 1509
-Caserne pompiers Snow-Hills : -469, -1695
-Casino : 380, 295
-CBD Freedom-City : 347, 183
-CBD South-City : -1057, 1355
-Centrale électrique Barrage de Brokenly-Woods : 1438, -1282
-Centrale électrique Freedom-City Ouest : -616, -338
-Centrale électrique Freedom-City Nord-Est : 598, -469
-Centrale électrique Freedom-City Sud : 130, 685
-Centrale électrique Mycélia Ouest : 718, 2390
-Centrale électrique Oasiris Est : 1644, 936
-Centre commercial : 271, 261
-Centre pétrolier Maxi-Car : 1507, 707
-Centre-ville (Freedom-City) : 54, 0
-Centre-ville (Oasiris) : 1453, 1452
-Champi-Ville : 1283, 2053
-Château d'eau : 844, -438
-Château de Fallen-Kingdom : -867, -1087
-Cimetière de Freedom-City : -184, 359
-Cimetière de Port-Cubic : -1551, -1149
-Clairière aux geysers : -1121, 595
-Collège Jean-Pierre Kikoo LOL : -293, 139
-Colisée : 1558, 1497
-Colortown : -73, 236
-Commissariat de police Freedom-City : -181, -7
-Commissariat de police Modern-City : 1429, -125
-Commissariat de police Oasiris : 1525, 1418
-Commissariat de police South-City : -1136, 1589
-Commissariat de police Snow-Hills : -421, -1695
-Commissariat de police SpruceCliff : -1235, -1045
-Concessionnaire Maxi-Car Freedom-City : 265, -564
-Concessionnaire Maxi-Car Oasiris : 1364, 1188
-Concessionnaire Maxi-Car South-City : -1096, 1414
-Concessionnaire Maxi-Car Snow-Hills : -291, -1489
-Craftorama Freedom-City : -279, 312
-Cristler Building : 561, 305
-Déchetterie / Casse : 242, -371
-Petit désert Theta : 1104, 1468
-Darty South-City : -898, 1204
-Déversoir : -1133, -474
-Docks de South-City : -1435, 1340
-Douane Megad Solis : 2232, 1368
-Douane Megad Forestia : 2232, 70
-Douane Megad Stonia : 937, -1795
-Douane Megad Snowy : 189, -1795
-Douane Megad Fantasia : -1880, -1795
-Dream Lake : 1613, 192
-Dream Tunnel : 1717, 70
-École de Ski Alphadienne (ESA) : -515, -1500
-École primaire : 1826, 17
-Église de Modern-City : 1440, 175
-Église de Old-Gulch : 991, 773
-Église de Port-Cubic : -1514, -1009
-Église de Snow-Hills : -544, -1695
-Ellesdet : 1179, 2951
-Éoliennes Pendore : 300, 1095
-Éoliennes Champion-City : 1835, 2335
-Empire State Building : 380, 295
-E. Leclerc South-City : -828, 1204
-Festival Avenue : 65, -652
-Flatiron Building : 446, 316
-Flowerift : 580, -1621
-Freedom-City : 54, 70
-Freedom Museum / Musée : 100, 261
-Freedom Stadium / Stade : 65, -394
-Freedom Trophy / Circuit F1 : 607, -668
-Free-Grass / Baulieux : -288, -484
-Gare Centrale : 568, 176
-Gare de Brokenly-Woods : 1022, -1013
-Gare de Champi-Ville : 1305, 2259
-Gare de Flowerift : 580, -1681
-Gare de Modern-City : 1391, -167
-Gare de Oasiris : 1283, 1452
-Gare de Old-Gulch : 1028, 802
-Gare de péage de Block-Willer : 189, 715
-Gare de péage de Champion-City : 1999, 2206
-Gare de péage de Fallen-Kingdom : -634, -1323
-Gare de péage de Flowerift : 580, -1503
-Gare de péage de Golden Sands : 1630, 1089
-Gare de péage de Modern-City : 1209, 70
-Gare de péage de New-Freedom : 189, -1056
-Gare de péage de Oasiris : 1465, 1145
-Gare de péage de Rivertown : -801, 63
-Gare de péage de Snow-Hills : -71, -1639
-Gare de péage de South-City Est : -422, 1327
-Gare de péage des Baleines : -1347, 1020
-Gare de péage des Plaines : 275, 1026
-Gare de Pendore : 135, 1424
-Gare de Polaris : -1812, -1765
-Gare de Shintao : -1170, -1560
-Gare de Snow-Hills : -197, -1501
-Gare du Nord : -271, -602
-Gare du Sud : -1264, 1237
-Gîte de la Maxi-Bonne-Franquette : -791, -1748
-Glacier du Mont-Bloc : -882, -1528
-Golden Bridge : 189, -163
-Golden Sands : 1541, 980
-Golden Village : -1056, 1017
-Golf : -969, 845
-Golfe Amont-Gousse : 875, 2304
-Grilling Island : -1665, 1920
-Gymnase Jean-Pierre Kikoo LOL : -295, 235
-Hales Farm : 744, 747
-Harbor Bridge : 484, -158
-Hôpital Freedom-City : 93, -265
-Hub Centory : 280, 1609
-Hub Fantasia : -1290, -1026
-Hub Forestia : 1590, 70
-Hub Freedomia : 0, 0
-Hub Incraftia : -1561, 475
-Hub Snowy : -510, -1608
-Hub Solis : 1415, 1491
-Hub Stonia : 1433, -1042
-Hub Sunia : -952, 1671
-Ikecraft Freedom-City : -538, 125
-Junction Tunnel : 1999, 606
-La Contrée des Kikoos : -928, -877
-La Motte : 669, 2545
-Lagon tropical : -1245, 675
-Lambda Park : -952, 1778
-Lavandia : 1052, -1109
-Library 301001 : 1940, 210
-Luminopolis : -912, 1102
-L'Alpadia : -262, -1561
-Mairie de Brokenly-Woods : 1433, -1124
-Mairie de Champi-Ville / Château rétro : 1220, 2168
-Mairie de Freedom-City : -31, -77
-Mairie de Modern-City / Mairie de Néo-Modern : 1625, 70
-Mairie de Old-Gulch : 1009, 873
-Mairie de Pendore : 231, 1485
-Mairie de Polaris : -1900, -1747
-Mairie de Shintao : -1170, -1560
-Mairie de Snow-Hills : -585, -1608
-Mairie de South-City : -1024, 1548
-Mairie de SpruceCliff : -1290, -1063
-Mairie de Strange Land : -1178, -165
-Mairie de Treerama : -1607, 613
-Manoir 301001 : 1449, -459
-Marché couvert de Freedom-City : -85, 0
-Mc Donald's Freedom-City : -387, 248
-Mc Donald's South-City : -850, 1119
-Mini-York : 466, 340
-Modern-City : 1476, 70
-Modern Parking : 1843, 118
-Mont-Bloc : -780, -1544
-Mont du Grand Fachit : 803, -1359
-Mont du Petit Fachit : 503, -1135
-Nécropolis : 1999, 971
-Néo-Modern : 1786, 70
-New-Freedom : 440, -600
-Notre Dame de Freedom-City : -88, 359
-Notre Dame de SpruceCliff : -1385, -967
-Oasiris : 1415, 1314
-Observatoire ASA : -557, -484
-Old-Gulch : 1009, 824
-OMEGA Industry : 1052, -839
-Obélisque : -131, -451
-Opéra : -209, -373
-Orpi Freedom-City : -383, -83
-Orpi Modern-City : 1391, -152
-Orpi Néo-Modern : 1868, 74 
-Orpi Snow-Hills : -364, -1488
-Orpi South-City : -1011, 1199
-Orpi Treerama : -1497, 429
-Palais Royal : 1415, 1535
-Parc asiatique : 119, -86
-Parc Central : 119, 0
-Parking du Freedom Stadium : -87, -377
-Parking Jean Jaurès : 54, -97
-Parking Jean Mahmoud : 1510, 1258
-Parking Jean Mohammed : 1456, 1230
-Parthénon : 145, 1495
-Patinoire : -409, -1608
-Pendore : 280, 1441
-Phare champignon : 1736, 2745
-Phare de Oasiris : 1615, 1645
-Phare de Pendore : 446, 1567
-Phare de Port-Cubic : -1611, -1007
-Phare de Saint Sordache : 500, 2554
-Phare de South-City : -1187, 1710
-Phare des Baleines : -1400, 719
-Pharmacie Colortown : 14, 312
-Pic de la liberté : -608, -1164
-Piscine Rivertown : -386, 143
-Pistes de ski : -581, -1536
-Place d'Alphadia : -176, -262
-Place de Colortown : -79, 282
-Plage d'or : -1466, -190
-Plage d'argent : 789, 2146
-Plateforme pétrolière Gamma : -1964, -1459
-Polaris : -1875, -1747
-Pôle Emploi Freedom-City : -327, -83
-Pôle Emploi Néo-Modern : 1867, 248
-Pôle Emploi Snow-Hills : -382, -1488
-Pôle Emploi South-City : -1047, 1199
-Pont Al-Otbouh : 1283, 1762
-Pont de Block-Rivertown : -447, -165
-Pont du Golfe Amont-Gousse : 940, 2304
-Pont du Hub : 0, -163
-Pont fortifié : -1462, -1229
-Pont HLMique : 343, 437
-Pont Jacques Carré : 940, 1743
-Pont Jean-Jaurès : -116, -163
-Pont M : -624, 62
-Pont traversier : 1999, 1737
-Pont de Fallen-Kingdom Ouest : -1078, -1015
-Pont de Fallen-Kingdom Nord : -958, -1230
-Port-Cubic : -1549, -1080
-Port de plaisance de Oasiris : 1563, 1266
-Port de plaisance de Pendore : 188, 1586
-Port de plaisance de South-City : -1210, -1598
-Port-Glaçon : -1647, -1522
-Port de commerce de South-City : -1435, 1340
-Port fluvial de Freedom-City : 316, -242
-Poste de police Old-Gulch : 1025, 772
-Poste de police de Brokenly-Woods : 1378, -1130
-Prison désafectée : 2180, 453
-Pyramide Est : 1162, 1499
-Pyramide Nord : 1044, 1433
-Résidence de Baulieux : -342, -263
-Restaurant Japonais : -146, 121
-Rivertown : -349, 70
-Rocket Bridge : 565, 2766
-Roi Champignon : 1099, 2267
-Saint Sordache : 562, 2554
-Saloon : 1028, 831
-Sand Bay : -953, 1616
-Sand Bridge : -682, 1327
-Shintao : -1157, -1610
-Skull Tunnel : -1462, -1127
-Snow-Hills : -343, -1543
-South Arena : -1306, 1407
-South-City : -952, 1355
-South Country Club : -1009, 971
-South Palace : -859, 1544
-South Park : -898, 1426
-Souk de Oasiris : 1480, 1031
-Sphynx : 1042, 1533
-SpruceCliff : -1290, -968
-Star Village : -241, 511
-Station d'épuration : -523, 569
-Station service Maxi-Car New-Freedom : 265, -615
-Station service MEGAS N7 : 1120, 1331
-Station service MEGAS N7 BIS : 960, 2205
-Station service Shell Colortown : -220, 159
-Stonehenge : -1440, -563
-Strange Land : -1210, -132
-Suburbs : 436, -710
-SuperMart Modern-City : 1478, -163
-Téléphérique du Mont-Bloc : -505, -1569
-Télésiège Alpadia Express : -513, -1475
-Télésiège Mini Climb : -640, -1726
-Temple Incraft Est : -1040, 370
-Temple Incraft Nord : -1117, 260
-Temple Incraft Ouest : -1188, 354
-Tour Alpha-Red : 243, 9
-Tour AT1 : 314, -67
-Tour de Glace : -1540, -1373
-Tour de la Mort : 161, -77
-Tour Maxi-Car (siège social) : -1096, 1414
-Tour météo : 271, 261
-Tour Orpi (siège social) : 1868, 74 
-Tour Pôle Emploi (siège social) : 1867, 248
-Treerama : -1470, 475
-Tunnel champignon : 1737, 2687
-Tunnel de Brokenly-Woods : 1482, -1028
-Tunnel de Fallen-Kingdom : -958, -1364
-Tunnel de l'aéroport : 870, 70
-Tunnel de la Motte : 841, 2687
-Tunnel de Snow-Hills : -286, -1645
-Tunnel de SpruceCliff : -1393, -436
-Tunnel de Treerama : -1337, 485
-Tunnel des Baleines : -1347, 800
-Tunnel des Pistes : 1053, 70
-Tunnel du Far-Est : 1327, 575
-Tunnel du Grand Fachit : 856, -1364
-Tunnel du Littoral : 1850, 1342
-Tunnel Glaçon : -1647, -1394
-Tunnel Marin : -1050, 1327
-Tunnel Militaire : -70, 1327
-Tunnel Paravalanchique : 1772, -120
-Tunnel Rouge : 1327, 851
-Twinner Towers : 437, -24
-Université d'Alphadia (Freedom-City) : -74, -268
-Université d'Alphadia (South-City) : -810, 1397
-Usine BCA / Fabrique de billets : 2069, -210
-Usine de jouets : -522, -1647
-Usine TONIC : 1139, 2590
-Viaduc de Brokenly-Woods : 1329, -1229
-Viaduc de Fallen-Kingdom : -1278, -1205
-Viaduc de Snow-Hills : 189, -1364
-Viaduc des Trois Gorges : 940, -1364
-Viaduc du Littoral : 1850, 1407
-Volcan / Montagne Sacrée : -946, 627
-York Square : 414, 373
-Youtube Building : 309, 376
-Zone Commerciale (Freedom-City) : -349, 301
-Zone Commerciale (South-City) : -952, 1150
+Accrobranche, Stonnia : 1584, -829
+Admin Tower, Freedomia : 246, -58
+Aérodrome, Fantasia : -1096, -693
+Aéroport International, Freedomia : 777, -71
+Aéroport Militaire, Centory : -107, 902
+Arène de SpruceCliff, Fantasia : -1329, -924
+Arc de Triomphe, Freedomia : 189, 70
+Aucactus Oasiris, Solis : 1361, 1260
+Auto École Freedom-City, Freedomia : 286, -710
+Auto École Oasiris, Solis : 1333, 1205
+Auto École South-City, Sunnia : -1125, 1189
+Banque Centrale, Freedomia : 118, 139
+Banque Crédit Minecraftien Freedom-City, Freedomia : -186, -83
+Banque Crédit Minecraftien Néo-Modern, Forestia : 1814, 174
+Banque Crédit Minecraftien South-City, Sunnia / Tour Fisc : -997, 1319
+Banque Old-Gulch, Solis : 993, 834
+Barrage de Brokenly-Woods, Stonia : 1480, -1245
+Barrage de Oasiris, Solis : 1574, 906
+Base Militaire OMEGA Sud, Centory : -294, 1005
+Base Militaire OMEGA Ouest, Fantasia : -1427, -770
+Belvédère du Grand Fachit, Snowy : 856, -1307
+Belvédère du Pic de la Liberté, Snowy : -519, -1160
+Black-Waterside, Freedomia : 363, -335
+Block-Willer, Freedomia : 189, 518
+Boulanger Freedom-City, Freedomia : -279, 371
+Boutique Orange South-City, Sunnia : -1083, 1192
+Brico Dépot South-City, Sunnia : -822, 1284
+Brokenly-Woods, Stonia : 1433, -1124
+Builders Tower, Freedomia : 252, 151
+Bureau de poste de Freedom-City, Freedomia : -271, -83
+Bureau de poste de Modern-City, Forestia : 1391, -182
+Bureau de poste de Snow-Hills, Snowy : -400, -1488
+Bureau de poste de South-City, Sunnia : -985, 1199
+BUT South-City, Sunnia : -889, 1280
+Cafés Marlonnais, Freedomia : -482, -81
+Camp Indien, Solis : 1185, 683
+Camping les Gitans, Stonia : 1661, -1123
+Capitole / Tour OMEGA, Freedomia : 342, 70
+Carrefour Freedom-City, Freedomia : -387, 346
+Carrefour Montagne Snow-Hills, Snowy : -445, -1488
+Carrière, Stonia : 1668, -700
+Caserne pompiers Freedom-City, Freedomia : 153, 379
+Caserne pompiers Modern-City, Forestia : 1911, 19
+Caserne pompiers Oasiris, Solis : 1525, 1388
+Caserne pompiers South-City, Sunnia : -1136, 1509
+Caserne pompiers Snow-Hills, Snowy : -469, -1695
+Casino Freedom-City, Freedomia : 380, 295
+CBD Freedom-City, Freedomia : 347, 183
+CBD South-City, Sunnia : -1057, 1355
+Centrale électrique Brokenly-Woods, Stonia : 1438, -1282
+Centrale électrique Freedom-City Ouest, Freedomia : -616, -338
+Centrale électrique Freedom-City Nord-Est, Freedomia : 598, -469
+Centrale électrique Freedom-City Sud, Freedomia : 130, 685
+Centrale électrique Mycélia Ouest, Mycélia : 718, 2390
+Centrale électrique Oasiris Est, Solis : 1644, 936
+Centre commercial CBD, Freedomia : 271, 261
+Centre pétrolier Maxi-Car, Solis : 1507, 707
+Centre-ville (Freedom-City), Freedomia : 54, 0
+Centre-ville (Oasiris), Sunnia : 1453, 1452
+Champi-Ville, Mycélia : 1283, 2053
+Château d'eau, Freedomia : 844, -438
+Château de Fallen-Kingdom, Fantasia : -867, -1087
+Cimetière de Freedom-City, Freedomia : -184, 359
+Cimetière de Port-Cubic, Fantasia : -1551, -1149
+Clairière aux geysers, Incraftia : -1121, 595
+Collège Jean-Pierre Kikoo LOL, Freedomia : -293, 139
+Colisée, Solis : 1558, 1497
+Colortown, Freedomia : -73, 236
+Commissariat de police Freedom-City, Freedomia : -181, -7
+Commissariat de police Modern-City, Forestia : 1429, -125
+Commissariat de police Oasiris, Solis : 1525, 1418
+Commissariat de police South-City, Sunnia : -1136, 1589
+Commissariat de police Snow-Hills, Snowy : -421, -1695
+Commissariat de police SpruceCliff, Fantasia : -1235, -1045
+Concessionnaire Maxi-Car Freedom-City, Freedomia : 265, -564
+Concessionnaire Maxi-Car Oasiris, Solis : 1364, 1188
+Concessionnaire Maxi-Car South-City, Sunnia : -1096, 1414
+Concessionnaire Maxi-Car Snow-Hills, Snowy : -291, -1489
+Craftorama Freedom-City, Freedomia : -279, 312
+Cristler Building, Freedomia : 561, 305
+Déchetterie / Casse, Freedomia : 242, -371
+Petit désert Theta, Solis : 1104, 1468
+Darty South-City, Sunnia : -898, 1204
+Déversoir, Incraftia / Fantasia : -1133, -474
+Docks de South-City, Sunnia : -1435, 1340
+Douane Megad Solis, Solis : 2232, 1368
+Douane Megad Forestia, Forestia : 2232, 70
+Douane Megad Stonia, Stonia : 937, -1795
+Douane Megad Snowy, Snowy : 189, -1795
+Douane Megad Fantasia, Fantasia : -1880, -1795
+Dream Lake, Forestia : 1613, 192
+Dream Tunnel, Forestia : 1717, 70
+École de Ski Alphadienne (ESA), Snowy : -515, -1500
+École primaire Néo-Modern, Forestia : 1826, 17
+Église de Modern-City, Forestia : 1440, 175
+Église de Old-Gulch, Solis : 991, 773
+Église de Port-Cubic, Fantasia : -1514, -1009
+Église de Snow-Hills, Snowy : -544, -1695
+Ellesdet, Mycélia : 1179, 2951
+Éoliennes Pendore, Centory : 300, 1095
+Éoliennes Champion-City, Mycélia : 1835, 2335
+Empire State Building, Freedomia : 380, 295
+E. Leclerc South-City, Sunnia : -828, 1204
+Festival Avenue, Freedomia : 65, -652
+Flatiron Building, Freedomia : 446, 316
+Flowerift, Snowy : 580, -1621
+Freedom-City, Freedomia : 54, 70
+Freedom Museum / Musée, Freedomia : 100, 261
+Freedom Stadium / Stade, Freedomia : 65, -394
+Freedom Trophy / Circuit F1, Freedomia : 607, -668
+Free-Grass / Baulieux, Freedomia : -288, -484
+Gare Centrale, Freedomia : 568, 176
+Gare de Brokenly-Woods, Stonia : 1022, -1013
+Gare de Champi-Ville, Mycélia : 1305, 2259
+Gare de Flowerift, Snowy : 580, -1681
+Gare de Modern-City, Forestia : 1391, -167
+Gare de Oasiris, Solis : 1283, 1452
+Gare de Old-Gulch, Solis : 1028, 802
+Gare de péage de Block-Willer, Freedomia : 189, 715
+Gare de péage de Champion-City, Mycélia : 1999, 2206
+Gare de péage de Fallen-Kingdom, Fantasia : -634, -1323
+Gare de péage de Flowerift, Snowy : 580, -1503
+Gare de péage de Golden Sands, Solis : 1630, 1089
+Gare de péage de Modern-City, Forestia : 1209, 70
+Gare de péage de New-Freedom, Freedomia : 189, -1056
+Gare de péage de Oasiris, Solis : 1465, 1145
+Gare de péage de Rivertown, Solis : -801, 63
+Gare de péage de Snow-Hills, Snowy : -71, -1639
+Gare de péage de South-City Est, Sunnia : -422, 1327
+Gare de péage des Baleines, Sunnia : -1347, 1020
+Gare de péage des Plaines, Centory : 275, 1026
+Gare de Pendore, Centory : 135, 1424
+Gare de Polaris, Fantasia : -1812, -1765
+Gare de Shintao, Snowy : -1170, -1560
+Gare de Snow-Hills, Snowy : -197, -1501
+Gare du Nord, Freedomia : -271, -602
+Gare du Sud, Sunnia : -1264, 1237
+Gîte de la Maxi-Bonne-Franquette, Snowy : -791, -1748
+Glacier du Mont-Bloc, Snowy : -882, -1528
+Golden Bridge, Freedomia : 189, -163
+Golden Sands, Solis : 1541, 980
+Golden Village, Sunnia : -1056, 1017
+Golf, Sunnia : -969, 845
+Golfe Amont-Gousse, Mycélia : 875, 2304
+Grand Canyon, Solis : 1860, 754
+Grilling Island, Sunnia : -1665, 1920
+Gymnase Jean-Pierre Kikoo LOL, Freedomia : -295, 235
+Hales Farm, Centory : 744, 747
+Hangars Aéroport, Forestia : 1200, 195
+Harbor Bridge, Freedomia : 484, -158
+Hôpital Freedom-City, Freedomia : 93, -265
+Hub Centory, Centory : 280, 1609
+Hub Fantasia, Fantasia : -1290, -1026
+Hub Forestia, Forestia : 1590, 70
+Hub Freedomia, Freedomia : 0, 0
+Hub Incraftia, Incraftia : -1561, 475
+Hub Snowy, Snowy : -510, -1608
+Hub Solis, Solis : 1415, 1491
+Hub Stonia, Stonia : 1433, -1042
+Hub Sunnia, Sunnia : -952, 1671
+Ikecraft Freedom-City, Freedomia : -538, 125
+Junction Tunnel, Forestia / Solis : 1999, 606
+La Contrée des Kikoos, Fantasia : -928, -877
+La Motte, Mycélia : 669, 2545
+Lagon tropical, Incraftia : -1245, 675
+Lambda Park, Sunnia : -952, 1778
+Lavandia, Stonia : 1052, -1109
+Library 301001, Forestia : 1940, 210
+Luminopolis South-City, Sunnia : -912, 1102
+L'Alpadia, Snowy : -262, -1561
+Mairie de Brokenly-Woods, Stonia : 1433, -1124
+Mairie de Champi-Ville / Château rétro, Mycélia : 1220, 2168
+Mairie de Freedom-City, Freedomia : -31, -77
+Mairie de Modern-City / Mairie de Néo-Modern, Forestia : 1625, 70
+Mairie de Old-Gulch, Solis : 1009, 873
+Mairie de Pendore, Centory : 231, 1485
+Mairie de Polaris, Fantasia : -1900, -1747
+Mairie de Shintao, Snowy : -1170, -1560
+Mairie de Snow-Hills, Snowy : -585, -1608
+Mairie de South-City, Sunnia : -1024, 1548
+Mairie de SpruceCliff, Fantasia : -1290, -1063
+Mairie de Strange Land, Incraftia : -1178, -165
+Mairie de Treerama, Incraftia : -1607, 613
+Manoir 301001, Forestia : 1449, -459
+Marché couvert de Freedom-City, Freedomia : -85, 0
+Mc Donald's Freedom-City, Freedomia : -387, 248
+Mc Donald's South-City, Sunnia : -850, 1119
+Mini-York, Freedomia : 466, 340
+Modern-City, Forestia : 1476, 70
+Modern Parking, Forestia : 1843, 118
+Mont-Bloc, Snowy : -780, -1544
+Mont du Grand Fachit, Snowy : 803, -1359
+Mont du Petit Fachit, Snowy : 503, -1135
+Nécropolis, Solis : 1999, 971
+Néo-Modern, Forestia : 1786, 70
+New-Freedom, Freedomia : 440, -600
+Notre Dame de Freedom-City, Freedomia : -88, 359
+Notre Dame de SpruceCliff, Fantasia : -1385, -967
+Oasiris, Solis : 1415, 1314
+Observatoire ASA, Fantasia : -557, -484
+Old-Gulch, Solis : 1009, 824
+OMEGA Industry, Stonia : 1052, -839
+Obélisque, Freedomia : -131, -451
+Opéra, Freedomia : -209, -373
+Orpi Freedom-City, Freedomia : -383, -83
+Orpi Modern-City, Forestia : 1391, -152
+Orpi Néo-Modern, Forestia : 1868, 74 
+Orpi Snow-Hills, Snowy : -364, -1488
+Orpi South-City, Sunnia : -1011, 1199
+Orpi Treerama, Incraftia : -1497, 429
+Palais Royal, Solis : 1415, 1535
+Parc asiatique, Freedomia : 119, -86
+Parc Central, Freedomia : 119, 0
+Parking du Freedom Stadium, Freedomia : -87, -377
+Parking Jean Jaurès, Freedomia : 54, -97
+Parking Jean Mahmoud, Solis : 1510, 1258
+Parking Jean Mohammed, Solis : 1456, 1230
+Parthénon, Centory : 145, 1495
+Patinoire, Snowy : -409, -1608
+Pendore, Centory : 280, 1441
+Phare champignon, Mycélia : 1736, 2745
+Phare de Oasiris, Solis : 1615, 1645
+Phare de Pendore, Centory : 446, 1567
+Phare de Port-Cubic, Fantasia : -1611, -1007
+Phare de Saint Sordache, Mycélia : 500, 2554
+Phare de South-City, Sunnia : -1187, 1710
+Phare des Baleines, Incraftia : -1400, 719
+Pharmacie Colortown, Freedomia : 14, 312
+Pic de la liberté, Fantasia / Snowy : -608, -1164
+Piscine Rivertown, Freedomia : -386, 143
+Pistes de ski, Snowy : -581, -1536
+Place d'Alphadia, Freedomia : -176, -262
+Place de Colortown, Freedomia : -79, 282
+Plage d'or, Incraftia : -1466, -190
+Plage d'argent, Mycélia : 789, 2146
+Plateforme pétrolière Gamma, Fantasia : -1964, -1459
+Polaris, Fantasia : -1875, -1747
+Pôle Emploi Freedom-City, Freedomia : -327, -83
+Pôle Emploi Néo-Modern, Forestia : 1867, 248
+Pôle Emploi Snow-Hills, Snowy : -382, -1488
+Pôle Emploi South-City, Sunnia : -1047, 1199
+Pont Al-Otbouh, Sunnia / Mycélia : 1283, 1762
+Pont de Block-Rivertown, Freedomia : -447, -165
+Pont du Golfe Amont-Gousse, Mycélia : 940, 2304
+Pont du Hub, Freedomia : 0, -163
+Pont fortifié, Fantasia : -1462, -1229
+Pont HLMique, Freedomia : 343, 437
+Pont Jacques Carré, Sunnia / Fantasia : 940, 1743
+Pont Jean-Jaurès, Freedomia : -116, -163
+Pont M, Incraftia, Freedomia : -624, 62
+Pont Traversier, Mycélia / Solis : 1999, 1737
+Pont de Fallen-Kingdom Ouest, Fantasia : -1078, -1015
+Pont de Fallen-Kingdom Nordn, Fantasia : -958, -1230
+Port-Cubic, Fantasia : -1549, -1080
+Port de plaisance de Oasiris, Solis : 1563, 1266
+Port de plaisance de Pendore, Centory : 188, 1586
+Port de plaisance de South-City, Sunnia : -1210, -1598
+Port-Glaçon, Fantasia : -1647, -1522
+Port de commerce de South-City, Sunnia : -1435, 1340
+Port fluvial de Freedom-City, Freedomia : 316, -242
+Poste de police Old-Gulch, Solis : 1025, 772
+Poste de police de Brokenly-Woods, Stonia : 1378, -1130
+Prison désafectée, Forestia : 2180, 453
+Pyramide Est, Solis : 1162, 1499
+Pyramide Nord, Solis : 1044, 1433
+Résidence de Baulieux, Freedomia : -342, -263
+Restaurant Japonais, Freedomia : -146, 121
+Rivertown, Freedomia : -349, 70
+Rocket Bridge, Centory / Mycélia : 565, 2766
+Roi Champignon, Mycélia : 1099, 2267
+Saint Sordache, Mycélia : 562, 2554
+Saloon, Solis : 1028, 831
+Sand Bay, Sunnia : -953, 1616
+Sand Bridge, Sunnia / Centory : -682, 1327
+Shintao, Snowy : -1157, -1610
+Skull Tunnel, Fantasia : -1462, -1127
+Snow-Hills, Snowy : -343, -1543
+South Arena, Sunnia : -1306, 1407
+South-City, Sunnia : -952, 1355
+South Country Club, Sunnia : -1009, 971
+South Palace, Sunnia : -859, 1544
+South Park, Sunnia : -898, 1426
+Souk de Oasiris, Solis : 1480, 1031
+Sphynx, Solis : 1042, 1533
+SpruceCliff, Fantasia : -1290, -968
+Star Village, Freedomia : -241, 511
+Station d'épuration, Freedomia : -523, 569
+Station service Maxi-Car New-Freedom, Freedomia : 265, -615
+Station service MEGAS N7, Solis : 1120, 1331
+Station service MEGAS N7 BIS, Mycélia : 960, 2205
+Station service Shell Colortown, Freedomia : -220, 159
+Stonehenge, Fantasia : -1440, -563
+Strange Land, Incraftia : -1210, -132
+Suburbs, Freedomia : 436, -710
+SuperMart Modern-City, Forestia : 1478, -163
+Téléphérique du Mont-Bloc, Snowy : -505, -1569
+Télésiège Alpadia Express, Snowy : -513, -1475
+Télésiège Mini Climb, Snowy : -640, -1726
+Temple Incraft Est, Incraftia : -1040, 370
+Temple Incraft Nord, Incraftia : -1117, 260
+Temple Incraft Ouest, Incraftia : -1188, 354
+Tour Alpha-Red, Freedomia : 243, 9
+Tour AT1, Freedomia : 314, -67
+Tour de Glace, Fantasia : -1540, -1373
+Tour de la Mort, Freedomia : 161, -77
+Tour Maxi-Car (siège social), Sunnia : -1096, 1414
+Tour météo, Freedomia : 271, 261
+Tour Orpi (siège social), Forestia : 1868, 74 
+Tour Pôle Emploi (siège social), Forestia : 1867, 248
+Treerama, Incraftia : -1470, 475
+Tunnel champignon, Mycélia : 1737, 2687
+Tunnel de Brokenly-Woods, Stonia : 1482, -1028
+Tunnel de Fallen-Kingdom, Fantasia : -958, -1364
+Tunnel de l'aéroport, Freedomia : 870, 70
+Tunnel de la Motte, Mycélia : 841, 2687
+Tunnel de Snow-Hills, Snowy : -286, -1645
+Tunnel de SpruceCliff, Fantasia : -1393, -436
+Tunnel de Treerama, Incraftia : -1337, 485
+Tunnel des Baleines, Incraftia / Sunnia : -1347, 800
+Tunnel des Pistes, Freedomia / Forestia : 1053, 70
+Tunnel du Far-Est, Forestia / Solis : 1327, 575
+Tunnel du Grand Fachit, Snowy : 856, -1364
+Tunnel du Littoral, Solis : 1850, 1342
+Tunnel Glaçon, Fantasia : -1647, -1394
+Tunnel Marin, Sunnia : -1050, 1327
+Tunnel Militaire, Centory : -70, 1327
+Tunnel Paravalanchique, Forestia : 1772, -120
+Tunnel Rouge, Solis : 1327, 851
+Twinner Towers, Freedomia : 437, -24
+Université d'Alphadia (Freedom-City), Freedomia : -74, -268
+Université d'Alphadia (South-City), Sunnia : -810, 1397
+Usine BCA / Fabrique de billets, Forestia : 2069, -210
+Usine de jouets, Snowy : -522, -1647
+Usine TONIC, Mycélia : 1139, 2590
+Viaduc de Brokenly-Woods, Stonia : 1329, -1229
+Viaduc de Fallen-Kingdom, Fantasia : -1278, -1205
+Viaduc de Snow-Hills, Snowy : 189, -1364
+Viaduc des Trois Gorges, Snowy / Stonia : 940, -1364
+Viaduc du Littoral, Solis : 1850, 1407
+Volcan / Montagne Sacrée, Incraftia : -946, 627
+York Square, Freedomia : 414, 373
+Youtube Building, Freedomia : 309, 376
+Zone Commerciale (Freedom-City), Freedomia : -349, 301
+Zone Commerciale (South-City), Sunnia : -952, 1150
