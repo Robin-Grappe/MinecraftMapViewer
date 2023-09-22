@@ -239,6 +239,7 @@ function autocomplete(places, limit = false) {
                 if (i > limit && limit) {
                     return;
                 }
+                items += '<li class="result-item">' + player.name + '</li>';
                 if (i === limit || i === results.length - 1) {
                     if (limit) {
                         var reste = results.length - limit;
@@ -250,9 +251,7 @@ function autocomplete(places, limit = false) {
                     } else {
                         items += '<li id="other-results" class="reduce-results" title="Réduire les résultats">Réduire</li>';
                     }
-                    return;
                 }
-                items += '<li class="result-item">' + player.name + '</li>';
             });
         } else {
             items += '<li id="other-results" class="no-results">Aucun résultat &#128533;</li>';
