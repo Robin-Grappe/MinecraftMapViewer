@@ -21,7 +21,7 @@ var region = document.getElementById('region');
 
 const DEFAULT_CITY = 4;
 const DEFAULT_REGION = 0;
-const RESULTS_LIMIT = 20;
+const RESULTS_LIMIT = (window.innerWidth < 500 ? 10 : (window.innerWidth < 1000 ? 15 : 20)); // Results limit vary with the screen size
 
 var urlParams = new URLSearchParams(window.location.search);
 var search_get = decodeURI(urlParams.get('search'));
@@ -64,7 +64,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Click on other results
         if (e.target.id == 'other-results' && e.target.textContent != "Aucun résultat 😕") {
-            console.log(e.target.textContent);
             fetch('./data/index.json')
                 .then((response) => response.json())
                 .then((json) => {
