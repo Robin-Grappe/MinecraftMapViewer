@@ -180,7 +180,7 @@ function cityFilterWithoutAutocomplete(city, autocomplete) {
     return (city <= selected_city && !autocomplete);
 }
 function isInSelectedRegion(place, autocomplete) {
-    if (region_get == 0 || autocomplete || (place.city && place.city <= selected_city)) {
+    if (region_get == 0 || (place.city && place.city <= selected_city && ! autocomplete)) {
         return true;
     }
     var region_name = Regions[selected_region];
