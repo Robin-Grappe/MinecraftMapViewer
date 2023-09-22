@@ -43,6 +43,7 @@
             <input type="submit" id="search-btn" value="Rechercher &#128270;" title="Soumettre la recherche" class="btn">
             <input type="hidden" id="strict" name="strict" value="0">
             <button type="button" id="settings-btn" title="Paramètres et filtres avancés" class="btn">&#128204; Avancé</button>
+            <button type="button" id="reset-btn" title="Restaurer les filtres" class="btn">&#128465;&#65039; Reset</button>
             <div class="block" id="settings">
                 <span class="setting_item">
                     <label for="all">&#128681; Afficher tous les lieux par défaut</label>
@@ -50,7 +51,7 @@
                 </span>
                 <span class="setting_item">
                     <label for="city">&#127970; Précision d'affichage des villes</label>
-                    <select id="city" name="city" autocomplete="off">
+                    <select id="city" class="select" name="city" autocomplete="off">
                         <option value="1">Capitale</option>
                         <option value="2">Villes vertes</option>
                         <option value="3">Préfectures</option>
@@ -62,7 +63,7 @@
                 </span>
                 <span class="setting_item">
                     <label for="region">&#127757; Filtrer par régions</label>
-                    <select  id="region" name="region" autocomplete="off">
+                    <select id="region" class="select" name="region" autocomplete="off">
                         <option value="0" selected>&#127760; Tout</option>
                         <option value="10">&#127963;&#65039; Centory</option>
                         <option value="9">&#127984; Fantasia</option>

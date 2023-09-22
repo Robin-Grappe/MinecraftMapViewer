@@ -13,6 +13,7 @@ var results_div = document.getElementById('results');
 var strict = document.getElementById('strict');
 var settings = document.getElementById('settings');
 var settings_btn = document.getElementById('settings-btn');
+var reset_btn = document.getElementById('reset-btn');
 var settings_open = false;
 var all = document.getElementById('all');
 var city = document.getElementById('city');
@@ -64,6 +65,11 @@ document.addEventListener("DOMContentLoaded", () => {
     settings_btn.addEventListener('click', () => {
         toogleSettingsMenu();
     });
+
+    // Click on reset button
+    reset_btn.addEventListener('click', () => {
+        window.location.replace("/");
+    })
 
     // Update the form when the city select has changed
     city.addEventListener('change', () => {

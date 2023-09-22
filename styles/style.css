@@ -19,7 +19,7 @@ body {
 }
 
 #map {
-    height: calc(100% - 52px);
+    height: calc(100% - 66px);
     width: 100%;
     image-rendering: pixelated;
 }
@@ -46,6 +46,12 @@ div.ol-mouse-position {
             MY CSS
 ************************************/
 
+@media screen and (max-width: 550px) {
+    #logo-alpha {
+        display: none
+    }
+}
+
 #toolbar {
     text-align: center;
     padding: 10px;
@@ -56,13 +62,13 @@ div.ol-mouse-position {
 #logo-alpha {
     position: absolute;
     left: -10px;
-    top: -5px;
-    width: 85px;
+    top: -10px;
+    width: 100px;
     margin: 0px;
 }
 
 #search {
-    width: 300px;
+    width: 33%;
     height: 30px;
     border-radius: 10px;
     border: black 1.5px solid;
@@ -88,6 +94,17 @@ div.ol-mouse-position {
     border-color: white;
     color: white;
     background-color: #f8312f;
+}
+
+#reset-btn {
+    border-color: #000;
+    color: #9b9b9b;
+}
+
+#reset-btn:hover {
+    border-color: white;
+    color: white;
+    background-color: #9b9b9b;
 }
 
 .btn {
@@ -178,4 +195,15 @@ li.other-results {
     padding-left: 10px;
     padding-top: 10px;
     display: inline-block;
+}
+
+.select {
+    height: 30px;
+    border-radius: 10px;
+    border: black 1.5px solid;
+    background-color: white;
+}
+
+.select:hover {
+    cursor: pointer;
 }
