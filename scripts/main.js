@@ -21,6 +21,7 @@ var region = document.getElementById('region');
 
 const DEFAULT_CITY = 4;
 const DEFAULT_REGION = 0;
+const RESULTS_LIMIT = 20;
 
 var urlParams = new URLSearchParams(window.location.search);
 var search_get = decodeURI(urlParams.get('search'));
@@ -47,17 +48,33 @@ document.addEventListener("DOMContentLoaded", () => {
         fetch('./data/index.json')
             .then((response) => response.json())
             .then((json) => {
-                autocomplete(json);
+                autocomplete(json, RESULTS_LIMIT);
         });
     });
 
-    // Click on a autocomplete card
+    // Not already charged events
     list.addEventListener('click', (e) => {
+         // Click on a autocomplete card
         if (e.target.classList.contains('result-item')) {
             search_bar.value = e.target.textContent;
             strict.value = 1;
             region.value = 0; // Reset the region filter when strict
             search_form.submit();
+        }
+
+        // Click on other results
+        if (e.target.id == 'other-results' && e.target.textContent != "Aucun résultat 😕") {
+            console.log(e.target.textContent);
+            fetch('./data/index.json')
+                .then((response) => response.json())
+                .then((json) => {
+                    if (e.target.textContent == "Réduire") {
+                        autocomplete(json, RESULTS_LIMIT);
+                        window.scrollTo(0, 0);
+                    } else {
+                        autocomplete(json);
+                    }
+            });
         }
     });
 
@@ -206,26 +223,40 @@ function escapeRegExp(string) {
 }
   
 // Autocomplete searching feature
-function autocomplete(places) {
+function autocomplete(places, limit = false) {
     results_div.style.display = "block";
+    results_div.style.paddingBottom = "10px";
     toogleSettingsMenu(false);
 
     var items = "";
     var results = filterMarkers(places, search_bar.value);
-    var i = 0;
-    const LIMIT = 20;
+    var i = -1;
 
     if (search_bar.value != "") {
-        results.forEach(player => {
-            if (i == LIMIT) {
-                var reste = results.length - LIMIT;
-                items += '<li class="other-results">+ ' + (reste) + ' résultat' + (reste > 1 ? 's' : '') + ' ...</li>';
-            }
-            if (i < LIMIT) {
+        if (results.length > 0) {
+            results.forEach(player => {
+                i++;
+                if (i > limit && limit) {
+                    return;
+                }
+                if (i === limit || i === results.length - 1) {
+                    if (limit) {
+                        var reste = results.length - limit;
+                        if (reste > 0) {
+                            items += '<li id="other-results" class="more-results" title="Voir tous les résultats">+ ' + (reste) + ' résultat' + (reste > 1 ? 's' : '') + ' ...</li>';
+                        } else {
+                            results_div.style.paddingBottom = "20px";
+                        }
+                    } else {
+                        items += '<li id="other-results" class="reduce-results" title="Réduire les résultats">Réduire</li>';
+                    }
+                    return;
+                }
                 items += '<li class="result-item">' + player.name + '</li>';
-            }
-            i++;
-        });
+            });
+        } else {
+            items += '<li id="other-results" class="no-results">Aucun résultat &#128533;</li>';
+        }
     } else {
         results_div.style.display = "none";
     }

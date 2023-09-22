@@ -155,7 +155,7 @@ ul#results-list {
     padding-bottom: 5px;
     font-size: 15px;
     width: fit-content;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 li.result-item {
@@ -172,15 +172,52 @@ li.result-item {
 li.result-item:hover {
     background-color: var(--dark-gray);
     cursor: pointer;
-    transition-property: padding-right, padding-left, color, border-radius;
+    box-shadow: 5px 5px 5px var(--dark-gray);
+    transition-property: padding-right, padding-left, color, border-radius, box-shadow, background-color;
     transition-duration: 0.5s;
-    /* padding-right: 100px;
-    padding-left: 100px; */
     border-radius: 0px;
 }
 
-li.other-results {
+li#other-results {
     margin: auto;
+}
+
+li#other-results:not(.no-results) {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+    border-radius: 15px;
+    border: #00a6ed 1px solid;
+    color: #00a6ed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li#other-results:not(.no-results):hover {
+    background-color: #00a6ed;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px var(--dark-gray);
+    transition-property: padding-right, padding-left, border-color, color, border-radius, box-shadow, background-color;
+    transition-duration: 0.5s;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+}
+
+li#other-results.more-results:hover:before {
+    content: "\23EC ";
+}
+
+li#other-results.more-results:hover:after {
+    content: " \23EC";
+}
+
+li#other-results.reduce-results:hover:before {
+    content: "\23EB ";
+}
+
+li#other-results.reduce-results:hover:after {
+    content: " \23EB";
 }
 
 #settings {
