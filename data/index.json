@@ -31,6 +31,12 @@
         "regions": ["Centory"]
     },
     {
+        "name": "Ancien Parthénon",
+        "x": 54,
+        "z": 1542,
+        "regions": ["Centory"]
+    },
+    {
         "name": "Arène de SpruceCliff",
         "x": -1329,
         "z": -924,
@@ -109,6 +115,12 @@
         "regions": ["Solis"]
     },
     {
+        "name": "Barrage du Fachit",
+        "x": 635,
+        "z": -1246,
+        "regions": ["Snowy"]
+    },
+    {
         "name": "Base Militaire OMEGA Sud",
         "x": -294,
         "z": 1005,
@@ -142,7 +154,7 @@
     {
         "name": "Block-Willer",
         "x": 189,
-        "z": 518,
+        "z": 463,
         "city": 6,
         "regions": ["Freedomia"]
     },
@@ -635,6 +647,12 @@
         "z": -652,
         "city": 6,
         "regions": ["Freedomia"]
+    },
+    {
+        "name": "Fort d'Ellesdet",
+        "x": 1345,
+        "z": 2760,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Flatiron Building",
@@ -1169,13 +1187,13 @@
         "regions": ["Snowy"]
     },
     {
-        "name": "Mont du Grand Fachit",
+        "name": "Mont du Grand Fachit / Fort",
         "x": 803,
         "z": -1359,
         "regions": ["Snowy"]
     },
     {
-        "name": "Mont du Petit Fachit",
+        "name": "Mont du Petit Fachit / Fort",
         "x": 503,
         "z": -1135,
         "regions": ["Snowy"]
@@ -1488,10 +1506,28 @@
         "regions": ["Freedomia"]
     },
     {
+        "name": "Pont de Fallen-Kingdom Ouest",
+        "x": -1078,
+        "z": -1015,
+        "regions": ["Fantasia"]
+    },
+    {
+        "name": "Pont de Fallen-Kingdom Nordn",
+        "x": -958,
+        "z": -1230,
+        "regions": ["Fantasia"]
+    },
+    {
         "name": "Pont du Golfe Amont-Gousse",
         "x": 940,
         "z": 2304,
         "regions": ["Mycélia"]
+    },
+    {
+        "name": "Pont du Grand Canyon",
+        "x": 1987,
+        "z": 782,
+        "regions": ["Solis"]
     },
     {
         "name": "Pont du Hub",
@@ -1534,18 +1570,6 @@
         "x": 1999,
         "z": 1737,
         "regions": ["Mycélia", "Solis"]
-    },
-    {
-        "name": "Pont de Fallen-Kingdom Ouest",
-        "x": -1078,
-        "z": -1015,
-        "regions": ["Fantasia"]
-    },
-    {
-        "name": "Pont de Fallen-Kingdom Nordn",
-        "x": -958,
-        "z": -1230,
-        "regions": ["Fantasia"]
     },
     {
         "name": "Port-Cubic",

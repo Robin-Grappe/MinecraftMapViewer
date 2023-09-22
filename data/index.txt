@@ -3,6 +3,7 @@ Admin Tower, Freedomia : 246, -58
 Aérodrome, Fantasia : -1096, -693
 Aéroport International, Freedomia : 777, -71
 Aéroport Militaire, Centory : -107, 902
+Ancien Parthénon, Centory : 54, 1542
 Arène de SpruceCliff, Fantasia : -1329, -924
 Arc de Triomphe, Freedomia : 189, 70
 Aucactus Oasiris, Solis : 1361, 1260
@@ -16,12 +17,13 @@ Banque Crédit Minecraftien South-City / Tour Fisc, Sunnia : -997, 1319
 Banque Old-Gulch, Solis : 993, 834
 Barrage de Brokenly-Woods, Stonia : 1480, -1245
 Barrage de Oasiris, Solis : 1574, 906
+Barrage du Fachit, Snowy : 635, -1246
 Base Militaire OMEGA Sud, Centory : -294, 1005
 Base Militaire OMEGA Ouest, Fantasia : -1427, -770
 Belvédère du Grand Fachit, Snowy : 856, -1307
 Belvédère du Pic de la Liberté, Snowy : -519, -1160
 Black-Waterside, Freedomia : 363, -335
-Block-Willer, Freedomia : 189, 518
+Block-Willer, Freedomia : 189, 463
 Boulanger Freedom-City, Freedomia : -279, 371
 Boutique Orange South-City, Sunnia : -1083, 1192
 Brico Dépot South-City, Sunnia : -822, 1284
@@ -102,6 +104,7 @@ Ellesdet, Mycélia : 1179, 2951
 Empire State Building, Freedomia : 380, 295
 E. Leclerc South-City, Sunnia : -828, 1204
 Festival Avenue, Freedomia : 65, -652
+Fort d'Ellesdet, Mycélia : 1345, 2760
 Flatiron Building, Freedomia : 446, 316
 Flowerift, Snowy : 580, -1621
 Freedom-City, Freedomia : 54, 70
@@ -189,8 +192,8 @@ Mini-York, Freedomia : 466, 340
 Modern-City, Forestia : 1476, 70
 Modern Parking, Forestia : 1843, 118
 Mont-Bloc, Snowy : -780, -1544
-Mont du Grand Fachit, Snowy : 803, -1359
-Mont du Petit Fachit, Snowy : 503, -1135
+Mont du Grand Fachit / Fort, Snowy : 803, -1359
+Mont du Petit Fachit / Fort, Snowy : 503, -1135
 Nécropolis, Solis : 1999, 971
 Néo-Modern, Forestia : 1786, 70
 New-Freedom, Freedomia : 440, -600
@@ -241,7 +244,10 @@ Pôle Emploi Snow-Hills, Snowy : -382, -1488
 Pôle Emploi South-City, Sunnia : -1047, 1199
 Pont Al-Otbouh, Solis / Mycélia : 1283, 1762
 Pont de Block-Rivertown, Freedomia : -447, -165
+Pont de Fallen-Kingdom Ouest, Fantasia : -1078, -1015
+Pont de Fallen-Kingdom Nordn, Fantasia : -958, -1230
 Pont du Golfe Amont-Gousse, Mycélia : 940, 2304
+Pont du Grand Canyon, Solis : 1987, 782
 Pont du Hub, Freedomia : 0, -163
 Pont fortifié, Fantasia : -1462, -1229
 Pont HLMique, Freedomia : 343, 437
@@ -249,8 +255,6 @@ Pont Jacques Carré, Solis / Mycélia : 940, 1743
 Pont Jean-Jaurès, Freedomia : -116, -163
 Pont M, Incraftia, Freedomia : -624, 62
 Pont Traversier, Mycélia / Solis : 1999, 1737
-Pont de Fallen-Kingdom Ouest, Fantasia : -1078, -1015
-Pont de Fallen-Kingdom Nordn, Fantasia : -958, -1230
 Port-Cubic, Fantasia : -1549, -1080
 Port de plaisance de Oasiris, Solis : 1563, 1266
 Port de plaisance de Pendore, Centory : 188, 1586
