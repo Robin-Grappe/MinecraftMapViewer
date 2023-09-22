@@ -55,7 +55,7 @@ div.ol-mouse-position {
 #toolbar {
     text-align: center;
     padding: 10px;
-    background: linear-gradient(to bottom, var(--toolbar-color) 85%, var(--dark-gray));
+    background: linear-gradient(to bottom, var(--toolbar-color) 95%, var(--dark-gray));
     border-bottom: black 1px solid;
 }
 
@@ -187,7 +187,6 @@ li.other-results {
     display: none;
     border-top: black 1px solid;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .setting_item {
