@@ -3,6 +3,7 @@ import {UnminedRegions} from "./unmined/unmined.map.regions.js";
 // import {UnminedPlayers} from "./unmined/unmined.map.players.js";
 import {UnminedCustomMarkers} from "./unmined/custom.markers.js";
 import {Unmined} from "./unmined/unmined.openlayers.js";
+import {Regions} from "./regions.js";
 
 // Global vars
 var search_bar = document.getElementById('search');
@@ -15,12 +16,19 @@ var settings_btn = document.getElementById('settings-btn');
 var settings_open = false;
 var all = document.getElementById('all');
 var city = document.getElementById('city');
+var region = document.getElementById('region');
+
+const DEFAULT_CITY = 4;
+const DEFAULT_REGION = 0;
+
 var urlParams = new URLSearchParams(window.location.search);
 var search_get = decodeURI(urlParams.get('search'));
 var strict_get = decodeURI(urlParams.get('strict'));
 var city_get = decodeURI(urlParams.get('city'));
 var all_get = decodeURI(urlParams.get('all'));
-var selected_city = (city_get != "null" ? city_get : 4);
+var region_get = decodeURI(urlParams.get('region'));
+var selected_city = (city_get != "null" ? city_get : DEFAULT_CITY);
+var selected_region = (region_get != "null" ? region_get : DEFAULT_REGION);
 
 initGet();
 
@@ -47,6 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (e.target.classList.contains('result-item')) {
             search_bar.value = e.target.textContent;
             strict.value = 1;
+            region.value = 0; // Reset the region filter when strict
             search_form.submit();
         }
     });
@@ -55,6 +64,16 @@ document.addEventListener("DOMContentLoaded", () => {
     settings_btn.addEventListener('click', () => {
         toogleSettingsMenu();
     });
+
+    // Update the form when the city select has changed
+    city.addEventListener('change', () => {
+        search_form.submit();
+    });
+
+    // Update the form when the region select has changed
+    region.addEventListener('change', () => {
+        search_form.submit();
+    })
 });
 
 /****************************
@@ -66,9 +85,13 @@ function initGet() {
     search_bar.value = (search_get != "null" ? search_get : '');
     document.title = (search_get != "null" && search_get != '' ? '"' + search_get + '"' : 'Alphadia') + ' - ' + document.title;
     all.checked = (all_get == "on" ? true : false);
+    initSelect(city, selected_city);
+    initSelect(region, selected_region);
+}
 
-    for (let option of city.children) {
-        if (option.value == selected_city) {
+function initSelect(select, default_value) {
+    for (let option of select.children) {
+        if (option.value == default_value) {
             option.selected = true;
             break;
         }
@@ -116,6 +139,9 @@ function findPerfectCenter(place) {
     if (matchNonVoidString(name, keywords)) {
         return [place.x, -place.z];
     }
+    if (! place.city) {
+        return [place.x, -place.z];
+    }
     return false;
 }
 
@@ -125,7 +151,7 @@ function filterMarkers(places, str, autocomplete = true) {
     var keywords = toSimpleString(str);
     places.forEach(place => {
         var name = toSimpleString(place.name);
-        if ((noStrictSearchOrAutocomplete(autocomplete) && matchNonVoidString(name, keywords)) || displayAllVoidStringAndNoCity(keywords, place.city) || cityFilterWithoutAutocomplete(place.city, autocomplete)) {
+        if (((noStrictSearchOrAutocomplete(autocomplete) && matchNonVoidString(name, keywords)) || displayAllVoidStringAndNoCity(keywords, place.city) || cityFilterWithoutAutocomplete(place.city, autocomplete)) && isInSelectedRegion(place, autocomplete)) {
             output.push(place);
         }
         if (strictSearch(strict_get, name, keywords)) {
@@ -134,6 +160,8 @@ function filterMarkers(places, str, autocomplete = true) {
     });
     return output;
 }
+
+// *********************************************************************
 
 // Logical filtering functions
 function displayAllVoidStringAndNoCity(str, city) {
@@ -151,6 +179,15 @@ function strictSearch(strict_get, name, keywords) {
 function cityFilterWithoutAutocomplete(city, autocomplete) {
     return (city <= selected_city && !autocomplete);
 }
+function isInSelectedRegion(place, autocomplete) {
+    if (region_get == 0 || (place.city && place.city <= selected_city && ! autocomplete)) {
+        return true;
+    }
+    var region_name = Regions[selected_region];
+    return (place.regions.indexOf(region_name) > -1);
+}
+
+// *********************************************************************
 
 // Convert a string into a more researchable string
 function toSimpleString(str) {

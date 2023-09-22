@@ -2,1755 +2,2109 @@
     {
         "name": "Accrobranche",
         "x": 1584,
-        "z": -829
+        "z": -829,
+        "regions": ["Stonnia"]
     },
     {
         "name": "Admin Tower",
         "x": 246,
-        "z": -58
+        "z": -58,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Aérodrome",
         "x": -1096,
-        "z": -693
+        "z": -693,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Aéroport International",
         "x": 777,
         "z": -71,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Aéroport Militaire",
         "x": -107,
-        "z": 902
+        "z": 902,
+        "regions": ["Centory"]
     },
     {
         "name": "Arène de SpruceCliff",
         "x": -1329,
-        "z": -924
+        "z": -924,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Arc de Triomphe",
         "x": 189,
-        "z": 70
+        "z": 70,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Aucactus Oasiris",
         "x": 1361,
-        "z": 1260
+        "z": 1260,
+        "regions": ["Solis"]
     },
     {
         "name": "Auto École Freedom-City",
         "x": 286,
-        "z": -710
+        "z": -710,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Auto École Oasiris",
         "x": 1333,
-        "z": 1205
+        "z": 1205,
+        "regions": ["Solis"]
     },
     {
         "name": "Auto École South-City",
         "x": -1125,
-        "z": 1189
+        "z": 1189,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Banque Centrale",
         "x": 118,
-        "z": 139
+        "z": 139,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Banque Crédit Minecraftien Freedom-City",
         "x": -186,
-        "z": -83
+        "z": -83,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Banque Crédit Minecraftien Néo-Modern",
         "x": 1814,
-        "z": 174
+        "z": 174,
+        "regions": ["Forestia"]
     },
     {
         "name": "Banque Crédit Minecraftien South-City / Tour Fisc",
         "x": -997,
-        "z": 1319
+        "z": 1319,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Banque Old-Gulch",
         "x": 993,
-        "z": 834
+        "z": 834,
+        "regions": ["Solis"]
     },
     {
         "name": "Barrage de Brokenly-Woods",
         "x": 1480,
-        "z": -1245
+        "z": -1245,
+        "regions": ["Stonia"]
     },
     {
         "name": "Barrage de Oasiris",
         "x": 1574,
-        "z": 906
+        "z": 906,
+        "regions": ["Solis"]
     },
     {
         "name": "Base Militaire OMEGA Sud",
         "x": -294,
-        "z": 1005
+        "z": 1005,
+        "regions": ["Centory"]
     },
     {
         "name": "Base Militaire OMEGA Ouest",
         "x": -1427,
-        "z": -770
+        "z": -770,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Belvédère du Grand Fachit",
         "x": 856,
-        "z": -1307
+        "z": -1307,
+        "regions": ["Snowy"]
     },
     {
         "name": "Belvédère du Pic de la Liberté",
         "x": -519,
-        "z": -1160
+        "z": -1160,
+        "regions": ["Snowy"]
     },
     {
         "name": "Black-Waterside",
         "x": 363,
         "z": -335,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Block-Willer",
         "x": 189,
         "z": 518,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Boulanger Freedom-City",
         "x": -279,
-        "z": 371
+        "z": 371,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Boutique Orange South-City",
         "x": -1083,
-        "z": 1192
+        "z": 1192,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Brico Dépot South-City",
         "x": -822,
-        "z": 1284
+        "z": 1284,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Brokenly-Woods",
         "x": 1433,
         "z": -1124,
-        "city": 3
+        "city": 3,
+        "regions": ["Stonia"]
     },
     {
         "name": "Builders Tower",
         "x": 252,
-        "z": 151
+        "z": 151,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Bureau de poste de Freedom-City",
         "x": -271,
-        "z": -83
+        "z": -83,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Bureau de poste de Modern-City",
         "x": 1391,
-        "z": -182
+        "z": -182,
+        "regions": ["Forestia"]
     },
     {
         "name": "Bureau de poste de Snow-Hills",
         "x": -400,
-        "z": -1488
+        "z": -1488,
+        "regions": ["Snowy"]
     },
     {
         "name": "Bureau de poste de South-City",
         "x": -985,
-        "z": 1199
+        "z": 1199,
+        "regions": ["Sunnia"]
     },
     {
         "name": "BUT South-City",
         "x": -889,
-        "z": 1280
+        "z": 1280,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Cafés Marlonnais",
         "x": -482,
-        "z": -81
+        "z": -81,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Camp Indien",
         "x": 1185,
-        "z": 683
+        "z": 683,
+        "regions": ["Solis"]
     },
     {
         "name": "Camping les Gitans",
         "x": 1661,
-        "z": -1123
+        "z": -1123,
+        "regions": ["Stonia"]
     },
     {
         "name": "Capitole / Tour OMEGA",
         "x": 342,
-        "z": 70
+        "z": 70,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Carrefour Freedom-City",
         "x": -387,
-        "z": 346
+        "z": 346,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Carrefour Montagne Snow-Hills",
         "x": -445,
-        "z": -1488
+        "z": -1488,
+        "regions": ["Snowy"]
     },
     {
         "name": "Carrière",
         "x": 1668,
-        "z": -700
+        "z": -700,
+        "regions": ["Stonia"]
     },
     {
         "name": "Caserne pompiers Freedom-City",
         "x": 153,
-        "z": 379
+        "z": 379,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Caserne pompiers Modern-City",
         "x": 1911,
-        "z": 19
+        "z": 19,
+        "regions": ["Forestia"]
     },
     {
         "name": "Caserne pompiers Oasiris",
         "x": 1525,
-        "z": 1388
+        "z": 1388,
+        "regions": ["Solis"]
     },
     {
         "name": "Caserne pompiers South-City",
         "x": -1136,
-        "z": 1509
+        "z": 1509,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Caserne pompiers Snow-Hills",
         "x": -469,
-        "z": -1695
+        "z": -1695,
+        "regions": ["Snowy"]
     },
     {
-        "name": "Casino",
+        "name": "Casino Freedom-City",
         "x": 380,
-        "z": 295
+        "z": 295,
+        "regions": ["Freedomia"]
     },
     {
         "name": "CBD Freedom-City",
         "x": 347,
         "z": 183,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "CBD South-City",
         "x": -1057,
         "z": 1355,
-        "city": 6
+        "city": 6,
+        "regions": ["Sunnia"]
     },
     {
-        "name": "Centrale électrique Barrage de Brokenly-Woods",
+        "name": "Centrale électrique Brokenly-Woods",
         "x": 1438,
-        "z": -1282
+        "z": -1282,
+        "regions": ["Stonia"]
     },
     {
         "name": "Centrale électrique Freedom-City Ouest",
         "x": -616,
-        "z": -338
+        "z": -338,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Centrale électrique Freedom-City Nord-Est",
         "x": 598,
-        "z": -469
+        "z": -469,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Centrale électrique Freedom-City Sud",
         "x": 130,
-        "z": 685
+        "z": 685,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Centrale électrique Mycélia Ouest",
         "x": 718,
-        "z": 2390
+        "z": 2390,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Centrale électrique Oasiris Est",
         "x": 1644,
-        "z": 936
+        "z": 936,
+        "regions": ["Solis"]
     },
     {
-        "name": "Centre commercial",
+        "name": "Centre commercial CBD",
         "x": 271,
-        "z": 261
+        "z": 261,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Centre pétrolier Maxi-Car",
         "x": 1507,
-        "z": 707
+        "z": 707,
+        "regions": ["Solis"]
     },
     {
         "name": "Centre-ville (Freedom-City)",
         "x": 54,
         "z": 0,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Centre-ville (Oasiris)",
         "x": 1453,
         "z": 1452,
-        "city": 6
+        "city": 6,
+        "regions": ["Solis"]
     },
     {
         "name": "Champi-Ville",
         "x": 1283,
         "z": 2053,
-        "city": 4
+        "city": 4,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Château d'eau",
         "x": 844,
-        "z": -438
+        "z": -438,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Château de Fallen-Kingdom",
         "x": -867,
-        "z": -1087
+        "z": -1087,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Cimetière de Freedom-City",
         "x": -184,
-        "z": 359
+        "z": 359,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Cimetière de Port-Cubic",
         "x": -1551,
-        "z": -1149
+        "z": -1149,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Clairière aux geysers",
         "x": -1121,
-        "z": 595
+        "z": 595,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Collège Jean-Pierre Kikoo LOL",
         "x": -293,
-        "z": 139
+        "z": 139,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Colisée",
         "x": 1558,
-        "z": 1497
+        "z": 1497,
+        "regions": ["Solis"]
     },
     {
         "name": "Colortown",
         "x": -73,
         "z": 236,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Commissariat de police Freedom-City",
         "x": -181,
-        "z": -7
+        "z": -7,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Commissariat de police Modern-City",
         "x": 1429,
-        "z": -125
+        "z": -125,
+        "regions": ["Forestia"]
     },
     {
         "name": "Commissariat de police Oasiris",
         "x": 1525,
-        "z": 1418
+        "z": 1418,
+        "regions": ["Solis"]
     },
     {
         "name": "Commissariat de police South-City",
         "x": -1136,
-        "z": 1589
+        "z": 1589,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Commissariat de police Snow-Hills",
         "x": -421,
-        "z": -1695
+        "z": -1695,
+        "regions": ["Snowy"]
     },
     {
         "name": "Commissariat de police SpruceCliff",
         "x": -1235,
-        "z": -1045
+        "z": -1045,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Concessionnaire Maxi-Car Freedom-City",
         "x": 265,
-        "z": -564
+        "z": -564,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Concessionnaire Maxi-Car Oasiris",
         "x": 1364,
-        "z": 1188
+        "z": 1188,
+        "regions": ["Solis"]
     },
     {
         "name": "Concessionnaire Maxi-Car South-City",
         "x": -1096,
-        "z": 1414
+        "z": 1414,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Concessionnaire Maxi-Car Snow-Hills",
         "x": -291,
-        "z": -1489
+        "z": -1489,
+        "regions": ["Snowy"]
     },
     {
         "name": "Craftorama Freedom-City",
         "x": -279,
-        "z": 312
+        "z": 312,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Cristler Building",
         "x": 561,
-        "z": 305
+        "z": 305,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Déchetterie / Casse",
         "x": 242,
-        "z": -371
+        "z": -371,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Petit désert Theta",
         "x": 1104,
-        "z": 1468
+        "z": 1468,
+        "regions": ["Solis"]
     },
     {
         "name": "Darty South-City",
         "x": -898,
-        "z": 1204
+        "z": 1204,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Déversoir",
         "x": -1133,
-        "z": -474
+        "z": -474,
+        "regions": ["Incraftia", "Fantasia"]
     },
     {
         "name": "Docks de South-City",
         "x": -1435,
         "z": 1340,
-        "city": 6
+        "city": 6,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Douane Megad Solis",
         "x": 2232,
-        "z": 1368
+        "z": 1368,
+        "regions": ["Solis"]
     },
     {
         "name": "Douane Megad Forestia",
         "x": 2232,
-        "z": 70
+        "z": 70,
+        "regions": ["Forestia"]
     },
     {
         "name": "Douane Megad Stonia",
         "x": 937,
-        "z": -1795
+        "z": -1795,
+        "regions": ["Stonia"]
     },
     {
         "name": "Douane Megad Snowy",
         "x": 189,
-        "z": -1795
+        "z": -1795,
+        "regions": ["Snowy"]
     },
     {
         "name": "Douane Megad Fantasia",
         "x": -1880,
-        "z": -1795
+        "z": -1795,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Dream Lake",
         "x": 1613,
-        "z": 192
+        "z": 192,
+        "regions": ["Forestia"]
     },
     {
         "name": "Dream Tunnel",
         "x": 1717,
-        "z": 70
+        "z": 70,
+        "regions": ["Forestia"]
     },
     {
         "name": "École de Ski Alphadienne (ESA)",
         "x": -515,
-        "z": -1500
+        "z": -1500,
+        "regions": ["Snowy"]
     },
     {
-        "name": "École primaire",
+        "name": "École primaire Néo-Modern",
         "x": 1826,
-        "z": 17
+        "z": 17,
+        "regions": ["Forestia"]
     },
     {
         "name": "Église de Modern-City",
         "x": 1440,
-        "z": 175
+        "z": 175,
+        "regions": ["Forestia"]
     },
     {
         "name": "Église de Old-Gulch",
         "x": 991,
-        "z": 773
+        "z": 773,
+        "regions": ["Solis"]
     },
     {
         "name": "Église de Port-Cubic",
         "x": -1514,
-        "z": -1009
+        "z": -1009,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Église de Snow-Hills",
         "x": -544,
-        "z": -1695
+        "z": -1695,
+        "regions": ["Snowy"]
     },
     {
         "name": "Ellesdet",
         "x": 1179,
         "z": 2951,
-        "city": 5
+        "city": 5,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Éoliennes Pendore",
         "x": 300,
-        "z": 1095
+        "z": 1095,
+        "regions": ["Centory"]
     },
     {
         "name": "Éoliennes Champion-City",
         "x": 1835,
-        "z": 2335
+        "z": 2335,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Empire State Building",
         "x": 380,
-        "z": 295
+        "z": 295,
+        "regions": ["Freedomia"]
     },
     {
         "name": "E. Leclerc South-City",
         "x": -828,
-        "z": 1204
+        "z": 1204,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Festival Avenue",
         "x": 65,
         "z": -652,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Flatiron Building",
         "x": 446,
-        "z": 316
+        "z": 316,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Flowerift",
         "x": 580,
         "z": -1621,
-        "city": 4
+        "city": 4,
+        "regions": ["Snowy"]
     },
     {
         "name": "Freedom-City",
         "x": 54,
         "z": 70,
-        "city": 1
+        "city": 1,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Freedom Museum / Musée",
         "x": 100,
-        "z": 261
+        "z": 261,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Freedom Stadium / Stade",
         "x": 65,
-        "z": -394
+        "z": -394,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Freedom Trophy / Circuit F1",
         "x": 607,
-        "z": -668
+        "z": -668,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Free-Grass / Baulieux",
         "x": -288,
         "z": -484,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Gare Centrale",
         "x": 568,
-        "z": 176
+        "z": 176,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Gare de Brokenly-Woods",
         "x": 1022,
-        "z": -1013
+        "z": -1013,
+        "regions": ["Stonia"]
     },
     {
         "name": "Gare de Champi-Ville",
         "x": 1305,
-        "z": 2259
+        "z": 2259,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Gare de Flowerift",
         "x": 580,
-        "z": -1681
+        "z": -1681,
+        "regions": ["Snowy"]
     },
     {
         "name": "Gare de Modern-City",
         "x": 1391,
-        "z": -167
+        "z": -167,
+        "regions": ["Forestia"]
     },
     {
         "name": "Gare de Oasiris",
         "x": 1283,
-        "z": 1452
+        "z": 1452,
+        "regions": ["Solis"]
     },
     {
         "name": "Gare de Old-Gulch",
         "x": 1028,
-        "z": 802
+        "z": 802,
+        "regions": ["Solis"]
     },
     {
         "name": "Gare de péage de Block-Willer",
         "x": 189,
-        "z": 715
+        "z": 715,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Gare de péage de Champion-City",
         "x": 1999,
-        "z": 2206
+        "z": 2206,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Gare de péage de Fallen-Kingdom",
         "x": -634,
-        "z": -1323
+        "z": -1323,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Gare de péage de Flowerift",
         "x": 580,
-        "z": -1503
+        "z": -1503,
+        "regions": ["Snowy"]
     },
     {
         "name": "Gare de péage de Golden Sands",
         "x": 1630,
-        "z": 1089
+        "z": 1089,
+        "regions": ["Solis"]
     },
     {
         "name": "Gare de péage de Modern-City",
         "x": 1209,
-        "z": 70
+        "z": 70,
+        "regions": ["Forestia"]
     },
     {
         "name": "Gare de péage de New-Freedom",
         "x": 189,
-        "z": -1056
+        "z": -1056,
+        "regions": ["Snowy"]
     },
     {
         "name": "Gare de péage de Oasiris",
         "x": 1465,
-        "z": 1145
+        "z": 1145,
+        "regions": ["Solis"]
     },
     {
         "name": "Gare de péage de Rivertown",
         "x": -801,
-        "z": 63
+        "z": 63,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Gare de péage de Snow-Hills",
         "x": -71,
-        "z": -1639
+        "z": -1639,
+        "regions": ["Snowy"]
     },
     {
         "name": "Gare de péage de South-City Est",
         "x": -422,
-        "z": 1327
+        "z": 1327,
+        "regions": ["Centory"]
     },
     {
         "name": "Gare de péage des Baleines",
         "x": -1347,
-        "z": 1020
+        "z": 1020,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Gare de péage des Plaines",
         "x": 275,
-        "z": 1026
+        "z": 1026,
+        "regions": ["Centory"]
     },
     {
         "name": "Gare de Pendore",
         "x": 135,
-        "z": 1424
+        "z": 1424,
+        "regions": ["Centory"]
     },
     {
         "name": "Gare de Polaris",
         "x": -1812,
-        "z": -1765
+        "z": -1765,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Gare de Shintao",
         "x": -1170,
-        "z": -1560
+        "z": -1560,
+        "regions": ["Snowy"]
     },
     {
         "name": "Gare de Snow-Hills",
         "x": -197,
-        "z": -1501
+        "z": -1501,
+        "regions": ["Snowy"]
     },
     {
         "name": "Gare du Nord",
         "x": -271,
-        "z": -602
+        "z": -602,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Gare du Sud",
         "x": -1264,
-        "z": 1237
+        "z": 1237,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Gîte de la Maxi-Bonne-Franquette",
         "x": -791,
-        "z": -1748
+        "z": -1748,
+        "regions": ["Snowy"]
     },
     {
         "name": "Glacier du Mont-Bloc",
         "x": -882,
-        "z": -1528
+        "z": -1528,
+        "regions": ["Snowy"]
     },
     {
         "name": "Golden Bridge",
         "x": 189,
-        "z": -163
+        "z": -163,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Golden Sands",
         "x": 1541,
         "z": 980,
-        "city": 6
+        "city": 6,
+        "regions": ["Solis"]
     },
     {
         "name": "Golden Village",
         "x": -1056,
         "z": 1017,
-        "city": 6
+        "city": 6,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Golf",
         "x": -969,
-        "z": 845
+        "z": 845,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Golfe Amont-Gousse",
         "x": 875,
-        "z": 2304
+        "z": 2304,
+        "regions": ["Mycélia"]
+    },
+    {
+        "name": "Grand Canyon",
+        "x": 1860,
+        "z": 754,
+        "regions": ["Solis"]
     },
     {
         "name": "Grilling Island",
         "x": -1665,
         "z": 1920,
-        "city": 4
+        "city": 4,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Gymnase Jean-Pierre Kikoo LOL",
         "x": -295,
-        "z": 235
+        "z": 235,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Hales Farm",
         "x": 744,
-        "z": 747
+        "z": 747,
+        "regions": ["Centory"]
+    },
+    {
+        "name": "Hangars Aéroport",
+        "x": 1200,
+        "z": 195,
+        "regions": ["Forestia"]
     },
     {
         "name": "Harbor Bridge",
         "x": 484,
-        "z": -158
+        "z": -158,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Hôpital Freedom-City",
         "x": 93,
-        "z": -265
+        "z": -265,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Hub Centory",
         "x": 280,
-        "z": 1609
+        "z": 1609,
+        "regions": ["Centory"]
     },
     {
         "name": "Hub Fantasia",
         "x": -1290,
-        "z": -1026
+        "z": -1026,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Hub Forestia",
         "x": 1590,
-        "z": 70
+        "z": 70,
+        "regions": ["Forestia"]
     },
     {
         "name": "Hub Freedomia",
         "x": 0,
-        "z": 0
+        "z": 0,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Hub Incraftia",
         "x": -1561,
-        "z": 475
+        "z": 475,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Hub Snowy",
         "x": -510,
-        "z": -1608
+        "z": -1608,
+        "regions": ["Snowy"]
     },
     {
         "name": "Hub Solis",
         "x": 1415,
-        "z": 1491
+        "z": 1491,
+        "regions": ["Solis"]
     },
     {
         "name": "Hub Stonia",
         "x": 1433,
-        "z": -1042
+        "z": -1042,
+        "regions": ["Stonia"]
     },
     {
-        "name": "Hub Sunia",
+        "name": "Hub Sunnia",
         "x": -952,
-        "z": 1671
+        "z": 1671,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Ikecraft Freedom-City",
         "x": -538,
-        "z": 125
+        "z": 125,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Junction Tunnel",
         "x": 1999,
-        "z": 606
+        "z": 606,
+        "regions": ["Forestia", "Solis"]
     },
     {
         "name": "La Contrée des Kikoos",
         "x": -928,
         "z": -877,
-        "city": 5
+        "city": 5,
+        "regions": ["Fantasia"]
     },
     {
         "name": "La Motte",
         "x": 669,
-        "z": 2545
+        "z": 2545,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Lagon tropical",
         "x": -1245,
-        "z": 675
+        "z": 675,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Lambda Park",
         "x": -952,
-        "z": 1778
+        "z": 1778,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Lavandia",
         "x": 1052,
         "z": -1109,
-        "city": 5
+        "city": 5,
+        "regions": ["Stonia"]
     },
     {
         "name": "Library 301001",
         "x": 1940,
-        "z": 210
+        "z": 210,
+        "regions": ["Forestia"]
     },
     {
-        "name": "Luminopolis",
+        "name": "Luminopolis South-City",
         "x": -912,
-        "z": 1102
+        "z": 1102,
+        "regions": ["Sunnia"]
     },
     {
         "name": "L'Alpadia",
         "x": -262,
-        "z": -1561
+        "z": -1561,
+        "regions": ["Snowy"]
     },
     {
         "name": "Mairie de Brokenly-Woods",
         "x": 1433,
-        "z": -1124
+        "z": -1124,
+        "regions": ["Stonia"]
     },
     {
         "name": "Mairie de Champi-Ville / Château rétro",
         "x": 1220,
-        "z": 2168
+        "z": 2168,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Mairie de Freedom-City",
         "x": -31,
-        "z": -77
+        "z": -77,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Mairie de Modern-City / Mairie de Néo-Modern",
         "x": 1625,
-        "z": 70
+        "z": 70,
+        "regions": ["Forestia"]
     },
     {
         "name": "Mairie de Old-Gulch",
         "x": 1009,
-        "z": 873
+        "z": 873,
+        "regions": ["Solis"]
     },
     {
         "name": "Mairie de Pendore",
         "x": 231,
-        "z": 1485
+        "z": 1485,
+        "regions": ["Centory"]
     },
     {
         "name": "Mairie de Polaris",
         "x": -1900,
-        "z": -1747
+        "z": -1747,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Mairie de Shintao",
         "x": -1170,
-        "z": -1560
+        "z": -1560,
+        "regions": ["Snowy"]
     },
     {
         "name": "Mairie de Snow-Hills",
         "x": -585,
-        "z": -1608
+        "z": -1608,
+        "regions": ["Snowy"]
     },
     {
         "name": "Mairie de South-City",
         "x": -1024,
-        "z": 1548
+        "z": 1548,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Mairie de SpruceCliff",
         "x": -1290,
-        "z": -1063
+        "z": -1063,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Mairie de Strange Land",
         "x": -1178,
-        "z": -165
+        "z": -165,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Mairie de Treerama",
         "x": -1607,
-        "z": 613
+        "z": 613,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Manoir 301001",
         "x": 1449,
-        "z": -459
+        "z": -459,
+        "regions": ["Forestia"]
     },
     {
         "name": "Marché couvert de Freedom-City",
         "x": -85,
-        "z": 0
+        "z": 0,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Mc Donald's Freedom-City",
         "x": -387,
-        "z": 248
+        "z": 248,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Mc Donald's South-City",
         "x": -850,
-        "z": 1119
+        "z": 1119,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Mini-York",
         "x": 466,
         "z": 340,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Modern-City",
         "x": 1476,
         "z": 70,
-        "city": 3
+        "city": 3,
+        "regions": ["Forestia"]
     },
     {
         "name": "Modern Parking",
         "x": 1843,
-        "z": 118
+        "z": 118,
+        "regions": ["Forestia"]
     },
     {
         "name": "Mont-Bloc",
         "x": -780,
-        "z": -1544
+        "z": -1544,
+        "regions": ["Snowy"]
     },
     {
         "name": "Mont du Grand Fachit",
         "x": 803,
-        "z": -1359
+        "z": -1359,
+        "regions": ["Snowy"]
     },
     {
         "name": "Mont du Petit Fachit",
         "x": 503,
-        "z": -1135
+        "z": -1135,
+        "regions": ["Snowy"]
     },
     {
         "name": "Nécropolis",
         "x": 1999,
         "z": 971,
-        "city": 5
+        "city": 5,
+        "regions": ["Solis"]
     },
     {
         "name": "Néo-Modern",
         "x": 1786,
         "z": 70,
-        "city": 4
+        "city": 4,
+        "regions": ["Forestia"]
     },
     {
         "name": "New-Freedom",
         "x": 440,
         "z": -600,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Notre Dame de Freedom-City",
         "x": -88,
-        "z": 359
+        "z": 359,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Notre Dame de SpruceCliff",
         "x": -1385,
-        "z": -967
+        "z": -967,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Oasiris",
         "x": 1415,
         "z": 1314,
-        "city": 2
+        "city": 2,
+        "regions": ["Solis"]
     },
     {
         "name": "Observatoire ASA",
         "x": -557,
-        "z": -484
+        "z": -484,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Old-Gulch",
         "x": 1009,
         "z": 824,
-        "city": 4
+        "city": 4,
+        "regions": ["Solis"]
     },
     {
         "name": "OMEGA Industry",
         "x": 1052,
-        "z": -839
+        "z": -839,
+        "regions": ["Stonia"]
     },
     {
         "name": "Obélisque",
         "x": -131,
-        "z": -451
+        "z": -451,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Opéra",
         "x": -209,
-        "z": -373
+        "z": -373,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Orpi Freedom-City",
         "x": -383,
-        "z": -83
+        "z": -83,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Orpi Modern-City",
         "x": 1391,
-        "z": -152
+        "z": -152,
+        "regions": ["Forestia"]
     },
     {
         "name": "Orpi Néo-Modern",
         "x": 1868,
-        "z": 74
+        "z": 74,
+        "regions": ["Forestia"]
     },
     {
         "name": "Orpi Snow-Hills",
         "x": -364,
-        "z": -1488
+        "z": -1488,
+        "regions": ["Snowy"]
     },
     {
         "name": "Orpi South-City",
         "x": -1011,
-        "z": 1199
+        "z": 1199,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Orpi Treerama",
         "x": -1497,
-        "z": 429
+        "z": 429,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Palais Royal",
         "x": 1415,
-        "z": 1535
+        "z": 1535,
+        "regions": ["Solis"]
     },
     {
         "name": "Parc asiatique",
         "x": 119,
-        "z": -86
+        "z": -86,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Parc Central",
         "x": 119,
-        "z": 0
+        "z": 0,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Parking du Freedom Stadium",
         "x": -87,
-        "z": -377
+        "z": -377,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Parking Jean Jaurès",
         "x": 54,
-        "z": -97
+        "z": -97,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Parking Jean Mahmoud",
         "x": 1510,
-        "z": 1258
+        "z": 1258,
+        "regions": ["Solis"]
     },
     {
         "name": "Parking Jean Mohammed",
         "x": 1456,
-        "z": 1230
+        "z": 1230,
+        "regions": ["Solis"]
     },
     {
         "name": "Parthénon",
         "x": 145,
-        "z": 1495
+        "z": 1495,
+        "regions": ["Centory"]
     },
     {
         "name": "Patinoire",
         "x": -409,
-        "z": -1608
+        "z": -1608,
+        "regions": ["Snowy"]
     },
     {
         "name": "Pendore",
         "x": 280,
         "z": 1441,
-        "city": 3
+        "city": 3,
+        "regions": ["Centory"]
     },
     {
         "name": "Phare champignon",
         "x": 1736,
-        "z": 2745
+        "z": 2745,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Phare de Oasiris",
         "x": 1615,
-        "z": 1645
+        "z": 1645,
+        "regions": ["Solis"]
     },
     {
         "name": "Phare de Pendore",
         "x": 446,
-        "z": 1567
+        "z": 1567,
+        "regions": ["Centory"]
     },
     {
         "name": "Phare de Port-Cubic",
         "x": -1611,
-        "z": -1007
+        "z": -1007,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Phare de Saint Sordache",
         "x": 500,
-        "z": 2554
+        "z": 2554,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Phare de South-City",
         "x": -1187,
-        "z": 1710
+        "z": 1710,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Phare des Baleines",
         "x": -1400,
-        "z": 719
+        "z": 719,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Pharmacie Colortown",
         "x": 14,
-        "z": 312
+        "z": 312,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Pic de la liberté",
         "x": -608,
-        "z": -1164
+        "z": -1164,
+        "regions": ["Fantasia", "Snowy"]
     },
     {
         "name": "Piscine Rivertown",
         "x": -386,
-        "z": 143
+        "z": 143,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Pistes de ski",
         "x": -581,
-        "z": -1536
+        "z": -1536,
+        "regions": ["Snowy"]
     },
     {
         "name": "Place d'Alphadia",
         "x": -176,
-        "z": -262
+        "z": -262,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Place de Colortown",
         "x": -79,
-        "z": 282
+        "z": 282,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Plage d'or",
         "x": -1466,
-        "z": -190
+        "z": -190,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Plage d'argent",
         "x": 789,
-        "z": 2146
+        "z": 2146,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Plateforme pétrolière Gamma",
         "x": -1964,
-        "z": -1459
+        "z": -1459,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Polaris",
         "x": -1875,
         "z": -1747,
-        "city": 4
+        "city": 4,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Pôle Emploi Freedom-City",
         "x": -327,
-        "z": -83
+        "z": -83,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Pôle Emploi Néo-Modern",
         "x": 1867,
-        "z": 248
+        "z": 248,
+        "regions": ["Forestia"]
     },
     {
         "name": "Pôle Emploi Snow-Hills",
         "x": -382,
-        "z": -1488
+        "z": -1488,
+        "regions": ["Snowy"]
     },
     {
         "name": "Pôle Emploi South-City",
         "x": -1047,
-        "z": 1199
+        "z": 1199,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Pont Al-Otbouh",
         "x": 1283,
-        "z": 1762
+        "z": 1762,
+        "regions": ["Solis", "Mycélia"]
     },
     {
         "name": "Pont de Block-Rivertown",
         "x": -447,
-        "z": -165
+        "z": -165,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Pont du Golfe Amont-Gousse",
         "x": 940,
-        "z": 2304
+        "z": 2304,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Pont du Hub",
         "x": 0,
-        "z": -163
+        "z": -163,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Pont fortifié",
         "x": -1462,
-        "z": -1229
+        "z": -1229,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Pont HLMique",
         "x": 343,
-        "z": 437
+        "z": 437,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Pont Jacques Carré",
         "x": 940,
-        "z": 1743
+        "z": 1743,
+        "regions": ["Solis", "Mycélia"]
     },
     {
         "name": "Pont Jean-Jaurès",
         "x": -116,
-        "z": -163
+        "z": -163,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Pont M",
         "x": -624,
-        "z": 62
+        "z": 62,
+        "regions": ["Incraftia"]
     },
     {
-        "name": "Pont traversier",
+        "name": "Pont Traversier",
         "x": 1999,
-        "z": 1737
+        "z": 1737,
+        "regions": ["Mycélia", "Solis"]
     },
     {
         "name": "Pont de Fallen-Kingdom Ouest",
         "x": -1078,
-        "z": -1015
+        "z": -1015,
+        "regions": ["Fantasia"]
     },
     {
-        "name": "Pont de Fallen-Kingdom Nord",
+        "name": "Pont de Fallen-Kingdom Nordn",
         "x": -958,
-        "z": -1230
+        "z": -1230,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Port-Cubic",
         "x": -1549,
         "z": -1080,
-        "city": 4
+        "city": 4,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Port de plaisance de Oasiris",
         "x": 1563,
-        "z": 1266
+        "z": 1266,
+        "regions": ["Solis"]
     },
     {
         "name": "Port de plaisance de Pendore",
         "x": 188,
-        "z": 1586
+        "z": 1586,
+        "regions": ["Centory"]
     },
     {
         "name": "Port de plaisance de South-City",
         "x": -1210,
-        "z": -1598
+        "z": 1598,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Port-Glaçon",
         "x": -1647,
         "z": -1522,
-        "city": 5
+        "city": 5,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Port de commerce de South-City",
         "x": -1435,
-        "z": 1340
+        "z": 1340,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Port fluvial de Freedom-City",
         "x": 316,
-        "z": -242
+        "z": -242,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Poste de police Old-Gulch",
         "x": 1025,
-        "z": 772
+        "z": 772,
+        "regions": ["Solis"]
     },
     {
         "name": "Poste de police de Brokenly-Woods",
         "x": 1378,
-        "z": -1130
+        "z": -1130,
+        "regions": ["Stonia"]
     },
     {
         "name": "Prison désafectée",
         "x": 2180,
-        "z": 453
+        "z": 453,
+        "regions": ["Forestia"]
     },
     {
         "name": "Pyramide Est",
         "x": 1162,
-        "z": 1499
+        "z": 1499,
+        "regions": ["Solis"]
     },
     {
         "name": "Pyramide Nord",
         "x": 1044,
-        "z": 1433
+        "z": 1433,
+        "regions": ["Solis"]
     },
     {
         "name": "Résidence de Baulieux",
         "x": -342,
-        "z": -263
+        "z": -263,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Restaurant Japonais",
         "x": -146,
-        "z": 121
+        "z": 121,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Rivertown",
         "x": -349,
         "z": 70,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Rocket Bridge",
         "x": 565,
-        "z": 2766
+        "z": 2766,
+        "regions": ["Centory", "Mycélia"]
     },
     {
         "name": "Roi Champignon",
         "x": 1099,
-        "z": 2267
+        "z": 2267,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Saint Sordache",
         "x": 562,
         "z": 2554,
-        "city": 5
+        "city": 5,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Saloon",
         "x": 1028,
-        "z": 831
+        "z": 831,
+        "regions": ["Solis"]
     },
     {
         "name": "Sand Bay",
         "x": -953,
         "z": 1616,
-        "city": 6
+        "city": 6,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Sand Bridge",
         "x": -682,
-        "z": 1327
+        "z": 1327,
+        "regions": ["Sunnia", "Centory"]
     },
     {
         "name": "Shintao",
         "x": -1157,
         "z": -1610,
-        "city": 4
+        "city": 4,
+        "regions": ["Snowy"]
     },
     {
         "name": "Skull Tunnel",
         "x": -1462,
-        "z": -1127
+        "z": -1127,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Snow-Hills",
         "x": -343,
         "z": -1543,
-        "city": 2
+        "city": 2,
+        "regions": ["Snowy"]
     },
     {
         "name": "South Arena",
         "x": -1306,
-        "z": 1407
+        "z": 1407,
+        "regions": ["Sunnia"]
     },
     {
         "name": "South-City",
         "x": -952,
         "z": 1355,
-        "city": 2
+        "city": 2,
+        "regions": ["Sunnia"]
     },
     {
         "name": "South Country Club",
         "x": -1009,
-        "z": 971
+        "z": 971,
+        "regions": ["Sunnia"]
     },
     {
         "name": "South Palace",
         "x": -859,
-        "z": 1544
+        "z": 1544,
+        "regions": ["Sunnia"]
     },
     {
         "name": "South Park",
         "x": -898,
-        "z": 1426
+        "z": 1426,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Souk de Oasiris",
         "x": 1480,
-        "z": 1031
+        "z": 1031,
+        "regions": ["Solis"]
     },
     {
         "name": "Sphynx",
         "x": 1042,
-        "z": 1533
+        "z": 1533,
+        "regions": ["Solis"]
     },
     {
         "name": "SpruceCliff",
         "x": -1290,
         "z": -968,
-        "city": 3
+        "city": 3,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Star Village",
         "x": -241,
         "z": 511,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Station d'épuration",
         "x": -523,
-        "z": 569
+        "z": 569,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Station service Maxi-Car New-Freedom",
         "x": 265,
-        "z": -615
+        "z": -615,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Station service MEGAS N7",
         "x": 1120,
-        "z": 1331
+        "z": 1331,
+        "regions": ["Solis"]
     },
     {
         "name": "Station service MEGAS N7 BIS",
         "x": 960,
-        "z": 2205
+        "z": 2205,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Station service Shell Colortown",
         "x": -220,
-        "z": 159
+        "z": 159,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Stonehenge",
         "x": -1440,
-        "z": -563
+        "z": -563,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Strange Land",
         "x": -1210,
         "z": -132,
-        "city": 4
+        "city": 4,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Suburbs",
         "x": 436,
-        "z": -710
+        "z": -710,
+        "regions": ["Freedomia"]
     },
     {
         "name": "SuperMart Modern-City",
         "x": 1478,
-        "z": -163
+        "z": -163,
+        "regions": ["Forestia"]
     },
     {
         "name": "Téléphérique du Mont-Bloc",
         "x": -505,
-        "z": -1569
+        "z": -1569,
+        "regions": ["Snowy"]
     },
     {
         "name": "Télésiège Alpadia Express",
         "x": -513,
-        "z": -1475
+        "z": -1475,
+        "regions": ["Snowy"]
     },
     {
         "name": "Télésiège Mini Climb",
         "x": -640,
-        "z": -1726
+        "z": -1726,
+        "regions": ["Snowy"]
     },
     {
         "name": "Temple Incraft Est",
         "x": -1040,
-        "z": 370
+        "z": 370,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Temple Incraft Nord",
         "x": -1117,
-        "z": 260
+        "z": 260,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Temple Incraft Ouest",
         "x": -1188,
-        "z": 354
+        "z": 354,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Tour Alpha-Red",
         "x": 243,
-        "z": 9
+        "z": 9,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Tour AT1",
         "x": 314,
-        "z": -67
+        "z": -67,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Tour de Glace",
         "x": -1540,
-        "z": -1373
+        "z": -1373,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Tour de la Mort",
         "x": 161,
-        "z": -77
+        "z": -77,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Tour Maxi-Car (siège social)",
         "x": -1096,
-        "z": 1414
+        "z": 1414,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Tour météo",
         "x": 271,
-        "z": 261
+        "z": 261,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Tour Orpi (siège social)",
         "x": 1868,
-        "z": 74
+        "z": 74,
+        "regions": ["Forestia"]
     },
     {
         "name": "Tour Pôle Emploi (siège social)",
         "x": 1867,
-        "z": 248
+        "z": 248,
+        "regions": ["Forestia"]
     },
     {
         "name": "Treerama",
         "x": -1470,
         "z": 475,
-        "city": 3
+        "city": 3,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Tunnel champignon",
         "x": 1737,
-        "z": 2687
+        "z": 2687,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Tunnel de Brokenly-Woods",
         "x": 1482,
-        "z": -1028
+        "z": -1028,
+        "regions": ["Stonia"]
     },
     {
         "name": "Tunnel de Fallen-Kingdom",
         "x": -958,
-        "z": -1364
+        "z": -1364,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Tunnel de l'aéroport",
         "x": 870,
-        "z": 70
+        "z": 70,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Tunnel de la Motte",
         "x": 841,
-        "z": 2687
+        "z": 2687,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Tunnel de Snow-Hills",
         "x": -286,
-        "z": -1645
+        "z": -1645,
+        "regions": ["Snowy"]
     },
     {
         "name": "Tunnel de SpruceCliff",
         "x": -1393,
-        "z": -436
+        "z": -436,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Tunnel de Treerama",
         "x": -1337,
-        "z": 485
+        "z": 485,
+        "regions": ["Incraftia"]
     },
     {
         "name": "Tunnel des Baleines",
         "x": -1347,
-        "z": 800
+        "z": 800,
+        "regions": ["Incraftia", "Sunnia"]
     },
     {
         "name": "Tunnel des Pistes",
         "x": 1053,
-        "z": 70
+        "z": 70,
+        "regions": ["Freedomia", "Forestia"]
     },
     {
         "name": "Tunnel du Far-Est",
         "x": 1327,
-        "z": 575
+        "z": 575,
+        "regions": ["Forestia", "Solis"]
     },
     {
         "name": "Tunnel du Grand Fachit",
         "x": 856,
-        "z": -1364
+        "z": -1364,
+        "regions": ["Snowy"]
     },
     {
         "name": "Tunnel du Littoral",
         "x": 1850,
-        "z": 1342
+        "z": 1342,
+        "regions": ["Solis"]
     },
     {
         "name": "Tunnel Glaçon",
         "x": -1647,
-        "z": -1394
+        "z": -1394,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Tunnel Marin",
         "x": -1050,
-        "z": 1327
+        "z": 1327,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Tunnel Militaire",
         "x": -70,
-        "z": 1327
+        "z": 1327,
+        "regions": ["Centory"]
     },
     {
         "name": "Tunnel Paravalanchique",
         "x": 1772,
-        "z": -120
+        "z": -120,
+        "regions": ["Forestia"]
     },
     {
         "name": "Tunnel Rouge",
         "x": 1327,
-        "z": 851
+        "z": 851,
+        "regions": ["Solis"]
     },
     {
         "name": "Twinner Towers",
         "x": 437,
-        "z": -24
+        "z": -24,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Université d'Alphadia (Freedom-City)",
         "x": -74,
-        "z": -268
+        "z": -268,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Université d'Alphadia (South-City)",
         "x": -810,
-        "z": 1397
+        "z": 1397,
+        "regions": ["Sunnia"]
     },
     {
         "name": "Usine BCA / Fabrique de billets",
         "x": 2069,
-        "z": -210
+        "z": -210,
+        "regions": ["Forestia"]
     },
     {
         "name": "Usine de jouets",
         "x": -522,
-        "z": -1647
+        "z": -1647,
+        "regions": ["Snowy"]
     },
     {
         "name": "Usine TONIC",
         "x": 1139,
-        "z": 2590
+        "z": 2590,
+        "regions": ["Mycélia"]
     },
     {
         "name": "Viaduc de Brokenly-Woods",
         "x": 1329,
-        "z": -1229
+        "z": -1229,
+        "regions": ["Stonia"]
     },
     {
         "name": "Viaduc de Fallen-Kingdom",
         "x": -1278,
-        "z": -1205
+        "z": -1205,
+        "regions": ["Fantasia"]
     },
     {
         "name": "Viaduc de Snow-Hills",
         "x": 189,
-        "z": -1364
+        "z": -1364,
+        "regions": ["Snowy"]
     },
     {
         "name": "Viaduc des Trois Gorges",
         "x": 940,
-        "z": -1364
+        "z": -1364,
+        "regions": ["Snowy", "Stonia"]
     },
     {
         "name": "Viaduc du Littoral",
         "x": 1850,
-        "z": 1407
+        "z": 1407,
+        "regions": ["Solis"]
     },
     {
         "name": "Volcan / Montagne Sacrée",
         "x": -946,
-        "z": 627
+        "z": 627,
+        "regions": ["Incraftia"]
     },
     {
         "name": "York Square",
         "x": 414,
-        "z": 373
+        "z": 373,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Youtube Building",
         "x": 309,
-        "z": 376
+        "z": 376,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Zone Commerciale (Freedom-City)",
         "x": -349,
         "z": 301,
-        "city": 6
+        "city": 6,
+        "regions": ["Freedomia"]
     },
     {
         "name": "Zone Commerciale (South-City)",
         "x": -952,
         "z": 1150,
-        "city": 6
+        "city": 6,
+        "regions": ["Sunnia"]
     }
 ]
